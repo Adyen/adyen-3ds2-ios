@@ -12,26 +12,25 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  A collection of arbitrary parameters used during the initialization of the ADYService class.
  
- @note The following parameters are required for the usage of the SDK:
- <pre>
- - threeDS2DirectoryServerInformation (group):
-    - directoryServerId
-    - publicKey
- </pre>
- 
  @note This class corresponds to the `ConfigParameters` class in the specification.
  */
 @interface ADYServiceParameters : NSObject
 
 /**
- Initializes the service parameters with the additional data retrieved from the initial PaymentRequest to Adyen.
- This is a convenience initializer used to fill the service parameters with the required parameters. It will iterate of the passed additional data and copy the contents of all the keys that start with `threeds2.`.
- Usage of this initializer is optional.
-
- @param additionalData The additional data retrieved from the initial PaymentRequest to Adyen.
- @return Initialized service paramaters with the contents of the additional data.
+ The identifier of the directory server to use during the transaction creation phase.
+ 
+ Usage of this property is optional.
  */
-- (instancetype)initWithAdditionalData:(NSDictionary *)additionalData;
+@property (nonatomic, copy, readwrite, nullable) NSString *directoryServerIdentifier;
+
+/**
+ The public key of the directory server to use during the transaction creation phase.
+ 
+ The value of this property should be a base64-encoded JSON Web Key.
+ 
+ Usage of this property is optional.
+ */
+@property (nonatomic, copy, readwrite, nullable) NSString *directoryServerPublicKey;
 
 /**
  Returns the value associated with a given key in the default group.

@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  The current version of the SDK.
  */
-@property (class, nonatomic, copy, readonly) NSString *sdkVersion;
+@property (class, nonatomic, copy, readonly) NSString *version;
 
 /**
  Boolean value indicating whether the service is initialized.
@@ -49,11 +49,11 @@ NS_ASSUME_NONNULL_BEGIN
  Creates a new transaction.
 
  @param directoryServerIdentifier The identifier of the directory server for which to create the transaction. When `nil`, the directory server information is assumed to have been passed in the parameters during initialization of the service.
- @param protocolVersion The version of the protocol to be used during the transaction, or `nil` to use the latest supported version.
+ @param messageVersion The version of the protocol to be used during the transaction, or `nil` to use the latest supported version.
  @param error A pointer to an error object that is set to an @p NSError instance when an error occurs.
  @return An initialized transaction, or @p nil if a transaction could not be initialized.
  */
-- (nullable ADYTransaction *)createTransactionWithDirectoryServerIdentifier:(nullable NSString *)directoryServerIdentifier protocolVersion:(nullable NSString *)protocolVersion error:(NSError *__nullable *__nullable)error;
+- (nullable ADYTransaction *)createTransactionWithDirectoryServerIdentifier:(nullable NSString *)directoryServerIdentifier messageVersion:(nullable NSString *)messageVersion error:(NSError *__nullable *__nullable)error;
 
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;

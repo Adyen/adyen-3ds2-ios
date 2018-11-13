@@ -31,6 +31,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, assign, readwrite) CGFloat cornerRadius;
 
+/**
+ The appearance of the keyboard when the text field is used.
+ */
+@property (nonatomic, assign, readwrite) UIKeyboardAppearance keyboardAppearance;
+
 @end
 
 NS_ASSUME_NONNULL_END

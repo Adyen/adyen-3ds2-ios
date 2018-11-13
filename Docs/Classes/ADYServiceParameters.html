@@ -7,7 +7,7 @@
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
-	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
 </head>
 <body class="appledoc">
 	<header>
@@ -54,13 +54,19 @@
 
 	
 	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/directoryServerIdentifier">directoryServerIdentifier</option>
+		
+		<option value="//api/name/directoryServerPublicKey">directoryServerPublicKey</option>
+		
+	</optgroup>
+	
 
 	
 
 	
 	<optgroup label="Instance Methods">
-		
-		<option value="//api/name/initWithAdditionalData:">- initWithAdditionalData:</option>
 		
 		<option value="//api/name/removeValueForKey:">- removeValueForKey:</option>
 		
@@ -108,12 +114,7 @@
 					<div class="section section-overview">
 						<a title="Overview" name="overview"></a>
 						<h2 class="subtitle subtitle-overview">Overview</h2>
-						<p>A collection of arbitrary parameters used during the initialization of the <a href="../Classes/ADYService.html">ADYService</a> class.</p><div class="note"><p><strong>Note:</strong> The following parameters are required for the usage of the SDK:
-<pre>
-- threeDS2DirectoryServerInformation (group):
-    - directoryServerId
-    - publicKey
-</pre></p></div><div class="note"><p><strong>Note:</strong> This class corresponds to the <code>ConfigParameters</code> class in the specification.</p></div>
+						<p>A collection of arbitrary parameters used during the initialization of the <a href="../Classes/ADYService.html">ADYService</a> class.</p><div class="note"><p><strong>Note:</strong> This class corresponds to the <code>ConfigParameters</code> class in the specification.</p></div>
 					</div>
 					
 					
@@ -129,8 +130,8 @@
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/initWithAdditionalData:" title="initWithAdditionalData:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/initWithAdditionalData:">&ndash;&nbsp;initWithAdditionalData:</a></code>
+	<a name="//api/name/directoryServerIdentifier" title="directoryServerIdentifier"></a>
+	<h3 class="method-title"><code><a href="#//api/name/directoryServerIdentifier">&nbsp;&nbsp;directoryServerIdentifier</a></code>
 </h3>
 
 	<div class="method-info">
@@ -140,35 +141,16 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Initializes the service parameters with the additional data retrieved from the initial PaymentRequest to Adyen.
-This is a convenience initializer used to fill the service parameters with the required parameters. It will iterate of the passed additional data and copy the contents of all the keys that start with <code>threeds2.</code>.
-Usage of this initializer is optional.</p>
+				<p>The identifier of the directory server to use during the transaction creation phase.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (instancetype)initWithAdditionalData:(NSDictionary *)<em>additionalData</em></code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readwrite, nullable) NSString *directoryServerIdentifier</code></div>
 
 		    
 			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>additionalData</code></th>
-						<td><p>The additional data retrieved from the initial PaymentRequest to Adyen.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
 
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>Initialized service paramaters with the contents of the additional data.</p>
-			</div>
 			
 
 			
@@ -176,9 +158,59 @@ Usage of this initializer is optional.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Initializes the service parameters with the additional data retrieved from the initial PaymentRequest to Adyen.
-This is a convenience initializer used to fill the service parameters with the required parameters. It will iterate of the passed additional data and copy the contents of all the keys that start with <code>threeds2.</code>.
-Usage of this initializer is optional.</p>
+				<p>The identifier of the directory server to use during the transaction creation phase.</p>
+
+<p>Usage of this property is optional.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYServiceParameters.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/directoryServerPublicKey" title="directoryServerPublicKey"></a>
+	<h3 class="method-title"><code><a href="#//api/name/directoryServerPublicKey">&nbsp;&nbsp;directoryServerPublicKey</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The public key of the directory server to use during the transaction creation phase.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readwrite, nullable) NSString *directoryServerPublicKey</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The public key of the directory server to use during the transaction creation phase.</p>
+
+<p>The value of this property should be a base64-encoded JSON Web Key.</p>
+
+<p>Usage of this property is optional.</p>
 			</div>
 			
 
@@ -586,15 +618,17 @@ Usage of this initializer is optional.</p>
 					
 
                     
+                    
+          
 				</main>
 
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 Adyen. All rights reserved. Updated: 2018-08-29</p>
+						<p class="copyright">Copyright &copy; 2018 Adyen. All rights reserved. Updated: 2018-11-13</p>
 						
 						
-						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
 						
 					</div>
 				</footer>

@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  A unique string identifying the application.
  */
-@property (nonatomic, copy, readonly) NSString *applicationIdentifier;
+@property (nonatomic, copy, readonly) NSString *SDKApplicationIdentifier;
 
 /**
  A unique string identifying the transaction within the scope of the SDK.
@@ -39,12 +39,12 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  The public key component of the ephemeral keypair generated for the transaction, represented as a JWK.
  */
-@property (nonatomic, copy, readonly) NSString *ephemeralPublicKey;
+@property (nonatomic, copy, readonly) NSString *SDKEphemeralPublicKey;
 
 /**
- The version of the protocol to use during the transaction.
+ The protocol version to use during the transaction.
  */
-@property (nonatomic, copy, readonly) NSString *protocolVersion;
+@property (nonatomic, copy, readonly) NSString *messageVersion;
 
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;

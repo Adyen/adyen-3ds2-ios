@@ -17,9 +17,19 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ADYNavigationBarAppearance : ADYAppearance
 
 /**
+ The title of the navigation bar.
+ */
+@property (nonatomic, copy, readwrite, nullable) NSString *title;
+
+/**
+ The title of the cancel button in the navigation bar, or `nil` to leave it at the default system localized cancel button title.
+ */
+@property (nonatomic, copy, readwrite, nullable) NSString *cancelButtonTitle;
+
+/**
  The background color of the navigation bar.
  */
-@property (nonatomic, strong, readwrite) UIColor *backgroundColor;
+@property (nonatomic, strong, readwrite, nullable) UIColor *backgroundColor;
 
 @end
 

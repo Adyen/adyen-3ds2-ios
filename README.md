@@ -6,6 +6,15 @@ _This SDK is currently intended for testing purposes only._
 
 ## Installation
 
+The SDK is available either through [CocoaPods](http://cocoapods.org) or via manual installation.
+
+### CocoaPods
+
+1. Add `pod 'Adyen3DS2'` to your `Podfile`.
+2. Run `pod install`.
+
+### Manual
+
 Drag `Adyen3DS2.framework` to the `Embedded Binaries` section in your general target settings.
 
 ## Usage
@@ -16,8 +25,9 @@ First, create an instance of `ADYServiceParameters` with the additional data ret
 Then, instantiate an `ADYService` with these parameters.
 
 ```objc
-NSDictionary *additionalData = ...; // Retrieved from Adyen.
-ADYServiceParameters *serviceParameters = [[ADYServiceParameters alloc] initWithAdditionalData:additionalData];
+ADYServiceParameters *serviceParameters = [[ADYServiceParameters alloc] init];
+[serviceParameters setDirectoryServerIdentifier:...]; // Retrieved from the additionalData.
+[serviceParameters setDirectoryServerPublicKey:...]; // Retrieved from the additionalData.
 ADYService *service = [[ADYService alloc] initWithParameters:serviceParameters appearanceConfiguration:nil];
 ```
 
@@ -50,13 +60,13 @@ Use these challenge parameters to perform the challenge with the `transaction` y
 [transaction performChallengeWithParameters:challengeParameters delegate:self];
 ```
 
-For the `delegate` parameter, pass in an instance that conforms to the `ADYChallengeStatusDelegate` protocol. For this protocol, implement the following methods:
+For the `delegate` parameter, pass in an instance that conforms to the `ADYChallengeDelegate` protocol. For this protocol, implement the following methods:
 
 ```objc
-- (void)challengeDidFinishWithCompletion:(ADYChallengeCompletion *)completion;
+- (void)challengeDidFinishWithResult:(ADYChallengeResult *)completion;
 ```
 
-This method will be invoked when the challenge is completed successfully. The transaction status can be found in the `completion` object. You'll include this value in your second request to `/authorise3ds2`.
+This method will be invoked when the challenge is completed successfully. The transaction status can be found in the `result` object. You'll include this value in your second request to `/authorise3ds2`.
 
 ```objc
 - (void)challengeDidFailWithError:(NSError *)error;
@@ -75,9 +85,9 @@ For example, to make the navigation bar and Continue button red:
 ADYAppearanceConfiguration *appearanceConfiguration = [ADYAppearanceConfiguration new];
 [[appearanceConfiguration navigationBarAppearance] setBackgroundColor:[UIColor redColor]];
 [[appearanceConfiguration navigationBarAppearance] setTextColor:[UIColor whiteColor]];
-[[appearanceConfiguration continueButtonAppearance] setBackgroundColor:[UIColor redColor]];
-[[appearanceConfiguration continueButtonAppearance] setTextColor:[UIColor whiteColor]];
-[[appearanceConfiguration continueButtonAppearance] setCornerRadius:3.0f];
+[[appearanceConfiguration buttonAppearanceForType:ADYAppearanceButtonTypeContinue] setBackgroundColor:[UIColor redColor]];
+[[appearanceConfiguration buttonAppearanceForType:ADYAppearanceButtonTypeContinue] setTextColor:[UIColor whiteColor]];
+[[appearanceConfiguration buttonAppearanceForType:ADYAppearanceButtonTypeContinue] setCornerRadius:3.0f];
 
 ADYService *service = [[ADYService alloc] initWithParameters:nil appearanceConfiguration:appearanceConfiguration];
 ```

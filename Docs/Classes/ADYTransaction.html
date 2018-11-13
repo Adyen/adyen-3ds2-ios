@@ -7,7 +7,7 @@
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
-	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
 </head>
 <body class="appledoc">
 	<header>
@@ -70,7 +70,13 @@
 		
 		<option value="//api/name/cancelChallenge">- cancelChallenge</option>
 		
+		<option value="//api/name/performChallengeWithParameters:completionHandler:">- performChallengeWithParameters:completionHandler:</option>
+		
+		<option value="//api/name/performChallengeWithParameters:delegate:">- performChallengeWithParameters:delegate:</option>
+		
 		<option value="//api/name/performChallengeWithParameters:delegate:timeout:">- performChallengeWithParameters:delegate:timeout:</option>
+		
+		<option value="//api/name/performChallengeWithParameters:timeout:completionHandler:">- performChallengeWithParameters:timeout:completionHandler:</option>
 		
 	</optgroup>
 	
@@ -214,6 +220,69 @@
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/performChallengeWithParameters:delegate:" title="performChallengeWithParameters:delegate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/performChallengeWithParameters:delegate:">&ndash;&nbsp;performChallengeWithParameters:delegate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Starts the challenge flow for the transaction.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)performChallengeWithParameters:(ADYChallengeParameters *)<em>challengeParameters</em> delegate:(id&lt;ADYChallengeDelegate&gt;)<em>delegate</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>challengeParameters</code></th>
+						<td><p>The challenge parameters received from the 3DS Server.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>delegate</code></th>
+						<td><p>The delegate to inform of the result of the challenge.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Starts the challenge flow for the transaction.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYTransaction.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/performChallengeWithParameters:delegate:timeout:" title="performChallengeWithParameters:delegate:timeout:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/performChallengeWithParameters:delegate:timeout:">&ndash;&nbsp;performChallengeWithParameters:delegate:timeout:</a></code>
 </h3>
@@ -230,7 +299,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)performChallengeWithParameters:(ADYChallengeParameters *)<em>challengeParameters</em> delegate:(id&lt;ADYChallengeStatusDelegate&gt;)<em>delegate</em> timeout:(NSTimeInterval)<em>timeout</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (void)performChallengeWithParameters:(ADYChallengeParameters *)<em>challengeParameters</em> delegate:(id&lt;ADYChallengeDelegate&gt;)<em>delegate</em> timeout:(NSTimeInterval)<em>timeout</em></code></div>
 
 		    
 			
@@ -251,6 +320,137 @@
 					<tr>
 						<th scope="row" class="argument-name"><code>timeout</code></th>
 						<td><p>The timeout interval in seconds in which the challenge process should be completed. Should be at least 300 seconds.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Starts the challenge flow for the transaction.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYTransaction.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/performChallengeWithParameters:completionHandler:" title="performChallengeWithParameters:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/performChallengeWithParameters:completionHandler:">&ndash;&nbsp;performChallengeWithParameters:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Starts the challenge flow for the transaction.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)performChallengeWithParameters:(ADYChallengeParameters *)<em>challengeParameters</em> completionHandler:(ADYChallengeCompletionHandler)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>challengeParameters</code></th>
+						<td><p>The challenge parameters received from the 3DS server.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completion handler to invoke when the challenge flow is finished.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Starts the challenge flow for the transaction.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYTransaction.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/performChallengeWithParameters:timeout:completionHandler:" title="performChallengeWithParameters:timeout:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/performChallengeWithParameters:timeout:completionHandler:">&ndash;&nbsp;performChallengeWithParameters:timeout:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Starts the challenge flow for the transaction.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)performChallengeWithParameters:(ADYChallengeParameters *)<em>challengeParameters</em> timeout:(NSTimeInterval)<em>timeout</em> completionHandler:(ADYChallengeCompletionHandler)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>challengeParameters</code></th>
+						<td><p>The challenge parameters received from the 3DS server.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>timeout</code></th>
+						<td><p>The timeout interval in seconds in which the challenge process should be completed. Should be at least 300 seconds.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completion handler to invoke when the challenge flow is finished.</p></td>
 					</tr>
 				
 				</table>
@@ -335,15 +535,17 @@
 					
 
                     
+                    
+          
 				</main>
 
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 Adyen. All rights reserved. Updated: 2018-08-29</p>
+						<p class="copyright">Copyright &copy; 2018 Adyen. All rights reserved. Updated: 2018-11-13</p>
 						
 						
-						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
 						
 					</div>
 				</footer>

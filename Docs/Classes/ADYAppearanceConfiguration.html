@@ -7,7 +7,7 @@
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
-	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
 </head>
 <body class="appledoc">
 	<header>
@@ -56,27 +56,37 @@
 	
 	<optgroup label="Properties">
 		
-		<option value="//api/name/cancelButtonAppearance">cancelButtonAppearance</option>
+		<option value="//api/name/backgroundColor">backgroundColor</option>
 		
-		<option value="//api/name/continueButtonAppearance">continueButtonAppearance</option>
+		<option value="//api/name/borderColor">borderColor</option>
+		
+		<option value="//api/name/infoAppearance">infoAppearance</option>
 		
 		<option value="//api/name/labelAppearance">labelAppearance</option>
 		
 		<option value="//api/name/navigationBarAppearance">navigationBarAppearance</option>
 		
-		<option value="//api/name/nextButtonAppearance">nextButtonAppearance</option>
+		<option value="//api/name/selectAppearance">selectAppearance</option>
 		
-		<option value="//api/name/resendButtonAppearance">resendButtonAppearance</option>
+		<option value="//api/name/statusBarStyle">statusBarStyle</option>
+		
+		<option value="//api/name/textColor">textColor</option>
 		
 		<option value="//api/name/textFieldAppearance">textFieldAppearance</option>
 		
-		<option value="//api/name/verifyButtonAppearance">verifyButtonAppearance</option>
+		<option value="//api/name/tintColor">tintColor</option>
 		
 	</optgroup>
 	
 
 	
 
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/buttonAppearanceForButtonType:">- buttonAppearanceForButtonType:</option>
+		
+	</optgroup>
 	
 	
 </select>
@@ -98,6 +108,9 @@
 						<tr>
 	<th>Inherits from</th>
 	<td>NSObject</td>
+</tr><tr>
+	<th>Conforms to</th>
+	<td>NSCopying</td>
 </tr><tr>
 	<th>Declared in</th>
 	<td>ADYAppearanceConfiguration.h</td>
@@ -126,6 +139,236 @@
 
 						<div class="task-list">
 							<div class="section-method">
+	<a name="//api/name/statusBarStyle" title="statusBarStyle"></a>
+	<h3 class="method-title"><code><a href="#//api/name/statusBarStyle">&nbsp;&nbsp;statusBarStyle</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The preferred status bar style for the challenge flow.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readwrite) UIStatusBarStyle statusBarStyle</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The preferred status bar style for the challenge flow.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYAppearanceConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/backgroundColor" title="backgroundColor"></a>
+	<h3 class="method-title"><code><a href="#//api/name/backgroundColor">&nbsp;&nbsp;backgroundColor</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The background color of the entire challenge flow.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readwrite) UIColor *backgroundColor</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The background color of the entire challenge flow.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYAppearanceConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/textColor" title="textColor"></a>
+	<h3 class="method-title"><code><a href="#//api/name/textColor">&nbsp;&nbsp;textColor</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A convenience property that sets the text color on every appearance object.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readwrite) UIColor *textColor</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>A convenience property that sets the text color on every appearance object.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYAppearanceConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/borderColor" title="borderColor"></a>
+	<h3 class="method-title"><code><a href="#//api/name/borderColor">&nbsp;&nbsp;borderColor</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A convenience property that sets the border color on every appearance object.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readwrite) UIColor *borderColor</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>A convenience property that sets the border color on every appearance object.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYAppearanceConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/tintColor" title="tintColor"></a>
+	<h3 class="method-title"><code><a href="#//api/name/tintColor">&nbsp;&nbsp;tintColor</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A convenience property that sets the tint color on every appearance object.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readwrite) UIColor *tintColor</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>A convenience property that sets the tint color on every appearance object.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYAppearanceConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/navigationBarAppearance" title="navigationBarAppearance"></a>
 	<h3 class="method-title"><code><a href="#//api/name/navigationBarAppearance">&nbsp;&nbsp;navigationBarAppearance</a></code>
 </h3>
@@ -264,8 +507,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/verifyButtonAppearance" title="verifyButtonAppearance"></a>
-	<h3 class="method-title"><code><a href="#//api/name/verifyButtonAppearance">&nbsp;&nbsp;verifyButtonAppearance</a></code>
+	<a name="//api/name/selectAppearance" title="selectAppearance"></a>
+	<h3 class="method-title"><code><a href="#//api/name/selectAppearance">&nbsp;&nbsp;selectAppearance</a></code>
 </h3>
 
 	<div class="method-info">
@@ -275,12 +518,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>The appearance of the verify button.</p>
+				<p>The appearance of select controls.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) ADYButtonAppearance *verifyButtonAppearance</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) ADYSelectAppearance *selectAppearance</code></div>
 
 		    
 			
@@ -292,7 +535,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>The appearance of the verify button.</p>
+				<p>The appearance of select controls.</p>
 			</div>
 			
 
@@ -310,8 +553,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/continueButtonAppearance" title="continueButtonAppearance"></a>
-	<h3 class="method-title"><code><a href="#//api/name/continueButtonAppearance">&nbsp;&nbsp;continueButtonAppearance</a></code>
+	<a name="//api/name/infoAppearance" title="infoAppearance"></a>
+	<h3 class="method-title"><code><a href="#//api/name/infoAppearance">&nbsp;&nbsp;infoAppearance</a></code>
 </h3>
 
 	<div class="method-info">
@@ -321,12 +564,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>The appearance of the continue button.</p>
+				<p>The appearance of info items.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) ADYButtonAppearance *continueButtonAppearance</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) ADYInfoAppearance *infoAppearance</code></div>
 
 		    
 			
@@ -338,7 +581,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>The appearance of the continue button.</p>
+				<p>The appearance of info items.</p>
 			</div>
 			
 
@@ -356,8 +599,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/nextButtonAppearance" title="nextButtonAppearance"></a>
-	<h3 class="method-title"><code><a href="#//api/name/nextButtonAppearance">&nbsp;&nbsp;nextButtonAppearance</a></code>
+	<a name="//api/name/buttonAppearanceForButtonType:" title="buttonAppearanceForButtonType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/buttonAppearanceForButtonType:">&ndash;&nbsp;buttonAppearanceForButtonType:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -367,16 +610,33 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>The appearance of the next button.</p>
+				<p>Returns the appearance for the button of the given type.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) ADYButtonAppearance *nextButtonAppearance</code></div>
+			<div class="method-subsection method-declaration"><code>- (ADYButtonAppearance *)buttonAppearanceForButtonType:(ADYAppearanceButtonType)<em>buttonType</em></code></div>
 
 		    
 			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>buttonType</code></th>
+						<td><p>The button type to return the appearance for.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
 
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The appearance for the button of the given type.</p>
+			</div>
 			
 
 			
@@ -384,99 +644,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>The appearance of the next button.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">ADYAppearanceConfiguration.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/cancelButtonAppearance" title="cancelButtonAppearance"></a>
-	<h3 class="method-title"><code><a href="#//api/name/cancelButtonAppearance">&nbsp;&nbsp;cancelButtonAppearance</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>The appearance of the cancel button.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) ADYButtonAppearance *cancelButtonAppearance</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>The appearance of the cancel button.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">ADYAppearanceConfiguration.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/resendButtonAppearance" title="resendButtonAppearance"></a>
-	<h3 class="method-title"><code><a href="#//api/name/resendButtonAppearance">&nbsp;&nbsp;resendButtonAppearance</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>The appearance of the resend button.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) ADYButtonAppearance *resendButtonAppearance</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>The appearance of the resend button.</p>
+				<p>Returns the appearance for the button of the given type.</p>
 			</div>
 			
 
@@ -501,15 +669,17 @@
 					
 
                     
+                    
+          
 				</main>
 
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 Adyen. All rights reserved. Updated: 2018-08-29</p>
+						<p class="copyright">Copyright &copy; 2018 Adyen. All rights reserved. Updated: 2018-11-13</p>
 						
 						
-						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
 						
 					</div>
 				</footer>

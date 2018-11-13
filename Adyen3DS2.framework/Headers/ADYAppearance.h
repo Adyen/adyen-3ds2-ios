@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @note This class corresponds to the `Customization` class in the specification.
  */
-@interface ADYAppearance : NSObject
+@interface ADYAppearance : NSObject <NSCopying>
 
 /**
  The font in which text is displayed.

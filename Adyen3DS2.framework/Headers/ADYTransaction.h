@@ -8,13 +8,16 @@
 #import <Foundation/Foundation.h>
 #import <Adyen3DS2/ADYAuthenticationRequestParameters.h>
 #import <Adyen3DS2/ADYChallengeParameters.h>
-#import <Adyen3DS2/ADYChallengeStatusDelegate.h>
+#import <Adyen3DS2/ADYChallengeDelegate.h>
 #import <Adyen3DS2/ADYProgressView.h>
 
 /**
- The default timeout value for the challenge process.
+ A block that is invoked when a challenge flow is completed.
+
+ @param result The result of the challenge flow, in case it was completed successfully.
+ @param error The error that occurred, in case the challenge flow failed.
  */
-extern const NSTimeInterval ADYTransactionDefaultTimeout;
+typedef void (^ADYChallengeCompletionHandler)(ADYChallengeResult * _Nullable result, NSError * _Nullable error);
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -40,12 +43,37 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  Starts the challenge flow for the transaction.
+ 
+ @param challengeParameters The challenge parameters received from the 3DS Server.
+ @param delegate The delegate to inform of the result of the challenge.
+ */
+- (void)performChallengeWithParameters:(ADYChallengeParameters *)challengeParameters delegate:(id<ADYChallengeDelegate>)delegate;
+
+/**
+ Starts the challenge flow for the transaction.
 
  @param challengeParameters The challenge parameters received from the 3DS Server.
  @param delegate The delegate to inform of the result of the challenge.
  @param timeout The timeout interval in seconds in which the challenge process should be completed. Should be at least 300 seconds.
  */
-- (void)performChallengeWithParameters:(ADYChallengeParameters *)challengeParameters delegate:(id<ADYChallengeStatusDelegate>)delegate timeout:(NSTimeInterval)timeout;
+- (void)performChallengeWithParameters:(ADYChallengeParameters *)challengeParameters delegate:(id<ADYChallengeDelegate>)delegate timeout:(NSTimeInterval)timeout;
+
+/**
+ Starts the challenge flow for the transaction.
+ 
+ @param challengeParameters The challenge parameters received from the 3DS server.
+ @param completionHandler The completion handler to invoke when the challenge flow is finished.
+ */
+- (void)performChallengeWithParameters:(ADYChallengeParameters *)challengeParameters completionHandler:(ADYChallengeCompletionHandler)completionHandler;
+
+/**
+ Starts the challenge flow for the transaction.
+
+ @param challengeParameters The challenge parameters received from the 3DS server.
+ @param timeout The timeout interval in seconds in which the challenge process should be completed. Should be at least 300 seconds.
+ @param completionHandler The completion handler to invoke when the challenge flow is finished.
+ */
+- (void)performChallengeWithParameters:(ADYChallengeParameters *)challengeParameters timeout:(NSTimeInterval)timeout completionHandler:(ADYChallengeCompletionHandler)completionHandler;
 
 /**
  Cancels the current challenge flow.

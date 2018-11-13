@@ -26,6 +26,21 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, strong, readwrite) UIColor *headingTextColor;
 
+/**
+ The font in which subheading text is displayed.
+ */
+@property (nonatomic, strong, readwrite) UIFont *subheadingFont;
+
+/**
+ The color in which subheading text is displayed.
+ */
+@property (nonatomic, strong, readwrite) UIColor *subheadingTextColor;
+
+/**
+ The color in which error text is displayed.
+ */
+@property (nonatomic, strong, readwrite) UIColor *errorTextColor;
+
 @end
 
 NS_ASSUME_NONNULL_END
