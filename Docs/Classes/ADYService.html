@@ -56,8 +56,6 @@
 	
 	<optgroup label="Properties">
 		
-		<option value="//api/name/initialized">initialized</option>
-		
 		<option value="//api/name/version">version</option>
 		
 		<option value="//api/name/warnings">warnings</option>
@@ -66,13 +64,17 @@
 	
 
 	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/serviceWithParameters:appearanceConfiguration:completionHandler:">+ serviceWithParameters:appearanceConfiguration:completionHandler:</option>
+		
+	</optgroup>
+	
 
 	
 	<optgroup label="Instance Methods">
 		
-		<option value="//api/name/createTransactionWithDirectoryServerIdentifier:messageVersion:error:">- createTransactionWithDirectoryServerIdentifier:messageVersion:error:</option>
-		
-		<option value="//api/name/initWithParameters:appearanceConfiguration:">- initWithParameters:appearanceConfiguration:</option>
+		<option value="//api/name/transactionWithDirectoryServerIdentifier:messageVersion:error:">- transactionWithDirectoryServerIdentifier:messageVersion:error:</option>
 		
 	</optgroup>
 	
@@ -170,52 +172,6 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/initialized" title="initialized"></a>
-	<h3 class="method-title"><code><a href="#//api/name/initialized">&nbsp;&nbsp;initialized</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Boolean value indicating whether the service is initialized.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly, getter=isInitialized) BOOL initialized</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Boolean value indicating whether the service is initialized.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">ADYService.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/warnings" title="warnings"></a>
 	<h3 class="method-title"><code><a href="#//api/name/warnings">&nbsp;&nbsp;warnings</a></code>
 </h3>
@@ -244,7 +200,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Array containing the warnings that were produced while conducting security checks during initialization of the service.</p><div class="note"><p><strong>Note:</strong> Will be @p nil until the service is <a href="#//api/name/initialized">initialized</a>.</p></div>
+				<p>Array containing the warnings that were produced while conducting security checks during initialization of the service.</p><div class="note"><p><strong>Note:</strong> Will be @p nil until the service is initialized.</p></div>
 			</div>
 			
 
@@ -262,8 +218,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/initWithParameters:appearanceConfiguration:" title="initWithParameters:appearanceConfiguration:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/initWithParameters:appearanceConfiguration:">&ndash;&nbsp;initWithParameters:appearanceConfiguration:</a></code>
+	<a name="//api/name/serviceWithParameters:appearanceConfiguration:completionHandler:" title="serviceWithParameters:appearanceConfiguration:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/serviceWithParameters:appearanceConfiguration:completionHandler:">+&nbsp;serviceWithParameters:appearanceConfiguration:completionHandler:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -273,12 +229,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Initializes the service.</p>
+				<p>Creates a <a href="#//api/name/new">new</a> service.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (instancetype)initWithParameters:(nullable ADYServiceParameters *)<em>parameters</em> appearanceConfiguration:(nullable ADYAppearanceConfiguration *)<em>appearanceConfiguration</em></code></div>
+			<div class="method-subsection method-declaration"><code>+ (void)serviceWithParameters:(nullable ADYServiceParameters *)<em>parameters</em> appearanceConfiguration:(nullable ADYAppearanceConfiguration *)<em>appearanceConfiguration</em> completionHandler:(void ( ^ ) ( ADYService *))<em>completionHandler</em></code></div>
 
 		    
 			
@@ -288,12 +244,17 @@
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>parameters</code></th>
-						<td><p>A collection of arbitrary parameters used during initialization.</p></td>
+						<td><p>A collection of arbitrary parameters used during initialization of the service.</p></td>
 					</tr>
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>appearanceConfiguration</code></th>
 						<td><p>The configuration of the appearance of the challenge flow. When <code>nil</code>, a default appearance configuration is used.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completion handler to invoke when the service is created.</p></td>
 					</tr>
 				
 				</table>
@@ -307,7 +268,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Initializes the service.</p>
+				<p>Creates a <a href="#//api/name/new">new</a> service.</p>
 			</div>
 			
 
@@ -325,8 +286,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/createTransactionWithDirectoryServerIdentifier:messageVersion:error:" title="createTransactionWithDirectoryServerIdentifier:messageVersion:error:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/createTransactionWithDirectoryServerIdentifier:messageVersion:error:">&ndash;&nbsp;createTransactionWithDirectoryServerIdentifier:messageVersion:error:</a></code>
+	<a name="//api/name/transactionWithDirectoryServerIdentifier:messageVersion:error:" title="transactionWithDirectoryServerIdentifier:messageVersion:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/transactionWithDirectoryServerIdentifier:messageVersion:error:">&ndash;&nbsp;transactionWithDirectoryServerIdentifier:messageVersion:error:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -341,7 +302,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (nullable ADYTransaction *)createTransactionWithDirectoryServerIdentifier:(nullable NSString *)<em>directoryServerIdentifier</em> messageVersion:(nullable NSString *)<em>messageVersion</em> error:(NSError *__nullable *__nullable)<em>error</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (nullable ADYTransaction *)transactionWithDirectoryServerIdentifier:(nullable NSString *)<em>directoryServerIdentifier</em> messageVersion:(nullable NSString *)<em>messageVersion</em> error:(NSError *__nullable *__nullable)<em>error</em></code></div>
 
 		    
 			
@@ -371,7 +332,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An <a href="#//api/name/initialized">initialized</a> transaction, or @p nil if a transaction could not be <a href="#//api/name/initialized">initialized</a>.</p>
+				<p>An initialized transaction, or @p nil if a transaction could not be initialized.</p>
 			</div>
 			
 
@@ -412,7 +373,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 Adyen. All rights reserved. Updated: 2018-11-13</p>
+						<p class="copyright">Copyright &copy; 2018 Adyen. All rights reserved. Updated: 2018-11-19</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

@@ -22,16 +22,19 @@ Drag `Adyen3DS2.framework` to the `Embedded Binaries` section in your general ta
 ### Retrieving authentication request parameters
 
 First, create an instance of `ADYServiceParameters` with the additional data retrieved from your call to `/authorise`.
-Then, instantiate an `ADYService` with these parameters.
+Then, asynchronously create a `ADYService` with these parameters.
 
 ```objc
 ADYServiceParameters *serviceParameters = [[ADYServiceParameters alloc] init];
 [serviceParameters setDirectoryServerIdentifier:...]; // Retrieved from the additionalData.
 [serviceParameters setDirectoryServerPublicKey:...]; // Retrieved from the additionalData.
-ADYService *service = [[ADYService alloc] initWithParameters:serviceParameters appearanceConfiguration:nil];
+
+[ADYService serviceWithParameters:serviceParameters appearanceConfiguration:nil completionHandler:^(ADYService *service) {
+
+}];
 ```
 
-This `ADYService` is used to create a transaction. From the transaction, you can retrieve the `ADYAuthenticationRequestParameters`.
+The `ADYService` you receive in the completion handler is ready to create a transaction. From the transaction, you can retrieve the `ADYAuthenticationRequestParameters`.
 
 ```objc
 NSError *error = nil;
@@ -74,6 +77,8 @@ This method will be invoked when the challenge is completed successfully. The tr
 
 This method will be invoked when the challenge failed due to an error.
 
+If you prefer using completion handlers instead of delegates, there's also a `performChallengeWithParameters:completionHandler:` method available.
+
 Keep a reference to your `ADYService` instance until the transaction is finished.
 
 ### Customizing the UI
@@ -89,7 +94,7 @@ ADYAppearanceConfiguration *appearanceConfiguration = [ADYAppearanceConfiguratio
 [[appearanceConfiguration buttonAppearanceForType:ADYAppearanceButtonTypeContinue] setTextColor:[UIColor whiteColor]];
 [[appearanceConfiguration buttonAppearanceForType:ADYAppearanceButtonTypeContinue] setCornerRadius:3.0f];
 
-ADYService *service = [[ADYService alloc] initWithParameters:nil appearanceConfiguration:appearanceConfiguration];
+[ADYService serviceWithParameters:serviceParameters appearanceConfiguration:appearanceConfiguration completionHandler:^(ADYService *service) { }];
 ```
 
 ## See also
