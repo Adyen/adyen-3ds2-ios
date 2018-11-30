@@ -56,6 +56,8 @@
 	
 	<optgroup label="Properties">
 		
+		<option value="//api/name/ready">ready</option>
+		
 		<option value="//api/name/version">version</option>
 		
 		<option value="//api/name/warnings">warnings</option>
@@ -66,13 +68,15 @@
 	
 	<optgroup label="Class Methods">
 		
-		<option value="//api/name/serviceWithParameters:appearanceConfiguration:completionHandler:">+ serviceWithParameters:appearanceConfiguration:completionHandler:</option>
+		<option value="//api/name/transactionWithParameters:appearanceConfiguration:completionHandler:">+ transactionWithParameters:appearanceConfiguration:completionHandler:</option>
 		
 	</optgroup>
 	
 
 	
 	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/loadWithParameters:appearanceConfiguration:completionHandler:">- loadWithParameters:appearanceConfiguration:completionHandler:</option>
 		
 		<option value="//api/name/transactionWithDirectoryServerIdentifier:messageVersion:error:">- transactionWithDirectoryServerIdentifier:messageVersion:error:</option>
 		
@@ -172,8 +176,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/warnings" title="warnings"></a>
-	<h3 class="method-title"><code><a href="#//api/name/warnings">&nbsp;&nbsp;warnings</a></code>
+	<a name="//api/name/ready" title="ready"></a>
+	<h3 class="method-title"><code><a href="#//api/name/ready">&nbsp;&nbsp;ready</a></code>
 </h3>
 
 	<div class="method-info">
@@ -183,12 +187,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Array containing the warnings that were produced while conducting security checks during initialization of the service.</p>
+				<p>A boolean value indicating whether the service is ready to create transactions.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSArray&lt;ADYWarning*&gt; *warnings</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly, getter=isReady) BOOL ready</code></div>
 
 		    
 			
@@ -200,7 +204,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Array containing the warnings that were produced while conducting security checks during initialization of the service.</p><div class="note"><p><strong>Note:</strong> Will be @p nil until the service is initialized.</p></div>
+				<p>A boolean value indicating whether the service is ready to create transactions.</p>
 			</div>
 			
 
@@ -218,8 +222,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/serviceWithParameters:appearanceConfiguration:completionHandler:" title="serviceWithParameters:appearanceConfiguration:completionHandler:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/serviceWithParameters:appearanceConfiguration:completionHandler:">+&nbsp;serviceWithParameters:appearanceConfiguration:completionHandler:</a></code>
+	<a name="//api/name/warnings" title="warnings"></a>
+	<h3 class="method-title"><code><a href="#//api/name/warnings">&nbsp;&nbsp;warnings</a></code>
 </h3>
 
 	<div class="method-info">
@@ -229,12 +233,58 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Creates a <a href="#//api/name/new">new</a> service.</p>
+				<p>Array containing the warnings that were produced when loading the service.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>+ (void)serviceWithParameters:(nullable ADYServiceParameters *)<em>parameters</em> appearanceConfiguration:(nullable ADYAppearanceConfiguration *)<em>appearanceConfiguration</em> completionHandler:(void ( ^ ) ( ADYService *))<em>completionHandler</em></code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSArray&lt;ADYWarning*&gt; *warnings</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Array containing the warnings that were produced when loading the service.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/transactionWithParameters:appearanceConfiguration:completionHandler:" title="transactionWithParameters:appearanceConfiguration:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/transactionWithParameters:appearanceConfiguration:completionHandler:">+&nbsp;transactionWithParameters:appearanceConfiguration:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Asynchronously loads a service and creates a transaction. This method acts as a helper method that consolidates the two ADYService methods into one.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)transactionWithParameters:(ADYServiceParameters *)<em>parameters</em> appearanceConfiguration:(nullable ADYAppearanceConfiguration *)<em>appearanceConfiguration</em> completionHandler:(void ( ^ ) ( ADYTransaction *_Nullable transaction , NSArray&lt;ADYWarning*&gt; *_Nullable warnings , NSError *_Nullable error ))<em>completionHandler</em></code></div>
 
 		    
 			
@@ -244,7 +294,7 @@
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>parameters</code></th>
-						<td><p>A collection of arbitrary parameters used during initialization of the service.</p></td>
+						<td><p>The parameters to use when loading the service.</p></td>
 					</tr>
 				
 					<tr>
@@ -254,7 +304,7 @@
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>completionHandler</code></th>
-						<td><p>The completion handler to invoke when the service is created.</p></td>
+						<td><p>The completion handler to invoke when the service has been loaded. When the transaction creation failed, the an error is given and the transaction and <a href="#//api/name/warnings">warnings</a> parameters are <code>nil</code>.</p></td>
 					</tr>
 				
 				</table>
@@ -268,7 +318,75 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Creates a <a href="#//api/name/new">new</a> service.</p>
+				<p>Asynchronously loads a service and creates a transaction. This method acts as a helper method that consolidates the two ADYService methods into one.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/loadWithParameters:appearanceConfiguration:completionHandler:" title="loadWithParameters:appearanceConfiguration:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/loadWithParameters:appearanceConfiguration:completionHandler:">&ndash;&nbsp;loadWithParameters:appearanceConfiguration:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Asynchronously loads the service and prepares it for creating a transaction.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)loadWithParameters:(nullable ADYServiceParameters *)<em>parameters</em> appearanceConfiguration:(nullable ADYAppearanceConfiguration *)<em>appearanceConfiguration</em> completionHandler:(void ( ^ ) ( void ))<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameters</code></th>
+						<td><p>A collection of parameters to use when loading the service.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>appearanceConfiguration</code></th>
+						<td><p>The configuration of the appearance of the challenge flow. When <code>nil</code>, a default appearance configuration is used.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completion handler to invoke when the service has been loaded.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Asynchronously loads the service and prepares it for creating a transaction.</p>
 			</div>
 			
 
@@ -297,7 +415,7 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Creates a <a href="#//api/name/new">new</a> transaction.</p>
+				<p>Creates a new transaction.</p>
 			</div>
 			
 		    
@@ -341,7 +459,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Creates a <a href="#//api/name/new">new</a> transaction.</p>
+				<p>Creates a new transaction.</p>
 			</div>
 			
 
@@ -373,7 +491,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 Adyen. All rights reserved. Updated: 2018-11-19</p>
+						<p class="copyright">Copyright &copy; 2018 Adyen. All rights reserved. Updated: 2018-11-30</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

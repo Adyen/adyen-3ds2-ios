@@ -1,4 +1,4 @@
-version = '0.9.2'
+version = '0.9.3'
 
 Pod::Spec.new do |spec|
   spec.name                   = 'Adyen3DS2'
@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.authors                = { 'Adyen' => 'support@adyen.com' }
   spec.summary                = 'Accept 3D Secure 2.0 payments via Adyen.'
   spec.source                 = { :git => 'https://github.com/adyen/adyen-3ds2-ios.git', :tag => version }
-  spec.vendored_frameworks    = 'Adyen3DS2.framework'
+  spec.vendored_frameworks    = 'Dynamic/Adyen3DS2.framework'
   spec.ios.deployment_target  = '10.3'
 end

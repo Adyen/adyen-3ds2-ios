@@ -13,38 +13,41 @@ The SDK is available either through [CocoaPods](http://cocoapods.org) or via man
 1. Add `pod 'Adyen3DS2'` to your `Podfile`.
 2. Run `pod install`.
 
-### Manual
+### Dynamic Framework
 
-Drag `Adyen3DS2.framework` to the `Embedded Binaries` section in your general target settings.
+Drag the dynamic `Adyen3DS2.framework` to the `Embedded Binaries` section in your general target settings. Select "Copy items if needed" when asked.
+
+### Static Framework
+
+1. In Xcode, select "File" and then "Add Files to...".
+2. Select the static `Adyen3DS2.framework` and check "Copy items if needed", then select "Add".
+3. In Xcode, select "File" and then "Add Files to...".
+4. Select `Adyen3DS2.bundle` inside `Adyen3DS2.framework` and check "Copy items if needed", then select "Add".
 
 ## Usage
 
-### Retrieving authentication request parameters
+### Creating a transaction
 
 First, create an instance of `ADYServiceParameters` with the additional data retrieved from your call to `/authorise`.
-Then, asynchronously create a `ADYService` with these parameters.
-
+Then, use the class method on `ADYService` to create a transaction.
 ```objc
-ADYServiceParameters *serviceParameters = [[ADYServiceParameters alloc] init];
-[serviceParameters setDirectoryServerIdentifier:...]; // Retrieved from the additionalData.
-[serviceParameters setDirectoryServerPublicKey:...]; // Retrieved from the additionalData.
+ADYServiceParameters *parameters = [ADYServiceParameters new];
+    [parameters setDirectoryServerIdentifier:...]; // Retrieved from Adyen.
+    [parameters setDirectoryServerPublicKey:...]; // Retrieved from Adyen.
 
-[ADYService serviceWithParameters:serviceParameters appearanceConfiguration:nil completionHandler:^(ADYService *service) {
-
+[ADYService transactionWithParameters:parameters appearanceConfiguration:nil completionHandler:^(ADYTransaction *transaction, NSArray<ADYWarning *> *warnings, NSError *error) {
+    if (transaction) {
+        ADYAuthenticationRequestParameters *authenticationRequestParameters = [transaction authenticationRequestParameters];
+        // Submit the authenticationRequestParameters to /authorise3ds2.
+    } else {
+        // An error occurred.
+    }
 }];
 ```
 
-The `ADYService` you receive in the completion handler is ready to create a transaction. From the transaction, you can retrieve the `ADYAuthenticationRequestParameters`.
+When the completion handler executes, use the `transaction`'s `authenticationRequestParameters` in your call to `/authorise3ds2`.
 
-```objc
-NSError *error = nil;
-ADYTransaction *transaction = [service createTransactionWithDirectoryServerIdentifier:nil protocolVersion:nil error:&error];
-ADYAuthenticationRequestParameters *authenticationRequestParameters = [transaction authenticationRequestParameters];
-```
-
-Use these authentication request parameters in your call to `/authorise3ds2`.
-
-Keep a reference to your `ADYService` instance until the transaction is finished.
+:warning: _Keep a reference to your `ADYTransaction` instance until the transaction is finished._
 
 ### Performing a challenge
 
@@ -52,49 +55,38 @@ In case a challenge is required, create an instance of `ADYChallengeParameters` 
 
 ```objc
 NSDictionary *additionalData = ...; // Retrieved from Adyen.
-ADYChallengeParameters *challengeParameters = [ADYChallengeParameters challengeParametersWithServerTransactionIdentifier:additionalData[@"threeds2.threeDS2ResponseData.threeDSServerTransID"]
-                                                                                                ACSTransactionIdentifier:additionalData[@"threeds2.threeDS2ResponseData.acsTransID"]
-                                                                                                      ACSReferenceNumber:additionalData[@"threeds2.threeDS2ResponseData.acsReferenceNumber"]
-                                                                                                        ACSSignedContent:additionalData[@"threeds2.threeDS2ResponseData.acsSignedContent"]];
+ADYChallengeParameters *parameters = [ADYChallengeParameters challengeParametersWithServerTransactionIdentifier:additionalData[@"threeds2.threeDS2ResponseData.threeDSServerTransID"]
+                                                                                       ACSTransactionIdentifier:additionalData[@"threeds2.threeDS2ResponseData.acsTransID"]
+                                                                                             ACSReferenceNumber:additionalData[@"threeds2.threeDS2ResponseData.acsReferenceNumber"]
+                                                                                               ACSSignedContent:additionalData[@"threeds2.threeDS2ResponseData.acsSignedContent"]];
 ```
 
 Use these challenge parameters to perform the challenge with the `transaction` you created earlier:
 ```objc
-[transaction performChallengeWithParameters:challengeParameters delegate:self];
+[transaction performChallengeWithParameters:parameters completionHandler:^(ADYChallengeResult *result, NSError *error) {
+    if (result) {
+        NSString *transactionStatus = [result transactionStatus];
+        // Submit the transactionStatus to /authorise3ds2.
+    } else {
+        // An error occurred.
+    }
+}];
 ```
 
-For the `delegate` parameter, pass in an instance that conforms to the `ADYChallengeDelegate` protocol. For this protocol, implement the following methods:
-
-```objc
-- (void)challengeDidFinishWithResult:(ADYChallengeResult *)completion;
-```
-
-This method will be invoked when the challenge is completed successfully. The transaction status can be found in the `result` object. You'll include this value in your second request to `/authorise3ds2`.
-
-```objc
-- (void)challengeDidFailWithError:(NSError *)error;
-```
-
-This method will be invoked when the challenge failed due to an error.
-
-If you prefer using completion handlers instead of delegates, there's also a `performChallengeWithParameters:completionHandler:` method available.
-
-Keep a reference to your `ADYService` instance until the transaction is finished.
+When the challenge is completed successfully, submit the `transactionStatus` in the `result` in your second call to `/authorise3ds2`.
 
 ### Customizing the UI
 
 The SDK provides some customization options to ensure the UI of the challenge flow fits your app's look and feel. These customization options are available through the `ADYAppearanceConfiguration` class. To use them, create an instance of `ADYAppearanceConfiguration`, configure the desired properties and pass it during initialization of the `ADYService`.
 
-For example, to make the navigation bar and Continue button red:
+For example, to make the Continue button red and change its corner radius:
 ```objc
 ADYAppearanceConfiguration *appearanceConfiguration = [ADYAppearanceConfiguration new];
-[[appearanceConfiguration navigationBarAppearance] setBackgroundColor:[UIColor redColor]];
-[[appearanceConfiguration navigationBarAppearance] setTextColor:[UIColor whiteColor]];
 [[appearanceConfiguration buttonAppearanceForType:ADYAppearanceButtonTypeContinue] setBackgroundColor:[UIColor redColor]];
 [[appearanceConfiguration buttonAppearanceForType:ADYAppearanceButtonTypeContinue] setTextColor:[UIColor whiteColor]];
 [[appearanceConfiguration buttonAppearanceForType:ADYAppearanceButtonTypeContinue] setCornerRadius:3.0f];
 
-[ADYService serviceWithParameters:serviceParameters appearanceConfiguration:appearanceConfiguration completionHandler:^(ADYService *service) { }];
+[ADYService transactionWithParameters:parameters appearanceConfiguration:appearanceConfiguration completionHandler:...];
 ```
 
 ## See also
@@ -102,3 +94,7 @@ ADYAppearanceConfiguration *appearanceConfiguration = [ADYAppearanceConfiguratio
  * [Complete Documentation](https://docs.adyen.com/developers/risk-management/3d-secure-2-0/ios-sdk-integration)
 
  * [SDK Reference](https://adyen.github.io/adyen-3ds2-ios/Docs/index.html)
+
+## License
+
+This SDK is available under the Apache License, Version 2.0. For more information, see the [LICENSE](https://github.com/Adyen/adyen-3ds2-ios/blob/master/LICENSE) file.
