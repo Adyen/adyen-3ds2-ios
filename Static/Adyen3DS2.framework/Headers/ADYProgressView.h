@@ -10,14 +10,14 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- An overlay with a loading indicator, indicating an indefinite activity.
+ A full screen progress view with a title, cancel button and loading indicator.
  */
-@interface ADYProgressView : UIView
+@protocol ADYProgressView <NSObject>
 
 /**
- The title displayed in the progress view. Defaults to "Processing…".
+ A block that is invoked when the cancel button is selected.
  */
-@property (nonatomic, copy, readwrite) NSString *title;
+@property (nonatomic, copy, readwrite, nullable) void (^cancelButtonHandler)(void);
 
 /**
  Shows the progress view on the current top-most view.
@@ -28,11 +28,6 @@ NS_ASSUME_NONNULL_BEGIN
  Hides the progress view.
  */
 - (void)hide;
-
-+ (instancetype)new NS_UNAVAILABLE;
-- (instancetype)init NS_UNAVAILABLE;
-- (instancetype)initWithCoder:(NSCoder *)aDecoder NS_UNAVAILABLE;
-- (instancetype)initWithFrame:(CGRect)frame NS_UNAVAILABLE;
 
 @end
 

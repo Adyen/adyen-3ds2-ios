@@ -26,8 +26,8 @@ typedef NS_ENUM(NSUInteger, ADYRuntimeErrorCode) {
     /// Indicates an invalid response was received from the ACS.
     ADYRuntimeErrorInvalidResponse,
     
-    /// Indicates a request to the ACS timed out.
-    ADYRuntimeErrorRequestTimedOut,
+    /// Indicates a request to the ACS failed or timed out.
+    ADYRuntimeErrorRequestFailed,
     
     /// Indicates the specified timeout for a challenge was reached.
     ADYRuntimeErrorChallengeTimedOut,

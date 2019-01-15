@@ -12,6 +12,11 @@
 #import <Adyen3DS2/ADYProgressView.h>
 
 /**
+ The default timeout of a challenge.
+ */
+extern const NSTimeInterval ADYTransactionDefaultChallengeTimeout;
+
+/**
  A block that is invoked when a challenge flow is completed.
 
  @param result The result of the challenge flow, in case it was completed successfully.
@@ -36,7 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  A progress view that can optionally be shown to indicate a loading state.
  */
-@property (nonatomic, strong, readonly) ADYProgressView *progressView;
+@property (nonatomic, strong, readonly) id<ADYProgressView> progressView;
 
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;

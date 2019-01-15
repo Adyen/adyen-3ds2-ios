@@ -27,6 +27,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readwrite) UIColor *headingTextColor;
 
 /**
+ The line height of the heading text.
+ */
+@property (nonatomic, assign, readwrite) CGFloat headingLineHeight;
+
+/**
  The font in which subheading text is displayed.
  */
 @property (nonatomic, strong, readwrite) UIFont *subheadingFont;
@@ -40,6 +45,11 @@ NS_ASSUME_NONNULL_BEGIN
  The color in which error text is displayed.
  */
 @property (nonatomic, strong, readwrite) UIColor *errorTextColor;
+
+/**
+ The line height of regular text.
+ */
+@property (nonatomic, assign, readwrite) CGFloat lineHeight;
 
 @end
 
