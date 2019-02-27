@@ -75,7 +75,7 @@ NS_ASSUME_NONNULL_BEGIN
  Starts the challenge flow for the transaction.
 
  @param challengeParameters The challenge parameters received from the 3DS server.
- @param timeout The timeout interval in seconds in which the challenge process should be completed. Should be at least 300 seconds.
+ @param timeout The timeout interval in seconds in which the challenge process should be completed. Should be at least 300 seconds. There is no maximum value.
  @param completionHandler The completion handler to invoke when the challenge flow is finished.
  */
 - (void)performChallengeWithParameters:(ADYChallengeParameters *)challengeParameters timeout:(NSTimeInterval)timeout completionHandler:(ADYChallengeCompletionHandler)completionHandler;

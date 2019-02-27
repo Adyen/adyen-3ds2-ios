@@ -32,8 +32,8 @@ First, create an instance of `ADYServiceParameters` with the additional data ret
 Then, use the class method on `ADYService` to create a transaction.
 ```objc
 ADYServiceParameters *parameters = [ADYServiceParameters new];
-    [parameters setDirectoryServerIdentifier:...]; // Retrieved from Adyen.
-    [parameters setDirectoryServerPublicKey:...]; // Retrieved from Adyen.
+[parameters setDirectoryServerIdentifier:...]; // Retrieved from Adyen.
+[parameters setDirectoryServerPublicKey:...]; // Retrieved from Adyen.
 
 [ADYService transactionWithParameters:parameters appearanceConfiguration:nil completionHandler:^(ADYTransaction *transaction, NSArray<ADYWarning *> *warnings, NSError *error) {
     if (transaction) {
