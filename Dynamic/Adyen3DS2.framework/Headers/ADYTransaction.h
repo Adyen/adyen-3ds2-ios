@@ -85,6 +85,13 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)cancelChallenge;
 
+/**
+ Closes the transaction, cleaning resources held by the transaction.
+ 
+ This method should be called when no challenge is performed. When a challenge is performed, all sensitive data is removed automatically.
+ */
+- (void)close;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -29,13 +29,15 @@ Drag the dynamic `Adyen3DS2.framework` to the `Embedded Binaries` section in you
 ### Creating a transaction
 
 First, create an instance of `ADYServiceParameters` with the additional data retrieved from your call to `/authorise`.
-Then, use the class method on `ADYService` to create a transaction.
+Then, use the class method on `ADYService` to create a new service. This service can be used to create a new transaction.
 ```objc
 ADYServiceParameters *parameters = [ADYServiceParameters new];
 [parameters setDirectoryServerIdentifier:...]; // Retrieved from Adyen.
 [parameters setDirectoryServerPublicKey:...]; // Retrieved from Adyen.
 
-[ADYService transactionWithParameters:parameters appearanceConfiguration:nil completionHandler:^(ADYTransaction *transaction, NSArray<ADYWarning *> *warnings, NSError *error) {
+[ADYService serviceWithParameters:parameters appearanceConfiguration:nil completionHandler:^(ADYService *service) {
+    NSError *error = nil;
+    ADYTransaction *transaction = [service transactionWithMessageVersion:nil error:&error];
     if (transaction) {
         ADYAuthenticationRequestParameters *authenticationRequestParameters = [transaction authenticationRequestParameters];
         // Submit the authenticationRequestParameters to /authorise3ds2.
@@ -45,7 +47,7 @@ ADYServiceParameters *parameters = [ADYServiceParameters new];
 }];
 ```
 
-When the completion handler executes, use the `transaction`'s `authenticationRequestParameters` in your call to `/authorise3ds2`.
+Use the `transaction`'s `authenticationRequestParameters` in your call to `/authorise3ds2`.
 
 :warning: _Keep a reference to your `ADYTransaction` instance until the transaction is finished._
 
@@ -86,12 +88,12 @@ ADYAppearanceConfiguration *appearanceConfiguration = [ADYAppearanceConfiguratio
 [[appearanceConfiguration buttonAppearanceForType:ADYAppearanceButtonTypeContinue] setTextColor:[UIColor whiteColor]];
 [[appearanceConfiguration buttonAppearanceForType:ADYAppearanceButtonTypeContinue] setCornerRadius:3.0f];
 
-[ADYService transactionWithParameters:parameters appearanceConfiguration:appearanceConfiguration completionHandler:...];
+[ADYService serviceWithParameters:parameters appearanceConfiguration:appearanceConfiguration completionHandler:...];
 ```
 
 ## See also
 
- * [Complete Documentation](https://docs.adyen.com/developers/risk-management/3d-secure-2-0/ios-sdk-integration)
+ * [Complete Documentation](https://docs.adyen.com/developers/risk-management/3d-secure-2/ios-sdk-integration)
 
  * [SDK Reference](https://adyen.github.io/adyen-3ds2-ios/Docs/index.html)
 
