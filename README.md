@@ -2,16 +2,20 @@
 
 With this SDK, you can accept 3D Secure 2.0 payments via Adyen.
 
-_This SDK is currently intended for testing purposes only._
-
 ## Installation
 
-The SDK is available either through [CocoaPods](http://cocoapods.org) or via manual installation.
+The SDK is available via [CocoaPods](http://cocoapods.org), [Carthage](https://github.com/Carthage/Carthage) or via manual installation.
 
 ### CocoaPods
 
 1. Add `pod 'Adyen3DS2'` to your `Podfile`.
 2. Run `pod install`.
+
+### Carthage
+
+1. Add `github "adyen/adyen-3ds2-ios"` to your `Cartfile`.
+2. Run `carthage update`.
+3. Link the framework with your target as described in [Carthage Readme](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application).
 
 ### Dynamic Framework
 
@@ -93,7 +97,7 @@ ADYAppearanceConfiguration *appearanceConfiguration = [ADYAppearanceConfiguratio
 
 ## See also
 
- * [Complete Documentation](https://docs.adyen.com/developers/risk-management/3d-secure-2/ios-sdk-integration)
+ * [Complete Documentation](https://docs.adyen.com/classic-integration/3d-secure-2-classic-integration/ios-sdk-integration/)
 
  * [SDK Reference](https://adyen.github.io/adyen-3ds2-ios/Docs/index.html)
 
