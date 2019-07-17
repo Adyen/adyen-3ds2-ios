@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 
-	<title></title>
+	<title>ADYChallengeParameters Class Reference</title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
-	
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
 </head>
 <body class="appledoc">
 	<header>
@@ -43,9 +43,39 @@
 							<select id="jump-to">
 	<option value="top">Jump To&#133;</option>
 	
-
+	<option value="overview">Overview</option>
 	
 
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/ACSReferenceNumber">ACSReferenceNumber</option>
+		
+		<option value="//api/name/ACSSignedContent">ACSSignedContent</option>
+		
+		<option value="//api/name/ACSTransactionIdentifier">ACSTransactionIdentifier</option>
+		
+		<option value="//api/name/serverTransactionIdentifier">serverTransactionIdentifier</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/challengeParametersWithServerTransactionIdentifier:ACSTransactionIdentifier:ACSReferenceNumber:ACSSignedContent:">+ challengeParametersWithServerTransactionIdentifier:ACSTransactionIdentifier:ACSReferenceNumber:ACSSignedContent:</option>
+		
+	</optgroup>
+	
+
+	
 	
 </select>
 						</label>
@@ -59,12 +89,307 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title"></h1>
+					<h1 class="title">ADYChallengeParameters Class Reference</h1>
 
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>ADYChallengeParameters.h</td>
+</tr>
+						</tbody></table></div>
 					
 
                     
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Contains data returned by the 3DS Server in response to an authentication request (AReq).</p><div class="note"><p><strong>Note:</strong> This class corresponds to the <code>ChallengeParameters</code> class in the specification.</p></div>
+					</div>
+					
+					
 
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/serverTransactionIdentifier" title="serverTransactionIdentifier"></a>
+	<h3 class="method-title"><code><a href="#//api/name/serverTransactionIdentifier">&nbsp;&nbsp;serverTransactionIdentifier</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A unique string identifying the transaction within the scope of the 3DS Server.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *serverTransactionIdentifier</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>A unique string identifying the transaction within the scope of the 3DS Server.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYChallengeParameters.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/ACSTransactionIdentifier" title="ACSTransactionIdentifier"></a>
+	<h3 class="method-title"><code><a href="#//api/name/ACSTransactionIdentifier">&nbsp;&nbsp;ACSTransactionIdentifier</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A unique string identifying the transaction within the scope of the ACS.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *ACSTransactionIdentifier</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>A unique string identifying the transaction within the scope of the ACS.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYChallengeParameters.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/ACSReferenceNumber" title="ACSReferenceNumber"></a>
+	<h3 class="method-title"><code><a href="#//api/name/ACSReferenceNumber">&nbsp;&nbsp;ACSReferenceNumber</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A string identifying the ACS, assigned by EMVCo.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *ACSReferenceNumber</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>A string identifying the ACS, assigned by EMVCo.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYChallengeParameters.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/ACSSignedContent" title="ACSSignedContent"></a>
+	<h3 class="method-title"><code><a href="#//api/name/ACSSignedContent">&nbsp;&nbsp;ACSSignedContent</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A JWS containing, among other data, the ACS Ephemeral Public Key.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *ACSSignedContent</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>A JWS containing, among other data, the ACS Ephemeral Public Key.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYChallengeParameters.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/challengeParametersWithServerTransactionIdentifier:ACSTransactionIdentifier:ACSReferenceNumber:ACSSignedContent:" title="challengeParametersWithServerTransactionIdentifier:ACSTransactionIdentifier:ACSReferenceNumber:ACSSignedContent:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/challengeParametersWithServerTransactionIdentifier:ACSTransactionIdentifier:ACSReferenceNumber:ACSSignedContent:">+&nbsp;challengeParametersWithServerTransactionIdentifier:ACSTransactionIdentifier:ACSReferenceNumber:ACSSignedContent:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates and returns an object containing challenge parameters.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)challengeParametersWithServerTransactionIdentifier:(NSString *)<em>serverTransactionIdentifier</em> ACSTransactionIdentifier:(NSString *)<em>ACSTransactionIdentifier</em> ACSReferenceNumber:(NSString *)<em>ACSReferenceNumber</em> ACSSignedContent:(NSString *)<em>ACSSignedContent</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>serverTransactionIdentifier</code></th>
+						<td><p>A unique string identifying the transaction within the scope of the 3DS Server.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>ACSTransactionIdentifier</code></th>
+						<td><p>A unique string identifying the transaction within the scope of the ACS.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>ACSReferenceNumber</code></th>
+						<td><p>A string identifying the ACS, assigned by EMVCo.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>ACSSignedContent</code></th>
+						<td><p>Content signed using JWS, containing ACS Ephemeral Public Key, ACS URL and authentication type.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Initialized object containing the challenge parameters.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Creates and returns an object containing challenge parameters.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYChallengeParameters.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
 					
 
                     
@@ -75,6 +400,8 @@
 						
 						<p class="copyright">Copyright &copy; 2019 Adyen. All rights reserved. Updated: 2019-07-17</p>
 						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
 						
 					</div>
 				</footer>
