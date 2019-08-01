@@ -1,4 +1,4 @@
-version = '2.1.0-rc.2'
+version = '2.1.0-rc.3'
 
 Pod::Spec.new do |spec|
   spec.name                   = 'Adyen3DS2'
