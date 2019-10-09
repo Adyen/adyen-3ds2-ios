@@ -21,3 +21,13 @@ extern NSString *const ADYProtocolErrorDetailKey;
  The key in the user info dictionary of an NSError that provides the SDK transaction identifier for protocol errors.
  */
 extern NSString *const ADYProtocolErrorSDKTransactionIdentifierKey;
+
+/**
+ The key in the user info dictionary of an NSError that provides the 3DS Server transaction identifier for protocol errors.
+ */
+extern NSString *const ADYProtocolErrorServerTransactionIdentifierKey;
+
+/**
+ The key in the user info dictionary of an NSError that provides the ACS transaction identifier for protocol errors.
+ */
+extern NSString *const ADYProtocolErrorACSTransactionIdentifierKey;
