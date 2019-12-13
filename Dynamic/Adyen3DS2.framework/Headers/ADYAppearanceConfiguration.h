@@ -95,6 +95,11 @@ typedef NS_ENUM(NSUInteger, ADYAppearanceButtonType) {
 @property (nonatomic, strong, readonly) ADYInfoAppearance *infoAppearance;
 
 /**
+ Indicates the Challenge Screen modal presentation style.
+ */
+@property (nonatomic, assign, readwrite) UIModalPresentationStyle modalPresentationStyle;
+
+/**
  Returns the appearance for the button of the given type.
 
  @param buttonType The button type to return the appearance for.
