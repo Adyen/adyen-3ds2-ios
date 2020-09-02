@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  The final transaction status.
  */
-@property (nonatomic, copy, readonly) NSString *transactionStatus;
+@property (nonatomic, copy, readonly, nullable) NSString *transactionStatus;
 
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;

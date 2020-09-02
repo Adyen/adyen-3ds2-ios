@@ -12,6 +12,7 @@
 #import <Adyen3DS2/ADYSelectAppearance.h>
 #import <Adyen3DS2/ADYButtonAppearance.h>
 #import <Adyen3DS2/ADYInfoAppearance.h>
+#import <Adyen3DS2/ADYSwitchAppearance.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -89,6 +90,10 @@ typedef NS_ENUM(NSUInteger, ADYAppearanceButtonType) {
  */
 @property (nonatomic, strong, readonly) ADYSelectAppearance *selectAppearance;
 
+/**
+ The appearance of a switch item view.
+ */
+@property (nonatomic, strong, readonly) ADYSwitchAppearance *switchAppearance;
 /**
  The appearance of info items.
  */

@@ -64,6 +64,8 @@
 		
 		<option value="//api/name/serverTransactionIdentifier">serverTransactionIdentifier</option>
 		
+		<option value="//api/name/threeDSRequestorAppURL">threeDSRequestorAppURL</option>
+		
 	</optgroup>
 	
 
@@ -71,6 +73,8 @@
 	<optgroup label="Class Methods">
 		
 		<option value="//api/name/challengeParametersWithServerTransactionIdentifier:ACSTransactionIdentifier:ACSReferenceNumber:ACSSignedContent:">+ challengeParametersWithServerTransactionIdentifier:ACSTransactionIdentifier:ACSReferenceNumber:ACSSignedContent:</option>
+		
+		<option value="//api/name/challengeParametersWithServerTransactionIdentifier:threeDSRequestorAppURL:ACSTransactionIdentifier:ACSReferenceNumber:ACSSignedContent:">+ challengeParametersWithServerTransactionIdentifier:threeDSRequestorAppURL:ACSTransactionIdentifier:ACSReferenceNumber:ACSSignedContent:</option>
 		
 	</optgroup>
 	
@@ -96,6 +100,9 @@
 						<tr>
 	<th>Inherits from</th>
 	<td>NSObject</td>
+</tr><tr>
+	<th>Conforms to</th>
+	<td>NSCoding</td>
 </tr><tr>
 	<th>Declared in</th>
 	<td>ADYChallengeParameters.h</td>
@@ -124,6 +131,54 @@
 
 						<div class="task-list">
 							<div class="section-method">
+	<a name="//api/name/threeDSRequestorAppURL" title="threeDSRequestorAppURL"></a>
+	<h3 class="method-title"><code><a href="#//api/name/threeDSRequestorAppURL">&nbsp;&nbsp;threeDSRequestorAppURL</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A URL that is registered to open the 3DS Requestor App. It will be opened after an Out Of Band authentication has been completed.
+This property will be ignored if the message version is 2.1.0.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSURL *threeDSRequestorAppURL</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>A URL that is registered to open the 3DS Requestor App. It will be opened after an Out Of Band authentication has been completed.
+This property will be ignored if the message version is 2.1.0.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYChallengeParameters.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/serverTransactionIdentifier" title="serverTransactionIdentifier"></a>
 	<h3 class="method-title"><code><a href="#//api/name/serverTransactionIdentifier">&nbsp;&nbsp;serverTransactionIdentifier</a></code>
 </h3>
@@ -385,6 +440,89 @@
 			
 		</div>
 	</div>
+</div><div class="section-method">
+	<a name="//api/name/challengeParametersWithServerTransactionIdentifier:threeDSRequestorAppURL:ACSTransactionIdentifier:ACSReferenceNumber:ACSSignedContent:" title="challengeParametersWithServerTransactionIdentifier:threeDSRequestorAppURL:ACSTransactionIdentifier:ACSReferenceNumber:ACSSignedContent:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/challengeParametersWithServerTransactionIdentifier:threeDSRequestorAppURL:ACSTransactionIdentifier:ACSReferenceNumber:ACSSignedContent:">+&nbsp;challengeParametersWithServerTransactionIdentifier:threeDSRequestorAppURL:ACSTransactionIdentifier:ACSReferenceNumber:ACSSignedContent:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates and returns an object containing challenge parameters.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)challengeParametersWithServerTransactionIdentifier:(NSString *)<em>serverTransactionIdentifier</em> threeDSRequestorAppURL:(nullable NSURL *)<em>threeDSRequestorAppURL</em> ACSTransactionIdentifier:(NSString *)<em>ACSTransactionIdentifier</em> ACSReferenceNumber:(NSString *)<em>ACSReferenceNumber</em> ACSSignedContent:(NSString *)<em>ACSSignedContent</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>serverTransactionIdentifier</code></th>
+						<td><p>A unique string identifying the transaction within the scope of the 3DS Server.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>threeDSRequestorAppURL</code></th>
+						<td><p>The Merchant app URL. It will be ignored if the message version is 2.1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>ACSTransactionIdentifier</code></th>
+						<td><p>A unique string identifying the transaction within the scope of the ACS.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>ACSReferenceNumber</code></th>
+						<td><p>A string identifying the ACS, assigned by EMVCo.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>ACSSignedContent</code></th>
+						<td><p>Content signed using JWS, containing ACS Ephemeral Public Key, ACS URL and authentication type.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Initialized object containing the challenge parameters.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Creates and returns an object containing challenge parameters.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADYChallengeParameters.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
 </div>
 						</div>
 						
@@ -398,7 +536,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2020 Adyen. All rights reserved. Updated: 2020-03-30</p>
+						<p class="copyright">Copyright &copy; 2020 Adyen. All rights reserved. Updated: 2020-09-02</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
