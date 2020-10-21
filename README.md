@@ -28,6 +28,18 @@ Drag the dynamic `Adyen3DS2.framework` to the `Embedded Binaries` section in you
 3. In Xcode, select "File" and then "Add Files to...".
 4. Select `Adyen3DS2.bundle` inside `Adyen3DS2.framework` and check "Copy items if needed", then select "Add".
 
+### Swift Package Manager
+
+1. Follow Apple's [Adding Package Dependencies to Your App](
+https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app
+) guide on how to add a Swift Package dependency.
+2. Use `https://github.com/Adyen/adyen-3ds2-ios` as the repository URL.
+3. Specify the version to be at least `2.2.1`.
+
+:warning: _Please make sure to use Xcode 12.0+ when adding `Adyen3DS2` using Swift Package Manager._
+
+:warning: _Swift Package Manager for Xcode 12.0 and 12.1 has a [know issue](https://bugs.swift.org/browse/SR-13343) when it comes to importing binary dependencies. A workaround is described [here](https://forums.swift.org/t/swiftpm-binarytarget-dependency-and-code-signing/38953)._
+
 ## Usage
 
 ### Creating a transaction
@@ -41,7 +53,7 @@ ADYServiceParameters *parameters = [ADYServiceParameters new];
 
 [ADYService serviceWithParameters:parameters appearanceConfiguration:nil completionHandler:^(ADYService *service) {
     NSError *error = nil;
-    ADYTransaction *transaction = [service transactionWithMessageVersion:nil error:&error];
+    ADYTransaction *transaction = [service transactionWithMessageVersion:@"2.1.0" error:&error];
     if (transaction) {
         ADYAuthenticationRequestParameters *authenticationRequestParameters = [transaction authenticationRequestParameters];
         // Submit the authenticationRequestParameters to /authorise3ds2.
@@ -53,6 +65,8 @@ ADYServiceParameters *parameters = [ADYServiceParameters new];
 
 Use the `transaction`'s `authenticationRequestParameters` in your call to `/authorise3ds2`.
 
+:warning: _`[ADYService transactionWithMessageVersion:error:]` defaults to the highest supported message version if nil is passed, if you want an older protocol version, make sure to specify it._
+
 :warning: _Keep a reference to your `ADYTransaction` instance until the transaction is finished._
 
 ### Performing a challenge
@@ -62,6 +76,7 @@ In case a challenge is required, create an instance of `ADYChallengeParameters` 
 ```objc
 NSDictionary *additionalData = ...; // Retrieved from Adyen.
 ADYChallengeParameters *parameters = [ADYChallengeParameters challengeParametersWithServerTransactionIdentifier:additionalData[@"threeds2.threeDS2ResponseData.threeDSServerTransID"]
+                                                                                         threeDSRequestorAppURL:[NSURL URLWithString:@"{YOUR_CUSTOM_APP_URL}"] // Or nil if for example you're using protocol version 2.1.0
                                                                                        ACSTransactionIdentifier:additionalData[@"threeds2.threeDS2ResponseData.acsTransID"]
                                                                                              ACSReferenceNumber:additionalData[@"threeds2.threeDS2ResponseData.acsReferenceNumber"]
                                                                                                ACSSignedContent:additionalData[@"threeds2.threeDS2ResponseData.acsSignedContent"]];
