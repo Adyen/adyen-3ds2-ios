@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @note This class corresponds to the `AuthenticationRequestParameters` class in the specification.
  */
-@interface ADYAuthenticationRequestParameters : NSObject <NSCoding>
+@interface ADYAuthenticationRequestParameters : NSObject <NSCoding, NSSecureCoding>
 
 /**
  The device information, encrypted using JSON Web Encryption.

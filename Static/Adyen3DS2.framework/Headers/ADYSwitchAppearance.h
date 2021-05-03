@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ADYSwitchAppearance : ADYAppearance
+@interface ADYSwitchAppearance : ADYAppearance <NSCopying>
 
 /**
  The tint color of the switch.

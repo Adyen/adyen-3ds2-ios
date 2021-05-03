@@ -52,6 +52,14 @@
 		<data>
 		4uBEkLlzbVqY2NxMaT/+8uB5ih4=
 		</data>
+		<key>ELO-protect-buy-Encryption.der</key>
+		<data>
+		cvYOpgt/1zj9K5wWplmucdb0No4=
+		</data>
+		<key>ELO-protect-buy-Encryption.der.sha256</key>
+		<data>
+		/ONLZf/W7FPcE04T7oQmXbd8tOY=
+		</data>
 		<key>ErrorIndicator.png</key>
 		<data>
 		939QYSrggYYQFlIuyJBEhtCdd40=
@@ -257,6 +265,28 @@
 			<key>hash2</key>
 			<data>
 			kL6J/d6IoyabRdhn+Gtu+PfTSjWwmQhx+Iaw1geAQ0g=
+			</data>
+		</dict>
+		<key>ELO-protect-buy-Encryption.der</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cvYOpgt/1zj9K5wWplmucdb0No4=
+			</data>
+			<key>hash2</key>
+			<data>
+			dIspwgELUdH9fNAVNZJlnIklzu/5ZdfAIZKBQEVt4tA=
+			</data>
+		</dict>
+		<key>ELO-protect-buy-Encryption.der.sha256</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/ONLZf/W7FPcE04T7oQmXbd8tOY=
+			</data>
+			<key>hash2</key>
+			<data>
+			c2q6c96RP7vnlpv+UZp0YdSCJCEKxzWNPfMNgejl4G8=
 			</data>
 		</dict>
 		<key>ErrorIndicator.png</key>

@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @note This class corresponds to the `ChallengeParameters` class in the specification.
  */
-@interface ADYChallengeParameters : NSObject <NSCoding>
+@interface ADYChallengeParameters : NSObject <NSCoding, NSSecureCoding>
 
 /**
  A URL that is registered to open the 3DS Requestor App. It will be opened after an Out Of Band authentication has been completed.

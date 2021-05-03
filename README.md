@@ -69,6 +69,8 @@ Use the `transaction`'s `authenticationRequestParameters` in your call to `/auth
 
 :warning: _Keep a reference to your `ADYTransaction` instance until the transaction is finished._
 
+:warning: _If your application supports Mac catalyst or iPad OS multi-window/multi-scene, then its recommended to share the `ADYTransaction`/`ADYService` object(s) between scenes for the case if the shopper starts a transaction on one window and switch to another while the transaction is in progress._
+
 ### Performing a challenge
 
 In case a challenge is required, create an instance of `ADYChallengeParameters` with values from the additional data retrieved from your call to `/authorise3ds2`.
