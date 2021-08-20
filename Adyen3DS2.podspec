@@ -11,7 +11,4 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks    = 'XCFramework/Dynamic/Adyen3DS2.xcframework'
   spec.ios.deployment_target  = '10.0'
   
-  # workaround for binary dependencies, see https://github.com/CocoaPods/CocoaPods/issues/10065
-  #   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  #   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
