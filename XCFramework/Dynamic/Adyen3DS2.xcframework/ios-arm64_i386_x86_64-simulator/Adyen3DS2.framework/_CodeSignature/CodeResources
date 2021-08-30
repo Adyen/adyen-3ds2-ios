@@ -44,6 +44,14 @@
 		<data>
 		FzQvTmewNXTGzJEkELGKO333qIs=
 		</data>
+		<key>Adyen3DS2.bundle/Cartes Bancaire Encryption.der</key>
+		<data>
+		32tLMpTd3md+3H3fHKj5jenRIkQ=
+		</data>
+		<key>Adyen3DS2.bundle/Cartes Bancaire Encryption.der.sha256</key>
+		<data>
+		eu61vbQ7w9AV73PxEugCq8PVcRY=
+		</data>
 		<key>Adyen3DS2.bundle/ELO Encryption.der</key>
 		<data>
 		ICksQtbBlyCTT7UkbDLdY0UKijE=
@@ -74,7 +82,7 @@
 		</data>
 		<key>Adyen3DS2.bundle/Info.plist</key>
 		<data>
-		NmbzqV9F15dUfbaSjGsBXweXN5o=
+		mx32FBS8y+M/3/Z+5K9P6+XPB/E=
 		</data>
 		<key>Adyen3DS2.bundle/JCB Encryption.der</key>
 		<data>
@@ -86,11 +94,11 @@
 		</data>
 		<key>Adyen3DS2.bundle/MasterCard Encryption.der</key>
 		<data>
-		6QqEKleaktL0+NBwJRdmBAxK8gY=
+		kaJugDb4JuM+xy2ttFcIKu5yEF0=
 		</data>
 		<key>Adyen3DS2.bundle/MasterCard Encryption.der.sha256</key>
 		<data>
-		MRk66DWXakPLtXXQUWKPYbVaYBs=
+		I7iPw8gV7sogmEibaY1aQehHDqM=
 		</data>
 		<key>Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
 		<data>
@@ -138,7 +146,7 @@
 		</data>
 		<key>Adyen3DS2.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		popgw1/4xjsOC1lBI27QPOEhhVs=
+		K9wYlWc7mUF+DzjlBOc7FsKicXk=
 		</data>
 		<key>Adyen3DS2.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -146,11 +154,11 @@
 		</data>
 		<key>Adyen3DS2.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		hw/TKbLIhUv+7DpuHQlPTDGsvEk=
+		E1KwsWcmEAtEpAqP8KIVoEWfnZ0=
 		</data>
 		<key>Adyen3DS2.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		ylR61HzDI0kNb3BYjgjqiVJqWHk=
+		tG9V1SgYi9/G1r+gHad00V9YQCg=
 		</data>
 		<key>Adyen3DS2.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -214,7 +222,7 @@
 		</data>
 		<key>Headers/ADYService.h</key>
 		<data>
-		tygiXEN7lqlrGK4oiow3ui4SJEk=
+		tqlj74haLcB05ZRxpLHjRDfONqs=
 		</data>
 		<key>Headers/ADYServiceParameters.h</key>
 		<data>
@@ -242,7 +250,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JUU/9jR+qcnQ7au9rnoZTAS9/7A=
+		w3bBoEaBC0Q2mC3J+I6CepEhbYU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -361,6 +369,28 @@
 			dnm/NCUd7ZBNZl23YieLrSxJaTLpI8rf1fGs3LyUOhE=
 			</data>
 		</dict>
+		<key>Adyen3DS2.bundle/Cartes Bancaire Encryption.der</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			32tLMpTd3md+3H3fHKj5jenRIkQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			PpErTjNEcVdiGH+2Km3VtCHcfEAhS3mJhn5s1FluXGA=
+			</data>
+		</dict>
+		<key>Adyen3DS2.bundle/Cartes Bancaire Encryption.der.sha256</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eu61vbQ7w9AV73PxEugCq8PVcRY=
+			</data>
+			<key>hash2</key>
+			<data>
+			qU4xh5wi/ajj39lrxi5PpACUUtJwLW3NCCK6GlASl30=
+			</data>
+		</dict>
 		<key>Adyen3DS2.bundle/ELO Encryption.der</key>
 		<dict>
 			<key>hash</key>
@@ -442,11 +472,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NmbzqV9F15dUfbaSjGsBXweXN5o=
+			mx32FBS8y+M/3/Z+5K9P6+XPB/E=
 			</data>
 			<key>hash2</key>
 			<data>
-			eN6zkhcCIonpQ6qHar9dnotXl5oiGX+GY7ARjcPuDRo=
+			u6KiNc840G3W5JGThzLOpYQlQNeOkp1v6ZTob8gzW5A=
 			</data>
 		</dict>
 		<key>Adyen3DS2.bundle/JCB Encryption.der</key>
@@ -475,22 +505,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6QqEKleaktL0+NBwJRdmBAxK8gY=
+			kaJugDb4JuM+xy2ttFcIKu5yEF0=
 			</data>
 			<key>hash2</key>
 			<data>
-			E5nZdBQA7MOlJ4biYm1610cIexUboNPdGxAffXrw+Lw=
+			9qstQk0WWQewjhrwLeb0ob5R0pJpjkhKQMPRrnCn32s=
 			</data>
 		</dict>
 		<key>Adyen3DS2.bundle/MasterCard Encryption.der.sha256</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MRk66DWXakPLtXXQUWKPYbVaYBs=
+			I7iPw8gV7sogmEibaY1aQehHDqM=
 			</data>
 			<key>hash2</key>
 			<data>
-			+oFLl+qO2Gr3SYDul/CalOUl7V36ivoSvN9JSmbVZ18=
+			iO21NoWdNQTvPuoTg1U9dx+zISjDeWLcokltldCq6Qc=
 			</data>
 		</dict>
 		<key>Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
@@ -618,11 +648,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			popgw1/4xjsOC1lBI27QPOEhhVs=
+			K9wYlWc7mUF+DzjlBOc7FsKicXk=
 			</data>
 			<key>hash2</key>
 			<data>
-			raoDIIGgGS1HCs3ruKaWglKxVHdQp7njuYN+2heCZAw=
+			j/cDMNTcXFDd1r22is+CghdVLnnVPjFREbRstuASa+g=
 			</data>
 		</dict>
 		<key>Adyen3DS2.bundle/_CodeSignature/CodeRequirements</key>
@@ -640,22 +670,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hw/TKbLIhUv+7DpuHQlPTDGsvEk=
+			E1KwsWcmEAtEpAqP8KIVoEWfnZ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			nR+wy1jE04fhtrpc7uLT3sZuStmfiIxfXmvcg1oy8p8=
+			NaJn/3fnazZbd+96TSmHeZbrOk0BK0A5BtRGkk/ERBE=
 			</data>
 		</dict>
 		<key>Adyen3DS2.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ylR61HzDI0kNb3BYjgjqiVJqWHk=
+			tG9V1SgYi9/G1r+gHad00V9YQCg=
 			</data>
 			<key>hash2</key>
 			<data>
-			87aiEnrYCRK0C5fF8JOpl4x/IyaSZp8vF3yymUmUsmc=
+			O1F35bh6UN3kwqk5rnl+VjMSYgqJMqmXNE5mnqxMlY4=
 			</data>
 		</dict>
 		<key>Adyen3DS2.bundle/_CodeSignature/CodeSignature</key>
@@ -827,11 +857,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tygiXEN7lqlrGK4oiow3ui4SJEk=
+			tqlj74haLcB05ZRxpLHjRDfONqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			0q0G0fPRVJxsQqlJ4C62GUou1Px7M2eInT5cf5rMZAA=
+			c5cbw7QIQSCFiANmnuY6i2xHkD1FI2XwlZgI5bwimTU=
 			</data>
 		</dict>
 		<key>Headers/ADYServiceParameters.h</key>

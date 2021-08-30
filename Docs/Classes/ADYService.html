@@ -56,8 +56,6 @@
 	
 	<optgroup label="Properties">
 		
-		<option value="//api/name/)">)</option>
-		
 		<option value="//api/name/version">version</option>
 		
 		<option value="//api/name/warnings">warnings</option>
@@ -70,17 +68,11 @@
 		
 		<option value="//api/name/serviceWithParameters:appearanceConfiguration:completionHandler:">+ serviceWithParameters:appearanceConfiguration:completionHandler:</option>
 		
-		<option value="//api/name/transactionWithParameters:appearanceConfiguration:completionHandler:">+ transactionWithParameters:appearanceConfiguration:completionHandler:</option>
-		
 	</optgroup>
 	
 
 	
 	<optgroup label="Instance Methods">
-		
-		<option value="//api/name/loadWithParameters:appearanceConfiguration:completionHandler:">- loadWithParameters:appearanceConfiguration:completionHandler:</option>
-		
-		<option value="//api/name/transactionWithDirectoryServerIdentifier:messageVersion:error:">- transactionWithDirectoryServerIdentifier:messageVersion:error:</option>
 		
 		<option value="//api/name/transactionWithMessageVersion:error:">- transactionWithMessageVersion:error:</option>
 		
@@ -310,7 +302,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (nullable ADYTransaction *)transactionWithMessageVersion:(nullable NSString *)<em>messageVersion</em> error:(NSError *__nullable *__nullable)<em>error</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (nullable ADYTransaction *)transactionWithMessageVersion:(NSString *)<em>messageVersion</em> error:(NSError *__nullable *__nullable)<em>error</em></code></div>
 
 		    
 			
@@ -320,262 +312,7 @@
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>messageVersion</code></th>
-						<td><p>The <a href="#//api/name/version">version</a> of the protocol to be used during the transaction, or <code>nil</code> to use the latest supported <a href="#//api/name/version">version</a>.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>error</code></th>
-						<td><p>A pointer to an error object that is set to an @p NSError instance when an error occurs.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An initialized transaction, or @p nil if a transaction could not be initialized.</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Creates a new transaction.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">ADYService.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/)" title=")"></a>
-	<h3 class="method-title"><code><a href="#//api/name/)">&nbsp;&nbsp;)</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>A boolean value indicating whether the service is ready to create transactions.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly, getter=isReady) BOOL ready DEPRECATED_MSG_ATTRIBUTE ( &quot;Use +serviceWithParameters:appearanceConfiguration:completionHandler: to create a service.&quot; )</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>A boolean value indicating whether the service is ready to create transactions.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">ADYService.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/transactionWithParameters:appearanceConfiguration:completionHandler:" title="transactionWithParameters:appearanceConfiguration:completionHandler:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/transactionWithParameters:appearanceConfiguration:completionHandler:">+&nbsp;transactionWithParameters:appearanceConfiguration:completionHandler:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Asynchronously loads a service and creates a transaction. This method acts as a helper method that consolidates the two ADYService methods into one.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)transactionWithParameters:(ADYServiceParameters *)<em>parameters</em> appearanceConfiguration:(nullable ADYAppearanceConfiguration *)<em>appearanceConfiguration</em> completionHandler:(void ( ^ ) ( ADYTransaction *_Nullable transaction , NSArray&lt;ADYWarning*&gt; *_Nullable warnings , NSError *_Nullable error ))<em>completionHandler</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>parameters</code></th>
-						<td><p>The parameters to use when loading the service.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>appearanceConfiguration</code></th>
-						<td><p>The configuration of the appearance of the challenge flow. When <code>nil</code>, a default appearance configuration is used.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>completionHandler</code></th>
-						<td><p>The completion handler to invoke when the service has been loaded. When the transaction creation failed, the an error is given and the transaction and <a href="#//api/name/warnings">warnings</a> parameters are <code>nil</code>.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Asynchronously loads a service and creates a transaction. This method acts as a helper method that consolidates the two ADYService methods into one.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">ADYService.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/loadWithParameters:appearanceConfiguration:completionHandler:" title="loadWithParameters:appearanceConfiguration:completionHandler:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/loadWithParameters:appearanceConfiguration:completionHandler:">&ndash;&nbsp;loadWithParameters:appearanceConfiguration:completionHandler:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Asynchronously loads the service and prepares it for creating a transaction.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)loadWithParameters:(nullable ADYServiceParameters *)<em>parameters</em> appearanceConfiguration:(nullable ADYAppearanceConfiguration *)<em>appearanceConfiguration</em> completionHandler:(void ( ^ ) ( void ))<em>completionHandler</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>parameters</code></th>
-						<td><p>A collection of parameters to use when loading the service.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>appearanceConfiguration</code></th>
-						<td><p>The configuration of the appearance of the challenge flow. When <code>nil</code>, a default appearance configuration is used.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>completionHandler</code></th>
-						<td><p>The completion handler to invoke when the service has been loaded.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Asynchronously loads the service and prepares it for creating a transaction.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">ADYService.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/transactionWithDirectoryServerIdentifier:messageVersion:error:" title="transactionWithDirectoryServerIdentifier:messageVersion:error:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/transactionWithDirectoryServerIdentifier:messageVersion:error:">&ndash;&nbsp;transactionWithDirectoryServerIdentifier:messageVersion:error:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Creates a new transaction.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (nullable ADYTransaction *)transactionWithDirectoryServerIdentifier:(nullable NSString *)<em>directoryServerIdentifier</em> messageVersion:(nullable NSString *)<em>messageVersion</em> error:(NSError *__nullable *__nullable)<em>error</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>directoryServerIdentifier</code></th>
-						<td><p>The identifier of the directory server for which to create the transaction. When <code>nil</code>, the directory server information is assumed to have been passed in the parameters during initialization of the service.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>messageVersion</code></th>
-						<td><p>The <a href="#//api/name/version">version</a> of the protocol to be used during the transaction, or <code>nil</code> to use the latest supported <a href="#//api/name/version">version</a>.</p></td>
+						<td><p>The <a href="#//api/name/version">version</a> of the protocol to be used during the transaction.</p></td>
 					</tr>
 				
 					<tr>
@@ -631,7 +368,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2021 Adyen. All rights reserved. Updated: 2021-05-04</p>
+						<p class="copyright">Copyright &copy; 2021 Adyen. All rights reserved. Updated: 2021-08-30</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
