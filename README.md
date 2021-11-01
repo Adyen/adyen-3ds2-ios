@@ -129,6 +129,9 @@ let threeDS2SDKVersion = ADY3DS2SDKVersion()
  * [Complete Documentation](https://docs.adyen.com/classic-integration/3d-secure-2-classic-integration/ios-sdk-integration/)
 
  * [SDK Reference](https://adyen.github.io/adyen-3ds2-ios/Docs/index.html)
+ * [Reporting security issues](https://www.adyen.help/hc/en-us/articles/115001187330-How-do-I-report-a-possible-security-issue-to-Adyen-).
+ * [Security best practices](https://docs.adyen.com/online-payments/classic-integrations/api-integration-ecommerce/3d-secure/native-3ds2/ios-sdk-integration/security-best-practices).
+ * [Data security at Adyen](https://docs.adyen.com/development-resources/adyen-data-security).
 
 ## License
 
