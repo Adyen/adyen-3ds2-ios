@@ -33,6 +33,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readwrite, nullable) NSString *directoryServerPublicKey;
 
 /**
+ The root certificates of the directory server to use during the transaction creation phase.
+ 
+ The value of this property should be a JSON Web Signature compact serialization.
+ 
+ Usage of this property is optional.
+ */
+@property (nonatomic, copy, readwrite, nullable) NSString *directoryServerRootCertificates;
+
+/**
  Returns the value associated with a given key in the default group.
 
  @param key The key for which to return the corresponding value.

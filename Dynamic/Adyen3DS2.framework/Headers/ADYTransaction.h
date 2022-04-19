@@ -10,6 +10,7 @@
 #import <Adyen3DS2/ADYChallengeParameters.h>
 #import <Adyen3DS2/ADYChallengeDelegate.h>
 #import <Adyen3DS2/ADYProgressView.h>
+#import <Adyen3DS2/ADYSecurityWarningsDelegate.h>
 
 /**
  The default timeout of a challenge.
@@ -32,6 +33,11 @@ NS_ASSUME_NONNULL_BEGIN
  @note This class corresponds to the `Transaction` interface in the specification.
  */
 @interface ADYTransaction : NSObject
+
+/**
+ A delegate to receive real time security warnings.
+ */
+@property(nonatomic, weak) id<ADYSecurityWarningsDelegate> securityDelegate;
 
 /**
  The parameters provided by the SDK that should be sent with an authentication request.

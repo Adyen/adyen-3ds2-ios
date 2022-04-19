@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  A block that is invoked when the cancel button is selected.
  */
-@property (nonatomic, copy, readwrite, nullable) void (^cancelButtonHandler)(void);
+@property (nonatomic, copy, readwrite, nullable) void (^ady_cancelButtonHandler)(void);
 
 /**
  Shows the progress view on the current top-most view.

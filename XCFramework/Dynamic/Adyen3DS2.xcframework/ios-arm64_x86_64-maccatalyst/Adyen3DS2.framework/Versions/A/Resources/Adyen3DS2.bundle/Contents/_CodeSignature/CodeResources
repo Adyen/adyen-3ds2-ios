@@ -46,11 +46,11 @@
 		</data>
 		<key>Resources/Cartes Bancaire Encryption.der</key>
 		<data>
-		32tLMpTd3md+3H3fHKj5jenRIkQ=
+		BYQTKeBJ7m5DYARFgRXUwXp+5dk=
 		</data>
 		<key>Resources/Cartes Bancaire Encryption.der.sha256</key>
 		<data>
-		eu61vbQ7w9AV73PxEugCq8PVcRY=
+		EthF3kG7hbRcFzBffo34hzLerZk=
 		</data>
 		<key>Resources/ELO Encryption.der</key>
 		<data>
@@ -257,22 +257,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			32tLMpTd3md+3H3fHKj5jenRIkQ=
+			BYQTKeBJ7m5DYARFgRXUwXp+5dk=
 			</data>
 			<key>hash2</key>
 			<data>
-			PpErTjNEcVdiGH+2Km3VtCHcfEAhS3mJhn5s1FluXGA=
+			i6FRA9iU+HES3f9qBsWQJt/2u+2JtE99jMpR2ycgEfo=
 			</data>
 		</dict>
 		<key>Resources/Cartes Bancaire Encryption.der.sha256</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eu61vbQ7w9AV73PxEugCq8PVcRY=
+			EthF3kG7hbRcFzBffo34hzLerZk=
 			</data>
 			<key>hash2</key>
 			<data>
-			qU4xh5wi/ajj39lrxi5PpACUUtJwLW3NCCK6GlASl30=
+			09lmYUHA7wku11A9xmxVUUh8pQSx3BB9+5Ji8/wfyqs=
 			</data>
 		</dict>
 		<key>Resources/ELO Encryption.der</key>
