@@ -6,7 +6,8 @@ import PackageDescription
 let package = Package(
     name: "Adyen3DS2",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v10),
+        .macOS(.v10_15)
     ],
     products: [
         .library(
