@@ -50,6 +50,7 @@ Then, use the class method on `ADYService` to create a new service. This service
 ADYServiceParameters *parameters = [ADYServiceParameters new];
 [parameters setDirectoryServerIdentifier:...]; // Retrieved from Adyen.
 [parameters setDirectoryServerPublicKey:...]; // Retrieved from Adyen.
+[parameters setDirectoryServerRootCertificates:...]; // Retrieved from Adyen.
 
 [ADYService serviceWithParameters:parameters appearanceConfiguration:nil completionHandler:^(ADYService *service) {
     NSError *error = nil;
