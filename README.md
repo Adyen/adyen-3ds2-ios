@@ -17,16 +17,15 @@ The SDK is available via [CocoaPods](http://cocoapods.org), [Carthage](https://g
 2. Run `carthage update`.
 3. Link the framework with your target as described in [Carthage Readme](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application).
 
-### Dynamic Framework
+### Dynamic xcFramework
 
-Drag the dynamic `Adyen3DS2.framework` to the `Embedded Binaries` section in your general target settings. Select "Copy items if needed" when asked.
+Drag the dynamic `XCFramework/Dynamic/Adyen3DS2.xcframework` to the `Frameworks, Libraries, and Embedded Content` section in your general target settings. Select "Copy items if needed" when asked.
 
-### Static Framework
+### Static xcFramework
 
-1. In Xcode, select "File" and then "Add Files to...".
-2. Select the static `Adyen3DS2.framework` and check "Copy items if needed", then select "Add".
-3. In Xcode, select "File" and then "Add Files to...".
-4. Select `Adyen3DS2.bundle` inside `Adyen3DS2.framework` and check "Copy items if needed", then select "Add".
+1. Drag the static `XCFramework/Static/Adyen3DS2.xcframework` to the `Frameworks, Libraries, and Embedded Content` section in your general target settings.
+2. Make sure the static `Adyen3DS2.xcframework` is not embedded.
+3. Select `Adyen3DS2.bundle` inside `Adyen3DS2.xcframework` and check "Copy items if needed", then select "Add".
 
 ### Swift Package Manager
 
@@ -84,6 +83,8 @@ ADYChallengeParameters *parameters = [ADYChallengeParameters challengeParameters
                                                                                              ACSReferenceNumber:additionalData[@"threeds2.threeDS2ResponseData.acsReferenceNumber"]
                                                                                                ACSSignedContent:additionalData[@"threeds2.threeDS2ResponseData.acsSignedContent"]];
 ```
+
+:warning: _Because of recent updates to the 3D Secure protocol, we strongly recommend that you provide the `threeDSRequestorAppURL` parameter as a [universal link](https://developer.apple.com/documentation/xcode/allowing-apps-and-websites-to-link-to-your-content?language=objc)._
 
 Use these challenge parameters to perform the challenge with the `transaction` you created earlier:
 ```objc
