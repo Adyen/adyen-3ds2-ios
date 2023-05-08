@@ -1,0 +1,36 @@
+name: Deploy Docs
+on: [workflow_dispatch]
+
+jobs:
+
+  Deploy:
+    runs-on: macos-12
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@v2
+    - uses: n1hility/cancel-previous-runs@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Select latest Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: latest-stable
+
+    - name: Set current marketing version
+      run: echo "::set-output name=MARKETING_VERSION::$(cat Adyen3DS2.podspec | sed -n "s/version.*=.*\'\(.*\)\'/\1/p")"
+      id: get-current-marketing-version
+
+    - name: Deploy to current version 🚀
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./Documentation/html
+        destination_dir: ./${{ steps.get-current-marketing-version.outputs.MARKETING_VERSION }}
+    - name: Deploy to root 🚀
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./Documentation/redirect
+        keep_files: true
