@@ -38,7 +38,7 @@ targets:
         INFOPLIST_FILE: Source/UIKit/Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: com.adyen.$PROJECT_NAME
     dependencies:
-      - framework: Carthage/Checkouts/adyen-3ds2-ios/XCFramework/Dynamic/Adyen3DS2.xcframework
+      - framework: Carthage/Build/Adyen3DS2.xcframework
         embed: true
         codeSign: true
   Tests:
