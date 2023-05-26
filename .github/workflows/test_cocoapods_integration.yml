@@ -31,4 +31,4 @@ jobs:
 
     - name: Test Cocoapods Integration
       run: |
-        .github/Scripts/workflows/test-CocoaPods-integration.sh
+        .github/workflows/Scripts/test-CocoaPods-integration.sh

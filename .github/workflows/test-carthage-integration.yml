@@ -34,4 +34,4 @@ jobs:
         GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         carthage version
-        .github/Scripts/workflows/Scripts/test-carthage-integration.sh
+        .github/workflows/Scripts/test-carthage-integration.sh

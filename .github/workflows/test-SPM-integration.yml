@@ -25,4 +25,4 @@ jobs:
 
     - name: Test Swift Package Manager Integration
       run: |
-        .github/Scripts/workflows/Scripts/test-SPM-integration.sh
+        .github/workflows/Scripts/test-SPM-integration.sh
