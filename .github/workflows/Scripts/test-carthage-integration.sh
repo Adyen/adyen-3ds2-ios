@@ -88,8 +88,8 @@ schemes:
 
 mkdir -p Tests
 mkdir -p Source
-cp "../ContentView.swift" Source/ContentView.swift
-cp "../ThreeDS2TestApp.swift" Source/ThreeDS2TestApp.swift
+cp "./.github/workflows/ContentView.swift" Source/ContentView.swift
+cp "./.github/workflows/ThreeDS2TestApp.swift" Source/ThreeDS2TestApp.swift
 
 xcodegen generate
 
