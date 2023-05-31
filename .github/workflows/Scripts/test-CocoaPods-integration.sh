@@ -1,9 +1,5 @@
 #!/bin/bash
 
-function print_help {
-  echo "Test CocoaPods Integration"
-}
-
 set -e # Any subsequent(*) commands which fail will cause the shell script to exit immediately
 
 PROJECT_NAME=TempProject
