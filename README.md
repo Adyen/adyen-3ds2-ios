@@ -78,7 +78,7 @@ In case a challenge is required, create an instance of `ADYChallengeParameters` 
 ```objc
 NSDictionary *additionalData = ...; // Retrieved from Adyen.
 ADYChallengeParameters *parameters = [ADYChallengeParameters challengeParametersWithServerTransactionIdentifier:additionalData[@"threeds2.threeDS2ResponseData.threeDSServerTransID"]
-                                                                                         threeDSRequestorAppURL:[NSURL URLWithString:@"{YOUR_CUSTOM_APP_URL}"] // Or nil if for example you're using protocol version 2.1.0
+                                                                                         threeDSRequestorAppURL:[NSURL URLWithString:@"{YOUR_APP_URL}"] // Or nil if for example you're using protocol version 2.1.0
                                                                                        ACSTransactionIdentifier:additionalData[@"threeds2.threeDS2ResponseData.acsTransID"]
                                                                                              ACSReferenceNumber:additionalData[@"threeds2.threeDS2ResponseData.acsReferenceNumber"]
                                                                                                ACSSignedContent:additionalData[@"threeds2.threeDS2ResponseData.acsSignedContent"]];
@@ -92,8 +92,22 @@ Use these challenge parameters to perform the challenge with the `transaction` y
     if (result) {
         NSString *transactionStatus = [result transactionStatus];
         // Submit the transactionStatus to /authorise3ds2.
-    } else {
+    } else if (error) {
         // An error occurred.
+        
+        // collect the error context information
+        NSString *serverTransactionIdentifier = [[error userInfo] valueForKey:ADYProtocolErrorServerTransactionIdentifierKey];
+        NSString *acsTransactionIdentifier = [[error userInfo] valueForKey:ADYProtocolErrorACSTransactionIdentifierKey];
+        NSString *sdkTransactionIdentifier = [[error userInfo] valueForKey:ADYProtocolErrorSDKTransactionIdentifierKey];
+        NSString *errorDetails = [[error userInfo] valueForKey:ADYProtocolErrorDetailKey];
+        NSString *errorDomain = [[error userInfo] valueForKey:ADYProtocolErrorDomain];
+        NSString *errorLocalizedDescription = [[error userInfo] valueForKey:NSLocalizedDescriptionKey];
+        
+        // report the error along with the context
+        .
+        .
+    } else {
+        // Should never happen
     }
 }];
 ```
@@ -130,7 +144,7 @@ let threeDS2SDKVersion = ADY3DS2SDKVersion()
 
  * [Complete Documentation](https://docs.adyen.com/classic-integration/3d-secure-2-classic-integration/ios-sdk-integration/)
 
- * [SDK Reference](https://adyen.github.io/adyen-3ds2-ios/Docs/index.html)
+ * [SDK Reference](https://adyen.github.io/adyen-3ds2-ios/)
  * [Reporting security issues](https://www.adyen.help/hc/en-us/articles/115001187330-How-do-I-report-a-possible-security-issue-to-Adyen-).
  * [Security best practices](https://docs.adyen.com/online-payments/classic-integrations/api-integration-ecommerce/3d-secure/native-3ds2/ios-sdk-integration/security-best-practices).
  * [Data security at Adyen](https://docs.adyen.com/development-resources/adyen-data-security).
