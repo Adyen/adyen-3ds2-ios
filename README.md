@@ -58,12 +58,13 @@ ADYServiceParameters *parameters = [ADYServiceParameters new];
         ADYAuthenticationRequestParameters *authenticationRequestParameters = [transaction authenticationRequestParameters];
         // Submit the authenticationRequestParameters to /authorise3ds2.
     } else {
-        // An error occurred.
+        NSString *errorRepresentation = [error base64Representation];
+        // Submit `errorRepresentation` to [Adyen backend](https://docs.adyen.com/api-explorer/Payment/64/post/authorise3ds2).
     }
 }];
 ```
 
-Use the `transaction`'s `authenticationRequestParameters` in your call to `/authorise3ds2`.
+Use the `transaction`'s `authenticationRequestParameters` in your call to [Adyen backend](https://docs.adyen.com/api-explorer/Payment/64/post/authorise3ds2).
 
 :warning: _`[ADYService transactionWithMessageVersion:error:]` requires the message version to be passed, please fill in the same message version as in the AReq, you should be able to get the message version decided by the 3DS server from its response when initiating the payment, if you use the Adyen 3DS server please see [the documentation](https://docs.adyen.com/api-explorer/#/Payment/v64/post/authorise__reqParam_threeDS2RequestData-messageVersion)._
 
@@ -73,7 +74,7 @@ Use the `transaction`'s `authenticationRequestParameters` in your call to `/auth
 
 ### Performing a challenge
 
-In case a challenge is required, create an instance of `ADYChallengeParameters` with values from the additional data retrieved from your call to `/authorise3ds2`.
+In case a challenge is required, create an instance of `ADYChallengeParameters` with values from the additional data retrieved from your call to [Adyen backend](https://docs.adyen.com/api-explorer/Payment/64/post/authorise3ds2).
 
 ```objc
 NSDictionary *additionalData = ...; // Retrieved from Adyen.
@@ -95,24 +96,25 @@ Use these challenge parameters to perform the challenge with the `transaction` y
     } else if (error) {
         // An error occurred.
         
-        // collect the error context information
-        NSString *serverTransactionIdentifier = [[error userInfo] valueForKey:ADYProtocolErrorServerTransactionIdentifierKey];
-        NSString *acsTransactionIdentifier = [[error userInfo] valueForKey:ADYProtocolErrorACSTransactionIdentifierKey];
-        NSString *sdkTransactionIdentifier = [[error userInfo] valueForKey:ADYProtocolErrorSDKTransactionIdentifierKey];
-        NSString *errorDetails = [[error userInfo] valueForKey:ADYProtocolErrorDetailKey];
-        NSString *errorDomain = [[error userInfo] valueForKey:ADYProtocolErrorDomain];
-        NSString *errorLocalizedDescription = [[error userInfo] valueForKey:NSLocalizedDescriptionKey];
+        // collect the error context information if available
+        NSString* _Nullable serverTransactionIdentifier = [[error userInfo] valueForKey:ADYProtocolErrorServerTransactionIdentifierKey];
+        NSString* _Nullable acsTransactionIdentifier = [[error userInfo] valueForKey:ADYProtocolErrorACSTransactionIdentifierKey];
+        NSString* _Nullable sdkTransactionIdentifier = [[error userInfo] valueForKey:ADYProtocolErrorSDKTransactionIdentifierKey];
+        NSString* _Nullable errorDetails = [[error userInfo] valueForKey:ADYProtocolErrorDetailKey];
+        NSString* _Nullable errorDomain = [[error userInfo] valueForKey:ADYProtocolErrorDomain];
+        NSString* _Nullable errorLocalizedDescription = [[error userInfo] valueForKey:NSLocalizedDescriptionKey];
         
-        // report the error along with the context
-        .
-        .
+        NSString *errorRepresentation = [error base64Representation];
+        // Submit `errorRepresentation` to [Adyen backend](https://docs.adyen.com/api-explorer/Payment/64/post/authorise3ds2)
+
+        // Submit the transactionStatus = "U" to [Adyen backend](https://docs.adyen.com/api-explorer/Payment/64/post/authorise3ds2).
     } else {
         // Should never happen
     }
 }];
 ```
 
-When the challenge is completed successfully, submit the `transactionStatus` in the `result` in your second call to `/authorise3ds2`.
+When the challenge is completed successfully, submit the `transactionStatus` in the `result` in your second call to [Adyen backend](https://docs.adyen.com/api-explorer/Payment/64/post/authorise3ds2).
 
 ### Customizing the UI
 

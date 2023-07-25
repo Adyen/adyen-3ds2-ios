@@ -82,7 +82,7 @@
 		</data>
 		<key>Adyen3DS2.bundle/Info.plist</key>
 		<data>
-		/GDKJVWxRwvYqU2CaeiWTb3EwgU=
+		xnzSit3wgC8qsdYNdIZuOJW4dP8=
 		</data>
 		<key>Adyen3DS2.bundle/JCB Encryption.der</key>
 		<data>
@@ -144,26 +144,6 @@
 		<data>
 		3Uyy/Ylq3YBLfNRqnb/2aM2Y63A=
 		</data>
-		<key>Adyen3DS2.bundle/_CodeSignature/CodeDirectory</key>
-		<data>
-		y++JVQ6oFCcGhnEa+rJmADtZ0Lg=
-		</data>
-		<key>Adyen3DS2.bundle/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>Adyen3DS2.bundle/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		kKO5tYjSOXkGRmFTA56hF+xQYHE=
-		</data>
-		<key>Adyen3DS2.bundle/_CodeSignature/CodeResources</key>
-		<data>
-		/0IS1nAvaZ1XB/d7xgs304jcuNI=
-		</data>
-		<key>Adyen3DS2.bundle/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
 		<key>Adyen3DS2.bundle/eftpos_ds_public_key.der</key>
 		<data>
 		Z0xCzBXQ7TvOw2UEGuaIktPy7As=
@@ -198,7 +178,7 @@
 		</data>
 		<key>Headers/ADYChallengeResult.h</key>
 		<data>
-		nMNO0scROLVLzHDawWew5M6Zlwk=
+		Q7ZvdGXO8xCQhKJIoJbStLtpcMU=
 		</data>
 		<key>Headers/ADYInfoAppearance.h</key>
 		<data>
@@ -214,7 +194,7 @@
 		</data>
 		<key>Headers/ADYProgressView.h</key>
 		<data>
-		UNvE8s7U7B1NbUXBxYD34lCufDg=
+		bhILrMEGl2yGmlgqxy8l66Yzbo8=
 		</data>
 		<key>Headers/ADYProtocolError.h</key>
 		<data>
@@ -242,7 +222,7 @@
 		</data>
 		<key>Headers/ADYSwitchAppearance.h</key>
 		<data>
-		L8j0aCUrd2LlN1BsuMfQunCajRU=
+		N9//5Eb634+xbLMaNzY4L39QJaE=
 		</data>
 		<key>Headers/ADYTextFieldAppearance.h</key>
 		<data>
@@ -258,11 +238,15 @@
 		</data>
 		<key>Headers/Adyen3DS2.h</key>
 		<data>
-		LPv2uSH68D9z+FQkW+rMfoRgw80=
+		sGok99f6EN25s8y1ab9LD/XOyMs=
+		</data>
+		<key>Headers/NSError+Public.h</key>
+		<data>
+		iQfT0nW2HNAxUvogFxBuxYNBM+Q=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BanLB9ONeragIhAP1cwYrTWM7kE=
+		M8zZlZ8KRLt/SI8wn/3Xo1VUAlo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -484,11 +468,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/GDKJVWxRwvYqU2CaeiWTb3EwgU=
+			xnzSit3wgC8qsdYNdIZuOJW4dP8=
 			</data>
 			<key>hash2</key>
 			<data>
-			EV0GR6och9P81oH/w/2VO8uYUdUHHcIRadNprhtU5nE=
+			drpQsE2Qsx2h3rpL7FEFRuEw0H1ZL+b6jjx6MjRPHiQ=
 			</data>
 		</dict>
 		<key>Adyen3DS2.bundle/JCB Encryption.der</key>
@@ -656,61 +640,6 @@
 			Gc7+6ePdBjnMK//MaDa+MRuafjR0ML7fhyMtsrrPtfc=
 			</data>
 		</dict>
-		<key>Adyen3DS2.bundle/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			y++JVQ6oFCcGhnEa+rJmADtZ0Lg=
-			</data>
-			<key>hash2</key>
-			<data>
-			KGTSUBr4drMJINnuDSpknG9U33hTuUjPo3pcTKhyX4M=
-			</data>
-		</dict>
-		<key>Adyen3DS2.bundle/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OnX22wWFKRSOFN1+obRynMCeyXM=
-			</data>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>Adyen3DS2.bundle/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kKO5tYjSOXkGRmFTA56hF+xQYHE=
-			</data>
-			<key>hash2</key>
-			<data>
-			CtbW5ORsPzmethtI91SANyZxvm86rK02eOFnSG0ZO4s=
-			</data>
-		</dict>
-		<key>Adyen3DS2.bundle/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/0IS1nAvaZ1XB/d7xgs304jcuNI=
-			</data>
-			<key>hash2</key>
-			<data>
-			rQjcvkUb1v3WGVizrUtQYRhUyuCn77vgcu4REZHXiR8=
-			</data>
-		</dict>
-		<key>Adyen3DS2.bundle/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-			</data>
-		</dict>
 		<key>Adyen3DS2.bundle/eftpos_ds_public_key.der</key>
 		<dict>
 			<key>hash</key>
@@ -803,11 +732,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nMNO0scROLVLzHDawWew5M6Zlwk=
+			Q7ZvdGXO8xCQhKJIoJbStLtpcMU=
 			</data>
 			<key>hash2</key>
 			<data>
-			MciO0xKtFtig9/RxYI7v8RXJM42aMgMUqPUD+VwjmqI=
+			3Qk026dAEEqjRYg+Z61zEIXHvFyftJiULbK7zW5eaPM=
 			</data>
 		</dict>
 		<key>Headers/ADYInfoAppearance.h</key>
@@ -847,11 +776,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UNvE8s7U7B1NbUXBxYD34lCufDg=
+			bhILrMEGl2yGmlgqxy8l66Yzbo8=
 			</data>
 			<key>hash2</key>
 			<data>
-			a5BlCZT+VVgAXIHaWp+ZZhqR0dl087TnlZKU7YDC/60=
+			6HQZv+V7/MaqvVFW/6YAmb9sv4QIdWZPF0NRsK3WUQw=
 			</data>
 		</dict>
 		<key>Headers/ADYProtocolError.h</key>
@@ -924,11 +853,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L8j0aCUrd2LlN1BsuMfQunCajRU=
+			N9//5Eb634+xbLMaNzY4L39QJaE=
 			</data>
 			<key>hash2</key>
 			<data>
-			3biWHweWJAMCmz4t3z7YKstIYGyEhcvtjsJmiJYHfg8=
+			zmRQ67XCJC42ggkXe7QCDJW3eJRMkH9EIPv6opahHqU=
 			</data>
 		</dict>
 		<key>Headers/ADYTextFieldAppearance.h</key>
@@ -968,11 +897,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LPv2uSH68D9z+FQkW+rMfoRgw80=
+			sGok99f6EN25s8y1ab9LD/XOyMs=
 			</data>
 			<key>hash2</key>
 			<data>
-			de6sI42cYY/m9yH8VuwoutIMAUpTdSruoS/ISiJAMQA=
+			jbxeX/VfQfPS207uqzAb012aeBfZ/huSaiXD2RjNwpw=
+			</data>
+		</dict>
+		<key>Headers/NSError+Public.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iQfT0nW2HNAxUvogFxBuxYNBM+Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			KMzlJscJsC2zTy5HAFakuueiJZ1sACSISGviNlBEdCI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -18,8 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  A unique string identifying the transaction within the scope of the SDK.
+ - Warning: SDKTransactionIdentifier is deprecated and will be removed in future release. If you need this [reach out to us](https://github.com/Adyen/adyen-3ds2-ios/issues). 
  */
-@property (nonatomic, copy, readonly) NSString *SDKTransactionIdentifier;
+@property (nonatomic, copy, readonly) NSString *SDKTransactionIdentifier __attribute__((deprecated("Will be removed in a future release.")));
 
 /**
  The final transaction status.
