@@ -9,6 +9,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ Contains properties to customize the appearance of switch items.
+ */
 @interface ADYSwitchAppearance : ADYAppearance <NSCopying>
 
 /**
