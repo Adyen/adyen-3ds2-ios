@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Adyen3DS2.bundle/Contents/Info.plist</key>
 		<data>
-		xwRgIXWqV5uR9tfS1xlvP/0uhCs=
+		xCPMSgRkAH9xsp14B/Vk0KsI6j8=
 		</data>
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/AccordionItemIcon.png</key>
 		<data>
@@ -32,46 +32,6 @@
 		<data>
 		iC0p7JFGzUSJUaWYHtug/d9+m3U=
 		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/American Express Encryption.der</key>
-		<data>
-		3s2qifExLGdjFyLvb62McxoLCXs=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/American Express Encryption.der.sha256</key>
-		<data>
-		ccKL2hjEc3idPdd6e9pFjWZoUHI=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/CUP Encryption.der</key>
-		<data>
-		WNz4pDGxnrKq8ES64QsTBJiBSR4=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/CUP Encryption.der.sha256</key>
-		<data>
-		FzQvTmewNXTGzJEkELGKO333qIs=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/Cartes Bancaire Encryption.der</key>
-		<data>
-		BYQTKeBJ7m5DYARFgRXUwXp+5dk=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/Cartes Bancaire Encryption.der.sha256</key>
-		<data>
-		EthF3kG7hbRcFzBffo34hzLerZk=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/ELO Encryption.der</key>
-		<data>
-		ICksQtbBlyCTT7UkbDLdY0UKijE=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/ELO Encryption.der.sha256</key>
-		<data>
-		4uBEkLlzbVqY2NxMaT/+8uB5ih4=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/ELO-protect-buy-Encryption.der</key>
-		<data>
-		cvYOpgt/1zj9K5wWplmucdb0No4=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/ELO-protect-buy-Encryption.der.sha256</key>
-		<data>
-		/ONLZf/W7FPcE04T7oQmXbd8tOY=
-		</data>
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/ErrorIndicator.png</key>
 		<data>
 		XjVrSQEGsQ/Af7W1y1wlSp/Na70=
@@ -83,22 +43,6 @@
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/ErrorIndicator@3x.png</key>
 		<data>
 		9OzpTDQI5Xnp3nSOvrLfQ2CmKV4=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/JCB Encryption.der</key>
-		<data>
-		BB5Aizfw24J5VlfA+e2c97Bj2fQ=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/JCB Encryption.der.sha256</key>
-		<data>
-		khnKriKb1Km2B4+JrNCfGrngtQQ=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/MasterCard Encryption.der</key>
-		<data>
-		kaJugDb4JuM+xy2ttFcIKu5yEF0=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/MasterCard Encryption.der.sha256</key>
-		<data>
-		I7iPw8gV7sogmEibaY1aQehHDqM=
 		</data>
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/MultiSelectionIndicator.png</key>
 		<data>
@@ -136,25 +80,17 @@
 		<data>
 		L5yURs3xLNNqCnDTXzGytRBCAcY=
 		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/Visa Encryption.der</key>
+		<key>Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash</key>
 		<data>
-		CUyoRaOV8SHe0sDeJWJxSsbC0pY=
+		C9UW66GWxnj5UDpqerpqEQh32RM=
 		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/Visa Encryption.der.sha256</key>
+		<key>Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash.sha256</key>
 		<data>
-		3Uyy/Ylq3YBLfNRqnb/2aM2Y63A=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/eftpos_ds_public_key.der</key>
-		<data>
-		Z0xCzBXQ7TvOw2UEGuaIktPy7As=
-		</data>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/eftpos_ds_public_key.der.sha256</key>
-		<data>
-		BSXnQUmqUSWYMd3T203UVrt3n+w=
+		x7Tem2oqVuVyU8e8lgRMvl6Oq5Q=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		sxJaEgYKV2fiy/XL3mFY3xgTTSs=
+		KEljwcVSgLWTcyR27EEFcAMIwJY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -275,7 +211,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A82rlHvqUGAeQE5FH3t9AsWyEV+DJiMWckPl0qV8Lso=
+			eAHqPN3RUbn6eVJBf3n4kGFOxPqVm4xJW/CTAPKpCK8=
 			</data>
 		</dict>
 		<key>Headers/ADYSwitchAppearance.h</key>
@@ -331,7 +267,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ScluHj0k8NgVG+fc1LNjYDM+BcaVxKD9uoPvIv1E/hM=
+			Di8NDL1uqLXbqfLJytJGWh0whx+G2Npnd6NjEUKqV8I=
 			</data>
 		</dict>
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/AccordionItemIcon.png</key>
@@ -376,76 +312,6 @@
 			HXBBpU5aRt/mSLcAGBC83dJfEmqxi2rkbIu6R2zopMY=
 			</data>
 		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/American Express Encryption.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2MzUEMSPRv/EPSekgMOw5oCQL+iagz1oIx37B0nr9zQ=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/American Express Encryption.der.sha256</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			M3ZqjgHTuYGLsN7+Nyms1+li+RWwNPi11sIQ6lBVUh8=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/CUP Encryption.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			s/yPIxcRwh5ZVEUpYqE9vlL0z4jaz4qgZJMVzgFw534=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/CUP Encryption.der.sha256</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dnm/NCUd7ZBNZl23YieLrSxJaTLpI8rf1fGs3LyUOhE=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/Cartes Bancaire Encryption.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			i6FRA9iU+HES3f9qBsWQJt/2u+2JtE99jMpR2ycgEfo=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/Cartes Bancaire Encryption.der.sha256</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			09lmYUHA7wku11A9xmxVUUh8pQSx3BB9+5Ji8/wfyqs=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/ELO Encryption.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OANN7HsDhl2k/WGeq1pdE0XOtSU6aRiN6/jel9U3Vfg=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/ELO Encryption.der.sha256</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kL6J/d6IoyabRdhn+Gtu+PfTSjWwmQhx+Iaw1geAQ0g=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/ELO-protect-buy-Encryption.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dIspwgELUdH9fNAVNZJlnIklzu/5ZdfAIZKBQEVt4tA=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/ELO-protect-buy-Encryption.der.sha256</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			c2q6c96RP7vnlpv+UZp0YdSCJCEKxzWNPfMNgejl4G8=
-			</data>
-		</dict>
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/ErrorIndicator.png</key>
 		<dict>
 			<key>hash2</key>
@@ -465,34 +331,6 @@
 			<key>hash2</key>
 			<data>
 			5tb6ZXN76w+E/ZcGiM5zG20EZotuZS56tPLPRyXwoYM=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/JCB Encryption.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wmhtjktf1/nI10S3kkFAMwWql/Shibm+UJD2LK3TjpQ=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/JCB Encryption.der.sha256</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tl4TuzeyDnCYXlf2bnLCaTZaZVTp4CVkaw0+mWag89o=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/MasterCard Encryption.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9qstQk0WWQewjhrwLeb0ob5R0pJpjkhKQMPRrnCn32s=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/MasterCard Encryption.der.sha256</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			iO21NoWdNQTvPuoTg1U9dx+zISjDeWLcokltldCq6Qc=
 			</data>
 		</dict>
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/MultiSelectionIndicator.png</key>
@@ -558,39 +396,25 @@
 			xPHTUmM5ryx/7DcnZXPH2OMtHMZ9x0Ixvb4SlYuIWkE=
 			</data>
 		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/Visa Encryption.der</key>
+		<key>Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zPqjEa25PXeZ8KAk/ss/Vhuby/uKxaFzP+KDIogxhYs=
+			RlTtNzFGvGcuqsTd2tr00rfyYPfDKvgrd2F95KKdhEc=
 			</data>
 		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/Visa Encryption.der.sha256</key>
+		<key>Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash.sha256</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gc7+6ePdBjnMK//MaDa+MRuafjR0ML7fhyMtsrrPtfc=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/eftpos_ds_public_key.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			duwpTIjHCZNzNhsDGEqTSbQzLOkd7jFT+Kdk4TImNao=
-			</data>
-		</dict>
-		<key>Resources/Adyen3DS2.bundle/Contents/Resources/eftpos_ds_public_key.der.sha256</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3uZwQzZmL9ciA4b0AKR/W0k1tlOiB1J/AZ2+qoH+ECE=
+			Fb3ibbRX2FtejGvqjnHheJmt4a9VMAQJlTZUZjMSZhE=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2iaxZ7fW4UDtC+uttqz8CfvxJIU2w3qxf2OLw83/o6U=
+			+bXaf9aA6NnOVHd9HGXLfYdVv62T+vZUCKe9663tVWQ=
 			</data>
 		</dict>
 	</dict>

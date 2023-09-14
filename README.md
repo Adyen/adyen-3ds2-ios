@@ -46,10 +46,9 @@ https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_y
 First, create an instance of `ADYServiceParameters` with the additional data retrieved from your call to `/authorise`.
 Then, use the class method on `ADYService` to create a new service. This service can be used to create a new transaction.
 ```objc
-ADYServiceParameters *parameters = [ADYServiceParameters new];
-[parameters setDirectoryServerIdentifier:...]; // Retrieved from Adyen.
-[parameters setDirectoryServerPublicKey:...]; // Retrieved from Adyen.
-[parameters setDirectoryServerRootCertificates:...]; // Retrieved from Adyen.
+ADYServiceParameters *copy = [[ADYServiceParameters alloc] initWithDirectoryServerIdentifier:... // Retrieved from Adyen.
+                                                                    directoryServerPublicKey:... // Retrieved from Adyen.
+                                                             directoryServerRootCertificates:...]; // Retrieved from Adyen.
 
 [ADYService serviceWithParameters:parameters appearanceConfiguration:nil completionHandler:^(ADYService *service) {
     NSError *error = nil;
