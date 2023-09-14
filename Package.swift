@@ -12,12 +12,14 @@ let package = Package(
     products: [
         .library(
             name: "Adyen3DS2",
-            targets: ["Adyen3DS2"])
+            targets: ["Adyen3DS2"]
+        )
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
             name: "Adyen3DS2",
-            path: "XCFramework/Dynamic/Adyen3DS2.xcframework")
+            path: "XCFramework/Dynamic/Adyen3DS2.xcframework"
+        )
     ]
 )

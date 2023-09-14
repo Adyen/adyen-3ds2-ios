@@ -18,28 +18,22 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  The identifier of the directory server to use during the transaction creation phase.
- 
- Usage of this property is optional.
  */
-@property (nonatomic, copy, readwrite, nullable) NSString *directoryServerIdentifier;
+@property (nonatomic, copy, readwrite, nullable) NSString *directoryServerIdentifier __attribute__((deprecated("Use initWithDirectoryServerIdentifier:directoryServerPublicKey:directoryServerRootCertificates instead. Will be removed in a future release.")));
 
 /**
  The public key of the directory server to use during the transaction creation phase.
  
  The value of this property should be a base64-encoded JSON Web Key.
- 
- Usage of this property is optional.
  */
-@property (nonatomic, copy, readwrite, nullable) NSString *directoryServerPublicKey;
+@property (nonatomic, copy, readwrite, nullable) NSString *directoryServerPublicKey __attribute__((deprecated("Use initWithDirectoryServerIdentifier:directoryServerPublicKey:directoryServerRootCertificates instead. Will be removed in a future release.")));
 
 /**
  The root certificates of the directory server to use during the transaction creation phase.
  
  The value of this property should be a JSON Web Signature compact serialization.
- 
- Usage of this property is optional.
  */
-@property (nonatomic, copy, readwrite, nullable) NSString *directoryServerRootCertificates;
+@property (nonatomic, copy, readwrite, nullable) NSString *directoryServerRootCertificates __attribute__((deprecated("Use initWithDirectoryServerIdentifier:directoryServerPublicKey:directoryServerRootCertificates instead. Will be removed in a future release.")));
 
 /**
  Returns the value associated with a given key in the default group.
@@ -90,6 +84,23 @@ NS_ASSUME_NONNULL_BEGIN
  @param group The group from which to remove the key and its associated value, or @p if the default group should be used.
  */
 - (void)removeValueForKey:(NSString *)key inGroup:(nullable NSString *)group;
+
+
+/**
+ A deprecated way to initialize `ADYServiceParameters`. Use `initWithDirectoryServerIdentifier:directoryServerPublicKey:directoryServerRootCertificates` instead.
+ */
+- (instancetype)init __attribute__((deprecated("Use initWithDirectoryServerIdentifier:directoryServerPublicKey:directoryServerRootCertificates instead. Will be removed in a future release.")));
+
+/**
+ Creates and returns an instance of `ADYServiceParameters`.
+
+ @param directoryServerIdentifier The identifier of the directory server to use during the transaction creation phase.
+ @param directoryServerPublicKey The public key of the directory server to use during the transaction creation phase. The value of this property should be a base64-encoded JSON Web Key.
+ @param directoryServerRootCertificates The root certificates of the directory server to use during the transaction creation phase. The value of this property should be a JSON Web Signature compact serialization.
+ */
+- (instancetype)initWithDirectoryServerIdentifier: (nonnull NSString*)directoryServerIdentifier
+                         directoryServerPublicKey: (nonnull NSString*)directoryServerPublicKey
+                  directoryServerRootCertificates: (nonnull NSString*)directoryServerRootCertificates;
 
 @end
 

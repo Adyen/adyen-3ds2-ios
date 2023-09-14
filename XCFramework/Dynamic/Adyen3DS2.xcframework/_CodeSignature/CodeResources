@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2</key>
 		<data>
-		R5aauGT17LxCKjO4wutHMAMySSs=
+		0dCPnFwNG2INZVfkXQj0/ahJ8/Q=
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIcon.png</key>
 		<data>
@@ -32,46 +32,6 @@
 		<data>
 		Wsq2dgTYDA41wlxYtUA3h67iqUE=
 		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/American Express Encryption.der</key>
-		<data>
-		3s2qifExLGdjFyLvb62McxoLCXs=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/American Express Encryption.der.sha256</key>
-		<data>
-		ccKL2hjEc3idPdd6e9pFjWZoUHI=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/CUP Encryption.der</key>
-		<data>
-		WNz4pDGxnrKq8ES64QsTBJiBSR4=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/CUP Encryption.der.sha256</key>
-		<data>
-		FzQvTmewNXTGzJEkELGKO333qIs=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/Cartes Bancaire Encryption.der</key>
-		<data>
-		BYQTKeBJ7m5DYARFgRXUwXp+5dk=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/Cartes Bancaire Encryption.der.sha256</key>
-		<data>
-		EthF3kG7hbRcFzBffo34hzLerZk=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/ELO Encryption.der</key>
-		<data>
-		ICksQtbBlyCTT7UkbDLdY0UKijE=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/ELO Encryption.der.sha256</key>
-		<data>
-		4uBEkLlzbVqY2NxMaT/+8uB5ih4=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/ELO-protect-buy-Encryption.der</key>
-		<data>
-		cvYOpgt/1zj9K5wWplmucdb0No4=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/ELO-protect-buy-Encryption.der.sha256</key>
-		<data>
-		/ONLZf/W7FPcE04T7oQmXbd8tOY=
-		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/ErrorIndicator.png</key>
 		<data>
 		939QYSrggYYQFlIuyJBEhtCdd40=
@@ -86,23 +46,7 @@
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/Info.plist</key>
 		<data>
-		ZiRoRd1Y+l5eAyp0gy+Y0Xvtn7k=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/JCB Encryption.der</key>
-		<data>
-		BB5Aizfw24J5VlfA+e2c97Bj2fQ=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/JCB Encryption.der.sha256</key>
-		<data>
-		khnKriKb1Km2B4+JrNCfGrngtQQ=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/MasterCard Encryption.der</key>
-		<data>
-		kaJugDb4JuM+xy2ttFcIKu5yEF0=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/MasterCard Encryption.der.sha256</key>
-		<data>
-		I7iPw8gV7sogmEibaY1aQehHDqM=
+		EiKbRzj4Ri5QZctDCnFws6WfpUU=
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
 		<data>
@@ -140,21 +84,13 @@
 		<data>
 		DWhITd/cNoUzJB7SOYysBo8CqD0=
 		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/Visa Encryption.der</key>
+		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash</key>
 		<data>
-		CUyoRaOV8SHe0sDeJWJxSsbC0pY=
+		C9UW66GWxnj5UDpqerpqEQh32RM=
 		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/Visa Encryption.der.sha256</key>
+		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash.sha256</key>
 		<data>
-		3Uyy/Ylq3YBLfNRqnb/2aM2Y63A=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/eftpos_ds_public_key.der</key>
-		<data>
-		Z0xCzBXQ7TvOw2UEGuaIktPy7As=
-		</data>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/eftpos_ds_public_key.der.sha256</key>
-		<data>
-		BSXnQUmqUSWYMd3T203UVrt3n+w=
+		x7Tem2oqVuVyU8e8lgRMvl6Oq5Q=
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYAppearance.h</key>
 		<data>
@@ -222,7 +158,7 @@
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYServiceParameters.h</key>
 		<data>
-		BpRyMiEwlPCLxhQp6OTPMOUm4rs=
+		kd8QJ/7WxA5NnGVOoN4AFwgAMuM=
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYSwitchAppearance.h</key>
 		<data>
@@ -250,7 +186,7 @@
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Info.plist</key>
 		<data>
-		EXHa9vF0Wu0iovvdCI0GxpjnT6g=
+		l/wEAu0Cr206aH/DfhI00bFiioQ=
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Modules/module.modulemap</key>
 		<data>
@@ -258,11 +194,11 @@
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/_CodeSignature/CodeResources</key>
 		<data>
-		BKIlof8kAYr40uo6tnZoaE4PW9Y=
+		oxb0meGDCU7DS6YVr/LEvb58Ias=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Adyen3DS2</key>
 		<data>
-		E1PPiM1Roa05Z3bWGjzhOisp/cA=
+		s2X2Dt+aOCFE54vapG3sHm0tO2k=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYAppearance.h</key>
 		<data>
@@ -330,7 +266,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYServiceParameters.h</key>
 		<data>
-		BpRyMiEwlPCLxhQp6OTPMOUm4rs=
+		kd8QJ/7WxA5NnGVOoN4AFwgAMuM=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYSwitchAppearance.h</key>
 		<data>
@@ -362,7 +298,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Info.plist</key>
 		<data>
-		xwRgIXWqV5uR9tfS1xlvP/0uhCs=
+		xCPMSgRkAH9xsp14B/Vk0KsI6j8=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/AccordionItemIcon.png</key>
 		<data>
@@ -388,46 +324,6 @@
 		<data>
 		iC0p7JFGzUSJUaWYHtug/d9+m3U=
 		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/American Express Encryption.der</key>
-		<data>
-		3s2qifExLGdjFyLvb62McxoLCXs=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/American Express Encryption.der.sha256</key>
-		<data>
-		ccKL2hjEc3idPdd6e9pFjWZoUHI=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/CUP Encryption.der</key>
-		<data>
-		WNz4pDGxnrKq8ES64QsTBJiBSR4=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/CUP Encryption.der.sha256</key>
-		<data>
-		FzQvTmewNXTGzJEkELGKO333qIs=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/Cartes Bancaire Encryption.der</key>
-		<data>
-		BYQTKeBJ7m5DYARFgRXUwXp+5dk=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/Cartes Bancaire Encryption.der.sha256</key>
-		<data>
-		EthF3kG7hbRcFzBffo34hzLerZk=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/ELO Encryption.der</key>
-		<data>
-		ICksQtbBlyCTT7UkbDLdY0UKijE=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/ELO Encryption.der.sha256</key>
-		<data>
-		4uBEkLlzbVqY2NxMaT/+8uB5ih4=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/ELO-protect-buy-Encryption.der</key>
-		<data>
-		cvYOpgt/1zj9K5wWplmucdb0No4=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/ELO-protect-buy-Encryption.der.sha256</key>
-		<data>
-		/ONLZf/W7FPcE04T7oQmXbd8tOY=
-		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/ErrorIndicator.png</key>
 		<data>
 		XjVrSQEGsQ/Af7W1y1wlSp/Na70=
@@ -439,22 +335,6 @@
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/ErrorIndicator@3x.png</key>
 		<data>
 		9OzpTDQI5Xnp3nSOvrLfQ2CmKV4=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/JCB Encryption.der</key>
-		<data>
-		BB5Aizfw24J5VlfA+e2c97Bj2fQ=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/JCB Encryption.der.sha256</key>
-		<data>
-		khnKriKb1Km2B4+JrNCfGrngtQQ=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/MasterCard Encryption.der</key>
-		<data>
-		kaJugDb4JuM+xy2ttFcIKu5yEF0=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/MasterCard Encryption.der.sha256</key>
-		<data>
-		I7iPw8gV7sogmEibaY1aQehHDqM=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/MultiSelectionIndicator.png</key>
 		<data>
@@ -492,33 +372,25 @@
 		<data>
 		L5yURs3xLNNqCnDTXzGytRBCAcY=
 		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/Visa Encryption.der</key>
+		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash</key>
 		<data>
-		CUyoRaOV8SHe0sDeJWJxSsbC0pY=
+		C9UW66GWxnj5UDpqerpqEQh32RM=
 		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/Visa Encryption.der.sha256</key>
+		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash.sha256</key>
 		<data>
-		3Uyy/Ylq3YBLfNRqnb/2aM2Y63A=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/eftpos_ds_public_key.der</key>
-		<data>
-		Z0xCzBXQ7TvOw2UEGuaIktPy7As=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/eftpos_ds_public_key.der.sha256</key>
-		<data>
-		BSXnQUmqUSWYMd3T203UVrt3n+w=
+		x7Tem2oqVuVyU8e8lgRMvl6Oq5Q=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		sxJaEgYKV2fiy/XL3mFY3xgTTSs=
+		KEljwcVSgLWTcyR27EEFcAMIwJY=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
-		IwTrEW1E6D+iydIrIiLJnzHhb/Y=
+		FH96Nrpm/DW6+H1txtREhuXCUVU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2</key>
 		<data>
-		D/NL9v4UmtmVRjKWp9eS+XWPniI=
+		ax5Shbi7An6rtRagzvrsMl0BBEA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIcon.png</key>
 		<data>
@@ -544,46 +416,6 @@
 		<data>
 		Wsq2dgTYDA41wlxYtUA3h67iqUE=
 		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/American Express Encryption.der</key>
-		<data>
-		3s2qifExLGdjFyLvb62McxoLCXs=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/American Express Encryption.der.sha256</key>
-		<data>
-		ccKL2hjEc3idPdd6e9pFjWZoUHI=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/CUP Encryption.der</key>
-		<data>
-		WNz4pDGxnrKq8ES64QsTBJiBSR4=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/CUP Encryption.der.sha256</key>
-		<data>
-		FzQvTmewNXTGzJEkELGKO333qIs=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/Cartes Bancaire Encryption.der</key>
-		<data>
-		BYQTKeBJ7m5DYARFgRXUwXp+5dk=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/Cartes Bancaire Encryption.der.sha256</key>
-		<data>
-		EthF3kG7hbRcFzBffo34hzLerZk=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/ELO Encryption.der</key>
-		<data>
-		ICksQtbBlyCTT7UkbDLdY0UKijE=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/ELO Encryption.der.sha256</key>
-		<data>
-		4uBEkLlzbVqY2NxMaT/+8uB5ih4=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/ELO-protect-buy-Encryption.der</key>
-		<data>
-		cvYOpgt/1zj9K5wWplmucdb0No4=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/ELO-protect-buy-Encryption.der.sha256</key>
-		<data>
-		/ONLZf/W7FPcE04T7oQmXbd8tOY=
-		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/ErrorIndicator.png</key>
 		<data>
 		939QYSrggYYQFlIuyJBEhtCdd40=
@@ -598,23 +430,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/Info.plist</key>
 		<data>
-		xnzSit3wgC8qsdYNdIZuOJW4dP8=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/JCB Encryption.der</key>
-		<data>
-		BB5Aizfw24J5VlfA+e2c97Bj2fQ=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/JCB Encryption.der.sha256</key>
-		<data>
-		khnKriKb1Km2B4+JrNCfGrngtQQ=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/MasterCard Encryption.der</key>
-		<data>
-		kaJugDb4JuM+xy2ttFcIKu5yEF0=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/MasterCard Encryption.der.sha256</key>
-		<data>
-		I7iPw8gV7sogmEibaY1aQehHDqM=
+		GR9Cfbsbdl0jVQqR1tII83YlJ6k=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
 		<data>
@@ -652,21 +468,13 @@
 		<data>
 		DWhITd/cNoUzJB7SOYysBo8CqD0=
 		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/Visa Encryption.der</key>
+		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash</key>
 		<data>
-		CUyoRaOV8SHe0sDeJWJxSsbC0pY=
+		C9UW66GWxnj5UDpqerpqEQh32RM=
 		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/Visa Encryption.der.sha256</key>
+		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash.sha256</key>
 		<data>
-		3Uyy/Ylq3YBLfNRqnb/2aM2Y63A=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/eftpos_ds_public_key.der</key>
-		<data>
-		Z0xCzBXQ7TvOw2UEGuaIktPy7As=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/eftpos_ds_public_key.der.sha256</key>
-		<data>
-		BSXnQUmqUSWYMd3T203UVrt3n+w=
+		x7Tem2oqVuVyU8e8lgRMvl6Oq5Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYAppearance.h</key>
 		<data>
@@ -734,7 +542,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYServiceParameters.h</key>
 		<data>
-		BpRyMiEwlPCLxhQp6OTPMOUm4rs=
+		kd8QJ/7WxA5NnGVOoN4AFwgAMuM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYSwitchAppearance.h</key>
 		<data>
@@ -762,7 +570,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Info.plist</key>
 		<data>
-		M8zZlZ8KRLt/SI8wn/3Xo1VUAlo=
+		Riz2OBWfeS5af9CDFpT9Lenpo04=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Modules/module.modulemap</key>
 		<data>
@@ -770,7 +578,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/_CodeSignature/CodeResources</key>
 		<data>
-		3r1i/vuGRhb5srPbqLP3cEhBKS8=
+		RMWFpy/xvJZnrg5Mejzl3LXftD0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -779,11 +587,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R5aauGT17LxCKjO4wutHMAMySSs=
+			0dCPnFwNG2INZVfkXQj0/ahJ8/Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			YLcqw+qC1zReTJ68r23wP/9PP8XIWvnFtFo170NvG+Q=
+			0dMXYL5nfiJcwKJyfgusjh5afWnMH6bzkESO+rvvnTM=
 			</data>
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIcon.png</key>
@@ -852,116 +660,6 @@
 			qgK0tgSXO1lGbsrWIO4EolZjTaPgd9t2RTDmqE2I1OA=
 			</data>
 		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/American Express Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3s2qifExLGdjFyLvb62McxoLCXs=
-			</data>
-			<key>hash2</key>
-			<data>
-			2MzUEMSPRv/EPSekgMOw5oCQL+iagz1oIx37B0nr9zQ=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/American Express Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ccKL2hjEc3idPdd6e9pFjWZoUHI=
-			</data>
-			<key>hash2</key>
-			<data>
-			M3ZqjgHTuYGLsN7+Nyms1+li+RWwNPi11sIQ6lBVUh8=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/CUP Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WNz4pDGxnrKq8ES64QsTBJiBSR4=
-			</data>
-			<key>hash2</key>
-			<data>
-			s/yPIxcRwh5ZVEUpYqE9vlL0z4jaz4qgZJMVzgFw534=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/CUP Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FzQvTmewNXTGzJEkELGKO333qIs=
-			</data>
-			<key>hash2</key>
-			<data>
-			dnm/NCUd7ZBNZl23YieLrSxJaTLpI8rf1fGs3LyUOhE=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/Cartes Bancaire Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BYQTKeBJ7m5DYARFgRXUwXp+5dk=
-			</data>
-			<key>hash2</key>
-			<data>
-			i6FRA9iU+HES3f9qBsWQJt/2u+2JtE99jMpR2ycgEfo=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/Cartes Bancaire Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EthF3kG7hbRcFzBffo34hzLerZk=
-			</data>
-			<key>hash2</key>
-			<data>
-			09lmYUHA7wku11A9xmxVUUh8pQSx3BB9+5Ji8/wfyqs=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/ELO Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ICksQtbBlyCTT7UkbDLdY0UKijE=
-			</data>
-			<key>hash2</key>
-			<data>
-			OANN7HsDhl2k/WGeq1pdE0XOtSU6aRiN6/jel9U3Vfg=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/ELO Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4uBEkLlzbVqY2NxMaT/+8uB5ih4=
-			</data>
-			<key>hash2</key>
-			<data>
-			kL6J/d6IoyabRdhn+Gtu+PfTSjWwmQhx+Iaw1geAQ0g=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/ELO-protect-buy-Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cvYOpgt/1zj9K5wWplmucdb0No4=
-			</data>
-			<key>hash2</key>
-			<data>
-			dIspwgELUdH9fNAVNZJlnIklzu/5ZdfAIZKBQEVt4tA=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/ELO-protect-buy-Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/ONLZf/W7FPcE04T7oQmXbd8tOY=
-			</data>
-			<key>hash2</key>
-			<data>
-			c2q6c96RP7vnlpv+UZp0YdSCJCEKxzWNPfMNgejl4G8=
-			</data>
-		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/ErrorIndicator.png</key>
 		<dict>
 			<key>hash</key>
@@ -999,55 +697,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZiRoRd1Y+l5eAyp0gy+Y0Xvtn7k=
+			EiKbRzj4Ri5QZctDCnFws6WfpUU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Cph6h2m7v7X2GoSilCMJCoMd1GpMh03l6IfdYZCv9eM=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/JCB Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BB5Aizfw24J5VlfA+e2c97Bj2fQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			wmhtjktf1/nI10S3kkFAMwWql/Shibm+UJD2LK3TjpQ=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/JCB Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			khnKriKb1Km2B4+JrNCfGrngtQQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			tl4TuzeyDnCYXlf2bnLCaTZaZVTp4CVkaw0+mWag89o=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/MasterCard Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kaJugDb4JuM+xy2ttFcIKu5yEF0=
-			</data>
-			<key>hash2</key>
-			<data>
-			9qstQk0WWQewjhrwLeb0ob5R0pJpjkhKQMPRrnCn32s=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/MasterCard Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			I7iPw8gV7sogmEibaY1aQehHDqM=
-			</data>
-			<key>hash2</key>
-			<data>
-			iO21NoWdNQTvPuoTg1U9dx+zISjDeWLcokltldCq6Qc=
+			tqRFKTUBi1ScZS5Poigxo4IxoNisjyxPSH5Z9Ww9bPI=
 			</data>
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
@@ -1149,48 +803,26 @@
 			u/AYnX/N89U2tkmsxlfVqxXzpGwfCVi2NCo7CBI7fz0=
 			</data>
 		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/Visa Encryption.der</key>
+		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CUyoRaOV8SHe0sDeJWJxSsbC0pY=
+			C9UW66GWxnj5UDpqerpqEQh32RM=
 			</data>
 			<key>hash2</key>
 			<data>
-			zPqjEa25PXeZ8KAk/ss/Vhuby/uKxaFzP+KDIogxhYs=
+			RlTtNzFGvGcuqsTd2tr00rfyYPfDKvgrd2F95KKdhEc=
 			</data>
 		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/Visa Encryption.der.sha256</key>
+		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash.sha256</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3Uyy/Ylq3YBLfNRqnb/2aM2Y63A=
+			x7Tem2oqVuVyU8e8lgRMvl6Oq5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gc7+6ePdBjnMK//MaDa+MRuafjR0ML7fhyMtsrrPtfc=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/eftpos_ds_public_key.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z0xCzBXQ7TvOw2UEGuaIktPy7As=
-			</data>
-			<key>hash2</key>
-			<data>
-			duwpTIjHCZNzNhsDGEqTSbQzLOkd7jFT+Kdk4TImNao=
-			</data>
-		</dict>
-		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/eftpos_ds_public_key.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BSXnQUmqUSWYMd3T203UVrt3n+w=
-			</data>
-			<key>hash2</key>
-			<data>
-			3uZwQzZmL9ciA4b0AKR/W0k1tlOiB1J/AZ2+qoH+ECE=
+			Fb3ibbRX2FtejGvqjnHheJmt4a9VMAQJlTZUZjMSZhE=
 			</data>
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYAppearance.h</key>
@@ -1373,11 +1005,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BpRyMiEwlPCLxhQp6OTPMOUm4rs=
+			kd8QJ/7WxA5NnGVOoN4AFwgAMuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			A82rlHvqUGAeQE5FH3t9AsWyEV+DJiMWckPl0qV8Lso=
+			eAHqPN3RUbn6eVJBf3n4kGFOxPqVm4xJW/CTAPKpCK8=
 			</data>
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYSwitchAppearance.h</key>
@@ -1450,11 +1082,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EXHa9vF0Wu0iovvdCI0GxpjnT6g=
+			l/wEAu0Cr206aH/DfhI00bFiioQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			YPSW4jwSA5BOkedvFQNuoiAudEebHohHZNdNlDz8Of8=
+			grC8ev/K4FhturLF7sS7PvtHYHD2MFz57HamFDR6AcM=
 			</data>
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Modules/module.modulemap</key>
@@ -1472,11 +1104,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BKIlof8kAYr40uo6tnZoaE4PW9Y=
+			oxb0meGDCU7DS6YVr/LEvb58Ias=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z1MEi/RPVAfyvgGmija4D7MAjkbyPgOJBnkc09gc9Io=
+			8FSPdQRPHjJvKfidok1e5bq9wA//YHzIYpLvatFo0i0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Adyen3DS2</key>
@@ -1503,11 +1135,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E1PPiM1Roa05Z3bWGjzhOisp/cA=
+			s2X2Dt+aOCFE54vapG3sHm0tO2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			s2kec6HMPmsBKM8/5rapsyQGLDs2kDthT6EQtJqPR7s=
+			SO9a6h9Tv5lUoXtuosC/JjV8zu/azjGbHwzlqqoZyc8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYAppearance.h</key>
@@ -1690,11 +1322,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BpRyMiEwlPCLxhQp6OTPMOUm4rs=
+			kd8QJ/7WxA5NnGVOoN4AFwgAMuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			A82rlHvqUGAeQE5FH3t9AsWyEV+DJiMWckPl0qV8Lso=
+			eAHqPN3RUbn6eVJBf3n4kGFOxPqVm4xJW/CTAPKpCK8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYSwitchAppearance.h</key>
@@ -1778,11 +1410,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xwRgIXWqV5uR9tfS1xlvP/0uhCs=
+			xCPMSgRkAH9xsp14B/Vk0KsI6j8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ScluHj0k8NgVG+fc1LNjYDM+BcaVxKD9uoPvIv1E/hM=
+			Di8NDL1uqLXbqfLJytJGWh0whx+G2Npnd6NjEUKqV8I=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/AccordionItemIcon.png</key>
@@ -1851,116 +1483,6 @@
 			HXBBpU5aRt/mSLcAGBC83dJfEmqxi2rkbIu6R2zopMY=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/American Express Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3s2qifExLGdjFyLvb62McxoLCXs=
-			</data>
-			<key>hash2</key>
-			<data>
-			2MzUEMSPRv/EPSekgMOw5oCQL+iagz1oIx37B0nr9zQ=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/American Express Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ccKL2hjEc3idPdd6e9pFjWZoUHI=
-			</data>
-			<key>hash2</key>
-			<data>
-			M3ZqjgHTuYGLsN7+Nyms1+li+RWwNPi11sIQ6lBVUh8=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/CUP Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WNz4pDGxnrKq8ES64QsTBJiBSR4=
-			</data>
-			<key>hash2</key>
-			<data>
-			s/yPIxcRwh5ZVEUpYqE9vlL0z4jaz4qgZJMVzgFw534=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/CUP Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FzQvTmewNXTGzJEkELGKO333qIs=
-			</data>
-			<key>hash2</key>
-			<data>
-			dnm/NCUd7ZBNZl23YieLrSxJaTLpI8rf1fGs3LyUOhE=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/Cartes Bancaire Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BYQTKeBJ7m5DYARFgRXUwXp+5dk=
-			</data>
-			<key>hash2</key>
-			<data>
-			i6FRA9iU+HES3f9qBsWQJt/2u+2JtE99jMpR2ycgEfo=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/Cartes Bancaire Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EthF3kG7hbRcFzBffo34hzLerZk=
-			</data>
-			<key>hash2</key>
-			<data>
-			09lmYUHA7wku11A9xmxVUUh8pQSx3BB9+5Ji8/wfyqs=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/ELO Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ICksQtbBlyCTT7UkbDLdY0UKijE=
-			</data>
-			<key>hash2</key>
-			<data>
-			OANN7HsDhl2k/WGeq1pdE0XOtSU6aRiN6/jel9U3Vfg=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/ELO Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4uBEkLlzbVqY2NxMaT/+8uB5ih4=
-			</data>
-			<key>hash2</key>
-			<data>
-			kL6J/d6IoyabRdhn+Gtu+PfTSjWwmQhx+Iaw1geAQ0g=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/ELO-protect-buy-Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cvYOpgt/1zj9K5wWplmucdb0No4=
-			</data>
-			<key>hash2</key>
-			<data>
-			dIspwgELUdH9fNAVNZJlnIklzu/5ZdfAIZKBQEVt4tA=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/ELO-protect-buy-Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/ONLZf/W7FPcE04T7oQmXbd8tOY=
-			</data>
-			<key>hash2</key>
-			<data>
-			c2q6c96RP7vnlpv+UZp0YdSCJCEKxzWNPfMNgejl4G8=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/ErrorIndicator.png</key>
 		<dict>
 			<key>hash</key>
@@ -1992,50 +1514,6 @@
 			<key>hash2</key>
 			<data>
 			5tb6ZXN76w+E/ZcGiM5zG20EZotuZS56tPLPRyXwoYM=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/JCB Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BB5Aizfw24J5VlfA+e2c97Bj2fQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			wmhtjktf1/nI10S3kkFAMwWql/Shibm+UJD2LK3TjpQ=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/JCB Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			khnKriKb1Km2B4+JrNCfGrngtQQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			tl4TuzeyDnCYXlf2bnLCaTZaZVTp4CVkaw0+mWag89o=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/MasterCard Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kaJugDb4JuM+xy2ttFcIKu5yEF0=
-			</data>
-			<key>hash2</key>
-			<data>
-			9qstQk0WWQewjhrwLeb0ob5R0pJpjkhKQMPRrnCn32s=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/MasterCard Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			I7iPw8gV7sogmEibaY1aQehHDqM=
-			</data>
-			<key>hash2</key>
-			<data>
-			iO21NoWdNQTvPuoTg1U9dx+zISjDeWLcokltldCq6Qc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/MultiSelectionIndicator.png</key>
@@ -2137,70 +1615,48 @@
 			xPHTUmM5ryx/7DcnZXPH2OMtHMZ9x0Ixvb4SlYuIWkE=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/Visa Encryption.der</key>
+		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CUyoRaOV8SHe0sDeJWJxSsbC0pY=
+			C9UW66GWxnj5UDpqerpqEQh32RM=
 			</data>
 			<key>hash2</key>
 			<data>
-			zPqjEa25PXeZ8KAk/ss/Vhuby/uKxaFzP+KDIogxhYs=
+			RlTtNzFGvGcuqsTd2tr00rfyYPfDKvgrd2F95KKdhEc=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/Visa Encryption.der.sha256</key>
+		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash.sha256</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3Uyy/Ylq3YBLfNRqnb/2aM2Y63A=
+			x7Tem2oqVuVyU8e8lgRMvl6Oq5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gc7+6ePdBjnMK//MaDa+MRuafjR0ML7fhyMtsrrPtfc=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/eftpos_ds_public_key.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z0xCzBXQ7TvOw2UEGuaIktPy7As=
-			</data>
-			<key>hash2</key>
-			<data>
-			duwpTIjHCZNzNhsDGEqTSbQzLOkd7jFT+Kdk4TImNao=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/eftpos_ds_public_key.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BSXnQUmqUSWYMd3T203UVrt3n+w=
-			</data>
-			<key>hash2</key>
-			<data>
-			3uZwQzZmL9ciA4b0AKR/W0k1tlOiB1J/AZ2+qoH+ECE=
+			Fb3ibbRX2FtejGvqjnHheJmt4a9VMAQJlTZUZjMSZhE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sxJaEgYKV2fiy/XL3mFY3xgTTSs=
+			KEljwcVSgLWTcyR27EEFcAMIwJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			2iaxZ7fW4UDtC+uttqz8CfvxJIU2w3qxf2OLw83/o6U=
+			+bXaf9aA6NnOVHd9HGXLfYdVv62T+vZUCKe9663tVWQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IwTrEW1E6D+iydIrIiLJnzHhb/Y=
+			FH96Nrpm/DW6+H1txtREhuXCUVU=
 			</data>
 			<key>hash2</key>
 			<data>
-			HLxI/ty3ks89gQV5weFk07k0IEOfXUCs+mFNKKTJhBI=
+			s7ZEO8eKT6ovgad59aeZh4mdSICyC9w42eqHuDsMhFg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/Current</key>
@@ -2212,11 +1668,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D/NL9v4UmtmVRjKWp9eS+XWPniI=
+			ax5Shbi7An6rtRagzvrsMl0BBEA=
 			</data>
 			<key>hash2</key>
 			<data>
-			mnWNPKsR7LYcgD8ZzgTJQcDy7bCjB8Abn9jtqjAtAVc=
+			lVAuQc8lg4m25/kEg8sTwq1tlbBu7ro7VkFFonyr59c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIcon.png</key>
@@ -2285,116 +1741,6 @@
 			qgK0tgSXO1lGbsrWIO4EolZjTaPgd9t2RTDmqE2I1OA=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/American Express Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3s2qifExLGdjFyLvb62McxoLCXs=
-			</data>
-			<key>hash2</key>
-			<data>
-			2MzUEMSPRv/EPSekgMOw5oCQL+iagz1oIx37B0nr9zQ=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/American Express Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ccKL2hjEc3idPdd6e9pFjWZoUHI=
-			</data>
-			<key>hash2</key>
-			<data>
-			M3ZqjgHTuYGLsN7+Nyms1+li+RWwNPi11sIQ6lBVUh8=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/CUP Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WNz4pDGxnrKq8ES64QsTBJiBSR4=
-			</data>
-			<key>hash2</key>
-			<data>
-			s/yPIxcRwh5ZVEUpYqE9vlL0z4jaz4qgZJMVzgFw534=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/CUP Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FzQvTmewNXTGzJEkELGKO333qIs=
-			</data>
-			<key>hash2</key>
-			<data>
-			dnm/NCUd7ZBNZl23YieLrSxJaTLpI8rf1fGs3LyUOhE=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/Cartes Bancaire Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BYQTKeBJ7m5DYARFgRXUwXp+5dk=
-			</data>
-			<key>hash2</key>
-			<data>
-			i6FRA9iU+HES3f9qBsWQJt/2u+2JtE99jMpR2ycgEfo=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/Cartes Bancaire Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EthF3kG7hbRcFzBffo34hzLerZk=
-			</data>
-			<key>hash2</key>
-			<data>
-			09lmYUHA7wku11A9xmxVUUh8pQSx3BB9+5Ji8/wfyqs=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/ELO Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ICksQtbBlyCTT7UkbDLdY0UKijE=
-			</data>
-			<key>hash2</key>
-			<data>
-			OANN7HsDhl2k/WGeq1pdE0XOtSU6aRiN6/jel9U3Vfg=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/ELO Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4uBEkLlzbVqY2NxMaT/+8uB5ih4=
-			</data>
-			<key>hash2</key>
-			<data>
-			kL6J/d6IoyabRdhn+Gtu+PfTSjWwmQhx+Iaw1geAQ0g=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/ELO-protect-buy-Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cvYOpgt/1zj9K5wWplmucdb0No4=
-			</data>
-			<key>hash2</key>
-			<data>
-			dIspwgELUdH9fNAVNZJlnIklzu/5ZdfAIZKBQEVt4tA=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/ELO-protect-buy-Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/ONLZf/W7FPcE04T7oQmXbd8tOY=
-			</data>
-			<key>hash2</key>
-			<data>
-			c2q6c96RP7vnlpv+UZp0YdSCJCEKxzWNPfMNgejl4G8=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/ErrorIndicator.png</key>
 		<dict>
 			<key>hash</key>
@@ -2432,55 +1778,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xnzSit3wgC8qsdYNdIZuOJW4dP8=
+			GR9Cfbsbdl0jVQqR1tII83YlJ6k=
 			</data>
 			<key>hash2</key>
 			<data>
-			drpQsE2Qsx2h3rpL7FEFRuEw0H1ZL+b6jjx6MjRPHiQ=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/JCB Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BB5Aizfw24J5VlfA+e2c97Bj2fQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			wmhtjktf1/nI10S3kkFAMwWql/Shibm+UJD2LK3TjpQ=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/JCB Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			khnKriKb1Km2B4+JrNCfGrngtQQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			tl4TuzeyDnCYXlf2bnLCaTZaZVTp4CVkaw0+mWag89o=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/MasterCard Encryption.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kaJugDb4JuM+xy2ttFcIKu5yEF0=
-			</data>
-			<key>hash2</key>
-			<data>
-			9qstQk0WWQewjhrwLeb0ob5R0pJpjkhKQMPRrnCn32s=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/MasterCard Encryption.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			I7iPw8gV7sogmEibaY1aQehHDqM=
-			</data>
-			<key>hash2</key>
-			<data>
-			iO21NoWdNQTvPuoTg1U9dx+zISjDeWLcokltldCq6Qc=
+			ho1zoheFtBV6JsH01t5+1KtDhRRNakHD3ZgTtJXWf/8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
@@ -2582,48 +1884,26 @@
 			u/AYnX/N89U2tkmsxlfVqxXzpGwfCVi2NCo7CBI7fz0=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/Visa Encryption.der</key>
+		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CUyoRaOV8SHe0sDeJWJxSsbC0pY=
+			C9UW66GWxnj5UDpqerpqEQh32RM=
 			</data>
 			<key>hash2</key>
 			<data>
-			zPqjEa25PXeZ8KAk/ss/Vhuby/uKxaFzP+KDIogxhYs=
+			RlTtNzFGvGcuqsTd2tr00rfyYPfDKvgrd2F95KKdhEc=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/Visa Encryption.der.sha256</key>
+		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash.sha256</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3Uyy/Ylq3YBLfNRqnb/2aM2Y63A=
+			x7Tem2oqVuVyU8e8lgRMvl6Oq5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gc7+6ePdBjnMK//MaDa+MRuafjR0ML7fhyMtsrrPtfc=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/eftpos_ds_public_key.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z0xCzBXQ7TvOw2UEGuaIktPy7As=
-			</data>
-			<key>hash2</key>
-			<data>
-			duwpTIjHCZNzNhsDGEqTSbQzLOkd7jFT+Kdk4TImNao=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/eftpos_ds_public_key.der.sha256</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BSXnQUmqUSWYMd3T203UVrt3n+w=
-			</data>
-			<key>hash2</key>
-			<data>
-			3uZwQzZmL9ciA4b0AKR/W0k1tlOiB1J/AZ2+qoH+ECE=
+			Fb3ibbRX2FtejGvqjnHheJmt4a9VMAQJlTZUZjMSZhE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYAppearance.h</key>
@@ -2806,11 +2086,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BpRyMiEwlPCLxhQp6OTPMOUm4rs=
+			kd8QJ/7WxA5NnGVOoN4AFwgAMuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			A82rlHvqUGAeQE5FH3t9AsWyEV+DJiMWckPl0qV8Lso=
+			eAHqPN3RUbn6eVJBf3n4kGFOxPqVm4xJW/CTAPKpCK8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYSwitchAppearance.h</key>
@@ -2883,11 +2163,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M8zZlZ8KRLt/SI8wn/3Xo1VUAlo=
+			Riz2OBWfeS5af9CDFpT9Lenpo04=
 			</data>
 			<key>hash2</key>
 			<data>
-			QrOgsCq+SiB04F2n/eChruaxPAqsfu/g6lnJxLrwI4s=
+			LBIgKY5kToq/M02he0GUnz8kDb5SKZRFAExwE+UgXwc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Modules/module.modulemap</key>
@@ -2905,11 +2185,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3r1i/vuGRhb5srPbqLP3cEhBKS8=
+			RMWFpy/xvJZnrg5Mejzl3LXftD0=
 			</data>
 			<key>hash2</key>
 			<data>
-			2/4/pvN9Ghss+ix+fR0hJMsSVy6/6l8SoYfsNUSf8bU=
+			5AMkXIGA4u6xEuzpAsP1HyIz8q06jVMY/necmrxvvow=
 			</data>
 		</dict>
 	</dict>
