@@ -26,6 +26,7 @@ Drag the dynamic `XCFramework/Dynamic/Adyen3DS2.xcframework` to the `Frameworks,
 1. Drag the static `XCFramework/Static/Adyen3DS2.xcframework` to the `Frameworks, Libraries, and Embedded Content` section in your general target settings.
 2. Make sure the static `Adyen3DS2.xcframework` is not embedded.
 3. Select `Adyen3DS2.bundle` inside `Adyen3DS2.xcframework` and check "Copy items if needed", then select "Add".
+4. The privacy manifest should be included/merged in your app bundle.
 
 ### Swift Package Manager
 
