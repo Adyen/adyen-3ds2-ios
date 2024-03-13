@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Adyen3DS2.bundle/Contents/Info.plist</key>
 		<data>
-		xCPMSgRkAH9xsp14B/Vk0KsI6j8=
+		CyXkFkn6UwaWoI9i5PxJ3G6qWA4=
 		</data>
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/AccordionItemIcon.png</key>
 		<data>
@@ -82,15 +82,19 @@
 		</data>
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash</key>
 		<data>
-		C9UW66GWxnj5UDpqerpqEQh32RM=
+		rEMbYiB0At3t6y739PLYbU/kke0=
 		</data>
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash.sha256</key>
 		<data>
-		x7Tem2oqVuVyU8e8lgRMvl6Oq5Q=
+		LmYjmdGJs0pXB0TLW17e2m27Jxk=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		KEljwcVSgLWTcyR27EEFcAMIwJY=
+		CCJYQRB06j3WdLHIg1WayskrAJU=
+		</data>
+		<key>Resources/PrivacyInfo.xcprivacy</key>
+		<data>
+		CiDHdXoeujQsOlksxUwYeW8jEq8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -352,22 +356,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MHbJ76xvjFs8OJtwNt4chJNRjZM=
+			FjAxa1szb9MbQu0vjEMeHG5QAjE=
 			</data>
 			<key>hash2</key>
 			<data>
-			yQPQRFcKBHVS6jX/Unh836vJwc8NUN8KvHWwW8zEADg=
+			sU5xPAVmj6D0HQSj1LswZ+B5mkaYPh9qsKXIyJhwZ40=
 			</data>
 		</dict>
 		<key>Resources/Adyen3DS2.bundle/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xCPMSgRkAH9xsp14B/Vk0KsI6j8=
+			CyXkFkn6UwaWoI9i5PxJ3G6qWA4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Di8NDL1uqLXbqfLJytJGWh0whx+G2Npnd6NjEUKqV8I=
+			Y9jzMOJkC9xm3BHNij+xmkFWyNJ9ab8wqVrrHpi8EWw=
 			</data>
 		</dict>
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/AccordionItemIcon.png</key>
@@ -572,33 +576,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C9UW66GWxnj5UDpqerpqEQh32RM=
+			rEMbYiB0At3t6y739PLYbU/kke0=
 			</data>
 			<key>hash2</key>
 			<data>
-			RlTtNzFGvGcuqsTd2tr00rfyYPfDKvgrd2F95KKdhEc=
+			PXvST5fjaAT1WUJh8j8CVHBkDK4Vxb2DF3cplv0qn4o=
 			</data>
 		</dict>
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash.sha256</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x7Tem2oqVuVyU8e8lgRMvl6Oq5Q=
+			LmYjmdGJs0pXB0TLW17e2m27Jxk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fb3ibbRX2FtejGvqjnHheJmt4a9VMAQJlTZUZjMSZhE=
+			2DaSdHF/z2LrdxHAaiGoQ7ja5TQG8afmFOU5AcTSzLE=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KEljwcVSgLWTcyR27EEFcAMIwJY=
+			CCJYQRB06j3WdLHIg1WayskrAJU=
 			</data>
 			<key>hash2</key>
 			<data>
-			+bXaf9aA6NnOVHd9HGXLfYdVv62T+vZUCKe9663tVWQ=
+			Y4E/I8MF/YzLwHBbm/jAE4CidAg8wXvCH8q7codyc9M=
+			</data>
+		</dict>
+		<key>Resources/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CiDHdXoeujQsOlksxUwYeW8jEq8=
+			</data>
+			<key>hash2</key>
+			<data>
+			dhpEr0V+NSlHmrOvb0c/UqNc+cggxK0OWC8kVZMZ2nc=
 			</data>
 		</dict>
 	</dict>

@@ -42,7 +42,7 @@
 		</data>
 		<key>Adyen3DS2.bundle/Info.plist</key>
 		<data>
-		EiKbRzj4Ri5QZctDCnFws6WfpUU=
+		JFjYwS8ILKqoQ7sxcckgWr+2sdo=
 		</data>
 		<key>Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Adyen3DS2.bundle/macho.hash</key>
 		<data>
-		C9UW66GWxnj5UDpqerpqEQh32RM=
+		rEMbYiB0At3t6y739PLYbU/kke0=
 		</data>
 		<key>Adyen3DS2.bundle/macho.hash.sha256</key>
 		<data>
-		x7Tem2oqVuVyU8e8lgRMvl6Oq5Q=
+		LmYjmdGJs0pXB0TLW17e2m27Jxk=
 		</data>
 		<key>Headers/ADYAppearance.h</key>
 		<data>
@@ -182,11 +182,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		l/wEAu0Cr206aH/DfhI00bFiioQ=
+		ABL5wJ+ce5MNp+ysZH4BrdLNBh4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		MHbJ76xvjFs8OJtwNt4chJNRjZM=
+		FjAxa1szb9MbQu0vjEMeHG5QAjE=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		CiDHdXoeujQsOlksxUwYeW8jEq8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -258,7 +262,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tqRFKTUBi1ScZS5Poigxo4IxoNisjyxPSH5Z9Ww9bPI=
+			tMABXD81C2DvbZ8E7pguWwoLQloyigm4YoiACJrIT6k=
 			</data>
 		</dict>
 		<key>Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
@@ -328,14 +332,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RlTtNzFGvGcuqsTd2tr00rfyYPfDKvgrd2F95KKdhEc=
+			PXvST5fjaAT1WUJh8j8CVHBkDK4Vxb2DF3cplv0qn4o=
 			</data>
 		</dict>
 		<key>Adyen3DS2.bundle/macho.hash.sha256</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fb3ibbRX2FtejGvqjnHheJmt4a9VMAQJlTZUZjMSZhE=
+			2DaSdHF/z2LrdxHAaiGoQ7ja5TQG8afmFOU5AcTSzLE=
 			</data>
 		</dict>
 		<key>Headers/ADYAppearance.h</key>
@@ -503,7 +507,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yQPQRFcKBHVS6jX/Unh836vJwc8NUN8KvHWwW8zEADg=
+			sU5xPAVmj6D0HQSj1LswZ+B5mkaYPh9qsKXIyJhwZ40=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dhpEr0V+NSlHmrOvb0c/UqNc+cggxK0OWC8kVZMZ2nc=
 			</data>
 		</dict>
 	</dict>
