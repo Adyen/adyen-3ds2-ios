@@ -12,6 +12,7 @@ let package = Package(
     products: [
         .library(
             name: "Adyen3DS2",
+            type: .static,
             targets: ["Adyen3DS2"]
         )
     ],
