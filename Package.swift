@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Adyen3DS2",
-            path: "XCFramework/Dynamic/Adyen3DS2.xcframework"
+            path: "XCFramework/Static/Adyen3DS2.xcframework"
         )
     ]
 )
