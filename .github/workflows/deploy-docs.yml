@@ -19,8 +19,10 @@ jobs:
         xcode-version: latest-stable
 
     - name: Set current marketing version
-      run: echo "::set-output name=MARKETING_VERSION::$(cat Adyen3DS2.podspec | sed -n "s/version.*=.*\'\(.*\)\'/\1/p")"
       id: get-current-marketing-version
+      run: |
+        version=$(sed -n "s/version.*=.*'\(.*\)'/\1/p" Adyen3DS2.podspec)
+        echo "MARKETING_VERSION=$version" >> "$GITHUB_OUTPUT"
 
     - name: Deploy to current version 🚀
       uses: peaceiris/actions-gh-pages@v3
