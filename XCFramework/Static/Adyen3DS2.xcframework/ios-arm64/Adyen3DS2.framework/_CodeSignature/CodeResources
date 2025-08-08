@@ -82,11 +82,11 @@
 		</data>
 		<key>Adyen3DS2.bundle/macho.hash</key>
 		<data>
-		pa0lYldrkGpH01xtAQNV5w6tNdA=
+		Gf2k+T8Rk3HKjLUhEnIktPlhy1E=
 		</data>
 		<key>Adyen3DS2.bundle/macho.hash.sha256</key>
 		<data>
-		G3/TMv/nN0OFJBaxL2WrjBoDCCU=
+		lQK7PvrWiQ4s0qmgojHT92Gr4hk=
 		</data>
 		<key>Headers/ADYAppearance.h</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GtcgO4NE+veiw6zimgZhIZ9QVIU=
+		W4FuSpy3nGz2tnTW+o8bv7s/2jU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -408,22 +408,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pa0lYldrkGpH01xtAQNV5w6tNdA=
+			Gf2k+T8Rk3HKjLUhEnIktPlhy1E=
 			</data>
 			<key>hash2</key>
 			<data>
-			M1dTSqm/hYEXo5g3XTXT5M40h4zS3bHcZMvogAEDKwE=
+			QY4sylPZB7HGsEGgZqssqbkN0qKZjypCTWoGB610470=
 			</data>
 		</dict>
 		<key>Adyen3DS2.bundle/macho.hash.sha256</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G3/TMv/nN0OFJBaxL2WrjBoDCCU=
+			lQK7PvrWiQ4s0qmgojHT92Gr4hk=
 			</data>
 			<key>hash2</key>
 			<data>
-			5knClb98F6lC1rbZ1dAFj5d+eueLU/Qq9hIMAC1waCQ=
+			QvIx92Bm2ax3BlRB2wF+GscgaTXx3FuqLAw0gaI0yFI=
 			</data>
 		</dict>
 		<key>Headers/ADYAppearance.h</key>

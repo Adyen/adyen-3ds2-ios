@@ -82,15 +82,15 @@
 		</data>
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash</key>
 		<data>
-		pa0lYldrkGpH01xtAQNV5w6tNdA=
+		Gf2k+T8Rk3HKjLUhEnIktPlhy1E=
 		</data>
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash.sha256</key>
 		<data>
-		G3/TMv/nN0OFJBaxL2WrjBoDCCU=
+		lQK7PvrWiQ4s0qmgojHT92Gr4hk=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		HXTPm+oXbUSzD50jxuopETxtuo4=
+		6727oIQpdzAIJQnHfO0gu1YYrk0=
 		</data>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -576,33 +576,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pa0lYldrkGpH01xtAQNV5w6tNdA=
+			Gf2k+T8Rk3HKjLUhEnIktPlhy1E=
 			</data>
 			<key>hash2</key>
 			<data>
-			M1dTSqm/hYEXo5g3XTXT5M40h4zS3bHcZMvogAEDKwE=
+			QY4sylPZB7HGsEGgZqssqbkN0qKZjypCTWoGB610470=
 			</data>
 		</dict>
 		<key>Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash.sha256</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G3/TMv/nN0OFJBaxL2WrjBoDCCU=
+			lQK7PvrWiQ4s0qmgojHT92Gr4hk=
 			</data>
 			<key>hash2</key>
 			<data>
-			5knClb98F6lC1rbZ1dAFj5d+eueLU/Qq9hIMAC1waCQ=
+			QvIx92Bm2ax3BlRB2wF+GscgaTXx3FuqLAw0gaI0yFI=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HXTPm+oXbUSzD50jxuopETxtuo4=
+			6727oIQpdzAIJQnHfO0gu1YYrk0=
 			</data>
 			<key>hash2</key>
 			<data>
-			rKG1Ed/GHlqg1g8smKmdHTeRVv1KXSnvlcc4uFt/Msk=
+			y61e6RToA+MQ/GXWQ4Va4YzSbFZyuqotW1pJ5cgwzNI=
 			</data>
 		</dict>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
