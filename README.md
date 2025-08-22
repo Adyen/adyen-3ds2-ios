@@ -36,9 +36,9 @@ https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_y
 2. Use `https://github.com/Adyen/adyen-3ds2-ios` as the repository URL.
 3. Specify the version to be at least `2.2.1`.
 
-:warning: _Please make sure to use Xcode 12.0+ when adding `Adyen3DS2` using Swift Package Manager._
+:warning: _Please make sure to use Xcode 16.0+ when adding `Adyen3DS2` using Swift Package Manager._
 
-:warning: _Swift Package Manager for Xcode 12.0 and 12.1 has a [know issue](https://bugs.swift.org/browse/SR-13343) when it comes to importing binary dependencies. A workaround is described [here](https://forums.swift.org/t/swiftpm-binarytarget-dependency-and-code-signing/38953)._
+:warning: _Swift Package Manager for Xcode 16.0 and 12.1 has a [know issue](https://bugs.swift.org/browse/SR-13343) when it comes to importing binary dependencies. A workaround is described [here](https://forums.swift.org/t/swiftpm-binarytarget-dependency-and-code-signing/38953)._
 
 ## Usage
 
