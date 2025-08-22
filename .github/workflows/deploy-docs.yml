@@ -4,12 +4,12 @@ on: [workflow_dispatch]
 jobs:
 
   Deploy:
-    runs-on: macos-12
+    runs-on: macos-15-xlarge
     permissions:
       contents: write
     steps:
-    - uses: actions/checkout@v2
-    - uses: n1hility/cancel-previous-runs@v2
+    - uses: actions/checkout@v5
+    - uses: n1hility/cancel-previous-runs@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
