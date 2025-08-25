@@ -18,16 +18,6 @@ jobs:
     - name: Publish Adyen3DS2.podspec
       run: |
         gem install cocoapods
-        mkdir -p ~/.cocoapods/trunk
-        cat > ~/.cocoapods/trunk/config.json <<EOF
-        {
-          "email": "robert.dalmeida@adyen.com",
-          "name": "CI",
-          "description": "CI runner",
-          "token": "${COCOAPODS_TRUNK_TOKEN}"
-        }
-        EOF
-
         # Optional sanity check
         pod trunk me
         gem install cocoapods
