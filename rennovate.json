@@ -4,17 +4,17 @@
     {
       "matchManagers": ["github-actions"],
       "groupName": "GitHub Actions updates",
-      "schedule": ["weekly"]
+      "schedule": ["before 5am on Monday"]
     },
     {
       "matchManagers": ["swift"],
       "groupName": "Swift dependencies",
-      "schedule": ["weekly"]
+      "schedule": ["before 5am on Monday"]
     },
     {
       "matchManagers": ["cocoapods"],
       "groupName": "CocoaPods dependencies",
-      "schedule": ["weekly"]
+      "schedule": ["before 5am on Monday"]
     }
   ]
 }
