@@ -25,13 +25,13 @@ jobs:
         echo "MARKETING_VERSION=$version" >> "$GITHUB_OUTPUT"
 
     - name: Deploy to current version 🚀
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./Documentation/html
         destination_dir: ./${{ steps.get-current-marketing-version.outputs.MARKETING_VERSION }}
     - name: Deploy to root 🚀
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./Documentation/redirect
