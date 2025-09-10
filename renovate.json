@@ -1,20 +1,34 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:recommended"
+  ],
   "packageRules": [
     {
-      "matchManagers": ["github-actions"],
+      "matchManagers": [
+        "github-actions"
+      ],
       "groupName": "GitHub Actions updates",
-      "schedule": ["before 5am on Monday"]
+      "schedule": [
+        "before 5am on Monday"
+      ]
     },
     {
-      "matchManagers": ["swift"],
+      "matchManagers": [
+        "swift"
+      ],
       "groupName": "Swift dependencies",
-      "schedule": ["before 5am on Monday"]
+      "schedule": [
+        "before 5am on Monday"
+      ]
     },
     {
-      "matchManagers": ["cocoapods"],
+      "matchManagers": [
+        "cocoapods"
+      ],
       "groupName": "CocoaPods dependencies",
-      "schedule": ["before 5am on Monday"]
+      "schedule": [
+        "before 5am on Monday"
+      ]
     }
   ]
 }
