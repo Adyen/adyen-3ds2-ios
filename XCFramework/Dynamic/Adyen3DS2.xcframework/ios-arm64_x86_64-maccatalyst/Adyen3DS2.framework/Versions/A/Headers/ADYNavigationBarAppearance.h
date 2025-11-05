@@ -28,8 +28,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  The background color of the navigation bar.
+ Note: the background color will not be used for iOS 26 onwards.
  */
-@property (nonatomic, strong, readwrite, nullable) UIColor *backgroundColor;
+@property (nonatomic, strong, readwrite, nullable) UIColor *backgroundColor __attribute__((deprecated("Will be removed in the future and the current value is ignored iOS 26 onwards.")));
 
 @end
 

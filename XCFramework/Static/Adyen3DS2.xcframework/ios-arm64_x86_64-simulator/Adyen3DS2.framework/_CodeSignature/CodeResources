@@ -42,7 +42,7 @@
 		</data>
 		<key>Adyen3DS2.bundle/Info.plist</key>
 		<data>
-		IowxVM9K8hfVw2p3kmDlDmwUMwM=
+		njx03um6WK5h1qOaKzncow4AbKw=
 		</data>
 		<key>Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Adyen3DS2.bundle/macho.hash</key>
 		<data>
-		rpAnPZjYBGl3wd4SyviZQxoyWyc=
+		8YikpDCfZS50lP5lyEToaXySI3M=
 		</data>
 		<key>Adyen3DS2.bundle/macho.hash.sha256</key>
 		<data>
-		tLdk2YJiWncTAjCALIecXPTXO7U=
+		ujQbBRxoGQTwF0pUoAVLICm23LE=
 		</data>
 		<key>Headers/ADYAppearance.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Headers/ADYNavigationBarAppearance.h</key>
 		<data>
-		MNsKVAwzid+re2lYTnEQNOHuYKw=
+		WfH+B9JvGwlWN2Lve4QMgoK1wUs=
 		</data>
 		<key>Headers/ADYProgressView.h</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		t9Gc4aWIq+vmkFlS0Zd8HQpsEYE=
+		A4GiRo+T1tuwGL13x7mHntTXXzc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -197,10 +197,6 @@
 	<dict>
 		<key>Adyen3DS2.bundle/AccordionItemIcon.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zncaeazV3jiRFdllIpWIg7V7CPk=
-			</data>
 			<key>hash2</key>
 			<data>
 			dx3CcG97zY03ZuoFUPrh7ki6rUR6Gr2BAgkYTt4//c0=
@@ -208,10 +204,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/AccordionItemIcon@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Jdt2qurmhTc5/vxYu5oG3n7qGOk=
-			</data>
 			<key>hash2</key>
 			<data>
 			VbhtDHBaK5VeBaI0ScDB0PFJXyNrdxEbHO6qWhOpvPQ=
@@ -219,10 +211,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/AccordionItemIcon@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			51WaE/IKRMfiy9tbq5DfWSEa5fg=
-			</data>
 			<key>hash2</key>
 			<data>
 			ewEHLmHeCdLi84dAFcuqHMShkMrBMS4jBRe5LWxmfdo=
@@ -230,10 +218,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/AccordionItemIconExpanded.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Gp8k9WBgyBVyVzKwkb9h+yeERew=
-			</data>
 			<key>hash2</key>
 			<data>
 			RrRw9jc5pAK1ADcII4KZV5F+ioxqf3oUk8AeY3CjOIM=
@@ -241,10 +225,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/AccordionItemIconExpanded@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UqZoYpRwTNxGKAOxJOuNRybIA2Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			9izaoyAxsbGfveLWIFGomwsqCfwFYufadp1vuBwMzK8=
@@ -252,10 +232,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/AccordionItemIconExpanded@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Wsq2dgTYDA41wlxYtUA3h67iqUE=
-			</data>
 			<key>hash2</key>
 			<data>
 			qgK0tgSXO1lGbsrWIO4EolZjTaPgd9t2RTDmqE2I1OA=
@@ -263,10 +239,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/ErrorIndicator.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			939QYSrggYYQFlIuyJBEhtCdd40=
-			</data>
 			<key>hash2</key>
 			<data>
 			UKlt/chNelSv0UFiJeJcBiFvWke8ANuHUyrSciEMV14=
@@ -274,10 +246,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/ErrorIndicator@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I748doP0zxdYXR+48wz8cBOXG1s=
-			</data>
 			<key>hash2</key>
 			<data>
 			EjuCjQOKHebdt4uIIcPlPSGFrnLFMlAzwQLRO1UHYHg=
@@ -285,10 +253,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/ErrorIndicator@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VwA0d0pb75LYYGYeJHNOtsIo4us=
-			</data>
 			<key>hash2</key>
 			<data>
 			T5HgsZPrUN7KtwyXQHG8pZ09mitC+mZ7D6iuwb1j2HU=
@@ -296,21 +260,13 @@
 		</dict>
 		<key>Adyen3DS2.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IowxVM9K8hfVw2p3kmDlDmwUMwM=
-			</data>
 			<key>hash2</key>
 			<data>
-			Q3hSia2k0M04+5wRoeGNwBo89rV6miqkc4DvXEPD9GM=
+			Ln+pG6VRkkACuZv1bKMLbzUcfXYEScu0PErWDEDi2+A=
 			</data>
 		</dict>
 		<key>Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MSkc0JBAHKceD5tFSaV+R2lp6tY=
-			</data>
 			<key>hash2</key>
 			<data>
 			y3HIgEOowqS2AftFRN1iPVSFqsetx9PHquSj/LUjszw=
@@ -318,10 +274,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/MultiSelectionIndicator@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			D6YN3/odvVM+b6D1jr7JZew6ne0=
-			</data>
 			<key>hash2</key>
 			<data>
 			3L6UQ4Sr2pfTc7rLzDZBRQ+okgzlWVFMd0W40DLrpyE=
@@ -329,10 +281,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/MultiSelectionIndicator@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8okG8cr6wsaiFTtmFJDEg1M1Ao0=
-			</data>
 			<key>hash2</key>
 			<data>
 			lTjSyMgquA4bo8aF5BDoV54ciLJ3IgZoVEFxE8+D7qI=
@@ -340,10 +288,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/MultiSelectionIndicatorSelected.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I/+ShJbYFPdhJOdsgaRPI0eALPs=
-			</data>
 			<key>hash2</key>
 			<data>
 			r4sweNDAwNDcebQAqOYPkfPkGoQlrZ3H6YZ+tmTtIg8=
@@ -351,10 +295,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/MultiSelectionIndicatorSelected@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			txkpK/bPl+WrQsFAv1xhbc3oc0k=
-			</data>
 			<key>hash2</key>
 			<data>
 			FAYCna/osudi10xgNJmevKRgFkITEGYRkh/vliXGTQQ=
@@ -362,10 +302,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/MultiSelectionIndicatorSelected@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KWJsKN4gcVyoVzZ/Zv39r9Su+0w=
-			</data>
 			<key>hash2</key>
 			<data>
 			AeMwm53X5qz7RKOLKJfCMVXBX68n32voHmw7al+prHI=
@@ -373,10 +309,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/SingleSelectionIndicatorSelected.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zaU95+KpdvP+qCgydmxJ0JUS/gU=
-			</data>
 			<key>hash2</key>
 			<data>
 			Q9zQrt7gU/WrfpSQer+YGQnuUq0FzTI6rMMxv1Do7t4=
@@ -384,10 +316,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/SingleSelectionIndicatorSelected@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			T6MarU5j1QRXYnO2gotnvBhl36s=
-			</data>
 			<key>hash2</key>
 			<data>
 			CGO9UA7uUTydT/+mmCKxxikvpqnuiMFgzzypI+5XPU0=
@@ -395,10 +323,6 @@
 		</dict>
 		<key>Adyen3DS2.bundle/SingleSelectionIndicatorSelected@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DWhITd/cNoUzJB7SOYysBo8CqD0=
-			</data>
 			<key>hash2</key>
 			<data>
 			u/AYnX/N89U2tkmsxlfVqxXzpGwfCVi2NCo7CBI7fz0=
@@ -406,32 +330,20 @@
 		</dict>
 		<key>Adyen3DS2.bundle/macho.hash</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rpAnPZjYBGl3wd4SyviZQxoyWyc=
-			</data>
 			<key>hash2</key>
 			<data>
-			yAQhsIQrB1mXAoj4ththfRypMXdLT8qoli50pPVSbrQ=
+			o8qtwc1OOtmKqIGhUbPlVcwYllS5evO+qJASUHk3UU8=
 			</data>
 		</dict>
 		<key>Adyen3DS2.bundle/macho.hash.sha256</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tLdk2YJiWncTAjCALIecXPTXO7U=
-			</data>
 			<key>hash2</key>
 			<data>
-			Rz06XWe7uzu3MC6ZC4vdWeT/xarBMQRpptb0OJos1Ec=
+			r1jq62SzMmBEQn8lewqSYNCD3LLVCPI1qyQnLBNWxDo=
 			</data>
 		</dict>
 		<key>Headers/ADYAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QjBCs4h7W4Qyq4fHWw05N8GxXj0=
-			</data>
 			<key>hash2</key>
 			<data>
 			yvYoxAEiEIDyydffrVCe/uBAjwGg+eqhrCEK7unLuGs=
@@ -439,10 +351,6 @@
 		</dict>
 		<key>Headers/ADYAppearanceConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2ELkhlgJYPUieGMPJDNAaSoN3uo=
-			</data>
 			<key>hash2</key>
 			<data>
 			Zl5gKTP3b0/ei7lGZzh3l+GWVfXicp12XzQk5I0q5Zw=
@@ -450,10 +358,6 @@
 		</dict>
 		<key>Headers/ADYAuthenticationRequestParameters.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mkYwtltb3cZBUPEEXNKE08bmMz4=
-			</data>
 			<key>hash2</key>
 			<data>
 			nCimp0BPAF27mGVtIqGvIyIcHgLQZroXr34c1vLdaTQ=
@@ -461,10 +365,6 @@
 		</dict>
 		<key>Headers/ADYButtonAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vm/pteUZeKwecGtkNe/OEFeP/xs=
-			</data>
 			<key>hash2</key>
 			<data>
 			32jhV9b9SQyEgW8/UcKoJ2X8EKtmy8LkDDCK3mxiNmA=
@@ -472,10 +372,6 @@
 		</dict>
 		<key>Headers/ADYChallengeDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4Q4kSRD3fjXvHFOsu80h9ok/0s0=
-			</data>
 			<key>hash2</key>
 			<data>
 			bDTgCQA8OBtwA/sftzXtqkJiVUD2Ki3ET+HU1cGZ+f8=
@@ -483,10 +379,6 @@
 		</dict>
 		<key>Headers/ADYChallengeParameters.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wp0myebQKMBlLBJbmTfHZLcnD8k=
-			</data>
 			<key>hash2</key>
 			<data>
 			1E17/KGArkVZdtf9+iJhrt7u+lIb2pJAWyfjpRxyRN4=
@@ -494,10 +386,6 @@
 		</dict>
 		<key>Headers/ADYChallengeResult.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q7ZvdGXO8xCQhKJIoJbStLtpcMU=
-			</data>
 			<key>hash2</key>
 			<data>
 			3Qk026dAEEqjRYg+Z61zEIXHvFyftJiULbK7zW5eaPM=
@@ -505,10 +393,6 @@
 		</dict>
 		<key>Headers/ADYInfoAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OoP1jOEsjLn+bqjtZSrB8QE3zRU=
-			</data>
 			<key>hash2</key>
 			<data>
 			KibY6oP4J41KQMCS3KbmGrt8Mo0aX2AuV+KSZIV+gPI=
@@ -516,10 +400,6 @@
 		</dict>
 		<key>Headers/ADYLabelAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RFArIXB2rokAA1cVIu/DrOup/NI=
-			</data>
 			<key>hash2</key>
 			<data>
 			8XBng87xkrqtoyCxFyrCJQM0esJLEwms7TLNWgYkHuA=
@@ -527,21 +407,13 @@
 		</dict>
 		<key>Headers/ADYNavigationBarAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MNsKVAwzid+re2lYTnEQNOHuYKw=
-			</data>
 			<key>hash2</key>
 			<data>
-			XPh2YoksCFoqZe6iSmHEOWWZTdWbHRdnvChmGx45LOQ=
+			FCDBlfzkyWzcmUZnIGBVzTtMtgW6NKbisV/Qb+xdxFg=
 			</data>
 		</dict>
 		<key>Headers/ADYProgressView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bhILrMEGl2yGmlgqxy8l66Yzbo8=
-			</data>
 			<key>hash2</key>
 			<data>
 			6HQZv+V7/MaqvVFW/6YAmb9sv4QIdWZPF0NRsK3WUQw=
@@ -549,10 +421,6 @@
 		</dict>
 		<key>Headers/ADYProtocolError.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BHhUhDApRQkLuoKd9//GCpyejI0=
-			</data>
 			<key>hash2</key>
 			<data>
 			dd5tbRbJG7kAECSweg6Td8CFky0Nd/k2zFUN35/CSKg=
@@ -560,10 +428,6 @@
 		</dict>
 		<key>Headers/ADYRuntimeError.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3jr7U3km7dNaq004gE0MXypyjwg=
-			</data>
 			<key>hash2</key>
 			<data>
 			moiDUecxRWJWLg6HIIBRsR+inne8/cbAAAPwx78mGeQ=
@@ -571,10 +435,6 @@
 		</dict>
 		<key>Headers/ADYSecurityWarningsDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0JxTDJ7dT6wBhWMRIyXs/+mfh9k=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZAhJ8skFe8/SUw1L+KOhqaMyrIDK0/f8+Z/yFbo+2yk=
@@ -582,10 +442,6 @@
 		</dict>
 		<key>Headers/ADYSelectAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			APZ994uK4o3xzr+JKiKCxSp5NqQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			STJpuKnB0sTdiAAj9+5a2m+/zf1oVUhgYQoEzxMtvE0=
@@ -593,10 +449,6 @@
 		</dict>
 		<key>Headers/ADYService.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tqlj74haLcB05ZRxpLHjRDfONqs=
-			</data>
 			<key>hash2</key>
 			<data>
 			c5cbw7QIQSCFiANmnuY6i2xHkD1FI2XwlZgI5bwimTU=
@@ -604,10 +456,6 @@
 		</dict>
 		<key>Headers/ADYServiceParameters.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kd8QJ/7WxA5NnGVOoN4AFwgAMuM=
-			</data>
 			<key>hash2</key>
 			<data>
 			eAHqPN3RUbn6eVJBf3n4kGFOxPqVm4xJW/CTAPKpCK8=
@@ -615,10 +463,6 @@
 		</dict>
 		<key>Headers/ADYSwitchAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			N9//5Eb634+xbLMaNzY4L39QJaE=
-			</data>
 			<key>hash2</key>
 			<data>
 			zmRQ67XCJC42ggkXe7QCDJW3eJRMkH9EIPv6opahHqU=
@@ -626,10 +470,6 @@
 		</dict>
 		<key>Headers/ADYTextFieldAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XVFsalnCPiu9YyYH5PRCAz562kk=
-			</data>
 			<key>hash2</key>
 			<data>
 			nneK0JtMLYj60c0ApBBOp7o8rB3jPuT4dFu1BBvWSdU=
@@ -637,10 +477,6 @@
 		</dict>
 		<key>Headers/ADYTransaction.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IjoRvgDRAslFgh5m+64XZ1HZhOg=
-			</data>
 			<key>hash2</key>
 			<data>
 			6AjMyq3HQyM1WDf15UsXTscDHIffML+tv0c9lZt+WMw=
@@ -648,10 +484,6 @@
 		</dict>
 		<key>Headers/ADYWarning.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9XGdDJAuG/7JVFeMLQT/SbNHVaU=
-			</data>
 			<key>hash2</key>
 			<data>
 			OMQyvBM4wuKIZdEmhRWm26D/je2elD1SnjaMrQVKzcI=
@@ -659,10 +491,6 @@
 		</dict>
 		<key>Headers/Adyen3DS2.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sGok99f6EN25s8y1ab9LD/XOyMs=
-			</data>
 			<key>hash2</key>
 			<data>
 			jbxeX/VfQfPS207uqzAb012aeBfZ/huSaiXD2RjNwpw=
@@ -670,10 +498,6 @@
 		</dict>
 		<key>Headers/NSError+Public.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iQfT0nW2HNAxUvogFxBuxYNBM+Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			KMzlJscJsC2zTy5HAFakuueiJZ1sACSISGviNlBEdCI=
@@ -681,10 +505,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FjAxa1szb9MbQu0vjEMeHG5QAjE=
-			</data>
 			<key>hash2</key>
 			<data>
 			sU5xPAVmj6D0HQSj1LswZ+B5mkaYPh9qsKXIyJhwZ40=
@@ -692,10 +512,6 @@
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rP+s4o3svz2aEPBAVk2EzZl4IMs=
-			</data>
 			<key>hash2</key>
 			<data>
 			qPaHzf61OOta3dsNAozH83MsGmruQxPfOJgZMKtY5HE=
