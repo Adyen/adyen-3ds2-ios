@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2</key>
 		<data>
-		1tc8+atY/tNtcmxvTlP0GIOks/E=
+		ZZv+vcAK4+2GLzOJkNNMHM9eO6A=
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIcon.png</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/Info.plist</key>
 		<data>
-		Lkiu316pON1cL2d/hGZ5ewwx/tE=
+		UBw7jbTdnjZIiZECStVVz+yURmU=
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash</key>
 		<data>
-		rpAnPZjYBGl3wd4SyviZQxoyWyc=
+		8YikpDCfZS50lP5lyEToaXySI3M=
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash.sha256</key>
 		<data>
-		tLdk2YJiWncTAjCALIecXPTXO7U=
+		ujQbBRxoGQTwF0pUoAVLICm23LE=
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYAppearance.h</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYNavigationBarAppearance.h</key>
 		<data>
-		MNsKVAwzid+re2lYTnEQNOHuYKw=
+		WfH+B9JvGwlWN2Lve4QMgoK1wUs=
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYProgressView.h</key>
 		<data>
@@ -186,7 +186,7 @@
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Info.plist</key>
 		<data>
-		WNbMFzEtiJ2LXOG4zLTwuQZhqrU=
+		V4bGYngpyBAk+CIQWMB2WGVtEYs=
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/Modules/module.modulemap</key>
 		<data>
@@ -198,11 +198,11 @@
 		</data>
 		<key>ios-arm64/Adyen3DS2.framework/_CodeSignature/CodeResources</key>
 		<data>
-		vjcbnokG/inA8Yay4Jbz/igR3DU=
+		i4Xj7nZhXs3L4Q4LY4m8HYHajxk=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Adyen3DS2</key>
 		<data>
-		fm8YQu+k5xP+oHUJ0v6uCxk5e5o=
+		xzpOujYgirxL3Q0UO26iKVNOHFs=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYAppearance.h</key>
 		<data>
@@ -242,7 +242,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYNavigationBarAppearance.h</key>
 		<data>
-		MNsKVAwzid+re2lYTnEQNOHuYKw=
+		WfH+B9JvGwlWN2Lve4QMgoK1wUs=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYProgressView.h</key>
 		<data>
@@ -302,7 +302,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Info.plist</key>
 		<data>
-		ts5nsgCNQTxlmWOARkmmZYGSQwE=
+		RFNCdg//W+j40M4anQ4xLLGuJX8=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/AccordionItemIcon.png</key>
 		<data>
@@ -378,15 +378,15 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash</key>
 		<data>
-		rpAnPZjYBGl3wd4SyviZQxoyWyc=
+		8YikpDCfZS50lP5lyEToaXySI3M=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash.sha256</key>
 		<data>
-		tLdk2YJiWncTAjCALIecXPTXO7U=
+		ujQbBRxoGQTwF0pUoAVLICm23LE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		URjuvplCGYNmPtS20FPT4ZDAnrI=
+		VBP5A3M4fbhjz3K134UL4wWHjY8=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -394,11 +394,11 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
-		NnbbEXCp9ZNdD9OlY6vdWgFIDQc=
+		DBah+teg8eTAOAAYcjEdgpd4bX4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2</key>
 		<data>
-		rwzjvkI2Tt03s/B11SgY20qfM3g=
+		GZF52Px7CCfgS0PVEI8HMpOMZ0Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIcon.png</key>
 		<data>
@@ -438,7 +438,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/Info.plist</key>
 		<data>
-		IowxVM9K8hfVw2p3kmDlDmwUMwM=
+		njx03um6WK5h1qOaKzncow4AbKw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
 		<data>
@@ -478,11 +478,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash</key>
 		<data>
-		rpAnPZjYBGl3wd4SyviZQxoyWyc=
+		8YikpDCfZS50lP5lyEToaXySI3M=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash.sha256</key>
 		<data>
-		tLdk2YJiWncTAjCALIecXPTXO7U=
+		ujQbBRxoGQTwF0pUoAVLICm23LE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYAppearance.h</key>
 		<data>
@@ -522,7 +522,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYNavigationBarAppearance.h</key>
 		<data>
-		MNsKVAwzid+re2lYTnEQNOHuYKw=
+		WfH+B9JvGwlWN2Lve4QMgoK1wUs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYProgressView.h</key>
 		<data>
@@ -578,7 +578,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Info.plist</key>
 		<data>
-		t9Gc4aWIq+vmkFlS0Zd8HQpsEYE=
+		A4GiRo+T1tuwGL13x7mHntTXXzc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Modules/module.modulemap</key>
 		<data>
@@ -590,28 +590,20 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/_CodeSignature/CodeResources</key>
 		<data>
-		H0UQMcObEyQ1uK5Q/7PIE3sI2H8=
+		miSD5JJNOkOmZaZeCV2v6FegGOU=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1tc8+atY/tNtcmxvTlP0GIOks/E=
-			</data>
 			<key>hash2</key>
 			<data>
-			ei4XXhdgj2sTckYDoDxvVQJc6nnU5zI2r/hOzz65sik=
+			k77qtEM0Q1V+rRe5Q2VBm7X5FhAYURVqDAXGDl/C3Io=
 			</data>
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIcon.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zncaeazV3jiRFdllIpWIg7V7CPk=
-			</data>
 			<key>hash2</key>
 			<data>
 			dx3CcG97zY03ZuoFUPrh7ki6rUR6Gr2BAgkYTt4//c0=
@@ -619,10 +611,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIcon@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Jdt2qurmhTc5/vxYu5oG3n7qGOk=
-			</data>
 			<key>hash2</key>
 			<data>
 			VbhtDHBaK5VeBaI0ScDB0PFJXyNrdxEbHO6qWhOpvPQ=
@@ -630,10 +618,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIcon@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			51WaE/IKRMfiy9tbq5DfWSEa5fg=
-			</data>
 			<key>hash2</key>
 			<data>
 			ewEHLmHeCdLi84dAFcuqHMShkMrBMS4jBRe5LWxmfdo=
@@ -641,10 +625,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIconExpanded.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Gp8k9WBgyBVyVzKwkb9h+yeERew=
-			</data>
 			<key>hash2</key>
 			<data>
 			RrRw9jc5pAK1ADcII4KZV5F+ioxqf3oUk8AeY3CjOIM=
@@ -652,10 +632,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIconExpanded@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UqZoYpRwTNxGKAOxJOuNRybIA2Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			9izaoyAxsbGfveLWIFGomwsqCfwFYufadp1vuBwMzK8=
@@ -663,10 +639,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIconExpanded@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Wsq2dgTYDA41wlxYtUA3h67iqUE=
-			</data>
 			<key>hash2</key>
 			<data>
 			qgK0tgSXO1lGbsrWIO4EolZjTaPgd9t2RTDmqE2I1OA=
@@ -674,10 +646,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/ErrorIndicator.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			939QYSrggYYQFlIuyJBEhtCdd40=
-			</data>
 			<key>hash2</key>
 			<data>
 			UKlt/chNelSv0UFiJeJcBiFvWke8ANuHUyrSciEMV14=
@@ -685,10 +653,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/ErrorIndicator@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I748doP0zxdYXR+48wz8cBOXG1s=
-			</data>
 			<key>hash2</key>
 			<data>
 			EjuCjQOKHebdt4uIIcPlPSGFrnLFMlAzwQLRO1UHYHg=
@@ -696,10 +660,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/ErrorIndicator@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VwA0d0pb75LYYGYeJHNOtsIo4us=
-			</data>
 			<key>hash2</key>
 			<data>
 			T5HgsZPrUN7KtwyXQHG8pZ09mitC+mZ7D6iuwb1j2HU=
@@ -707,21 +667,13 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Lkiu316pON1cL2d/hGZ5ewwx/tE=
-			</data>
 			<key>hash2</key>
 			<data>
-			TkMsGAI7MYSsrWjmpfREb6Ivx8+Rafo36wX5gCMNcvY=
+			TYtObkE3/Tm1Ni+P/UAlKaw3ksMQyzHhcY3WebQqc5E=
 			</data>
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MSkc0JBAHKceD5tFSaV+R2lp6tY=
-			</data>
 			<key>hash2</key>
 			<data>
 			y3HIgEOowqS2AftFRN1iPVSFqsetx9PHquSj/LUjszw=
@@ -729,10 +681,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicator@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			D6YN3/odvVM+b6D1jr7JZew6ne0=
-			</data>
 			<key>hash2</key>
 			<data>
 			3L6UQ4Sr2pfTc7rLzDZBRQ+okgzlWVFMd0W40DLrpyE=
@@ -740,10 +688,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicator@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8okG8cr6wsaiFTtmFJDEg1M1Ao0=
-			</data>
 			<key>hash2</key>
 			<data>
 			lTjSyMgquA4bo8aF5BDoV54ciLJ3IgZoVEFxE8+D7qI=
@@ -751,10 +695,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicatorSelected.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I/+ShJbYFPdhJOdsgaRPI0eALPs=
-			</data>
 			<key>hash2</key>
 			<data>
 			r4sweNDAwNDcebQAqOYPkfPkGoQlrZ3H6YZ+tmTtIg8=
@@ -762,10 +702,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicatorSelected@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			txkpK/bPl+WrQsFAv1xhbc3oc0k=
-			</data>
 			<key>hash2</key>
 			<data>
 			FAYCna/osudi10xgNJmevKRgFkITEGYRkh/vliXGTQQ=
@@ -773,10 +709,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicatorSelected@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KWJsKN4gcVyoVzZ/Zv39r9Su+0w=
-			</data>
 			<key>hash2</key>
 			<data>
 			AeMwm53X5qz7RKOLKJfCMVXBX68n32voHmw7al+prHI=
@@ -784,10 +716,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/SingleSelectionIndicatorSelected.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zaU95+KpdvP+qCgydmxJ0JUS/gU=
-			</data>
 			<key>hash2</key>
 			<data>
 			Q9zQrt7gU/WrfpSQer+YGQnuUq0FzTI6rMMxv1Do7t4=
@@ -795,10 +723,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/SingleSelectionIndicatorSelected@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			T6MarU5j1QRXYnO2gotnvBhl36s=
-			</data>
 			<key>hash2</key>
 			<data>
 			CGO9UA7uUTydT/+mmCKxxikvpqnuiMFgzzypI+5XPU0=
@@ -806,10 +730,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/SingleSelectionIndicatorSelected@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DWhITd/cNoUzJB7SOYysBo8CqD0=
-			</data>
 			<key>hash2</key>
 			<data>
 			u/AYnX/N89U2tkmsxlfVqxXzpGwfCVi2NCo7CBI7fz0=
@@ -817,32 +737,20 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rpAnPZjYBGl3wd4SyviZQxoyWyc=
-			</data>
 			<key>hash2</key>
 			<data>
-			yAQhsIQrB1mXAoj4ththfRypMXdLT8qoli50pPVSbrQ=
+			o8qtwc1OOtmKqIGhUbPlVcwYllS5evO+qJASUHk3UU8=
 			</data>
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash.sha256</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tLdk2YJiWncTAjCALIecXPTXO7U=
-			</data>
 			<key>hash2</key>
 			<data>
-			Rz06XWe7uzu3MC6ZC4vdWeT/xarBMQRpptb0OJos1Ec=
+			r1jq62SzMmBEQn8lewqSYNCD3LLVCPI1qyQnLBNWxDo=
 			</data>
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QjBCs4h7W4Qyq4fHWw05N8GxXj0=
-			</data>
 			<key>hash2</key>
 			<data>
 			yvYoxAEiEIDyydffrVCe/uBAjwGg+eqhrCEK7unLuGs=
@@ -850,10 +758,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYAppearanceConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2ELkhlgJYPUieGMPJDNAaSoN3uo=
-			</data>
 			<key>hash2</key>
 			<data>
 			Zl5gKTP3b0/ei7lGZzh3l+GWVfXicp12XzQk5I0q5Zw=
@@ -861,10 +765,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYAuthenticationRequestParameters.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mkYwtltb3cZBUPEEXNKE08bmMz4=
-			</data>
 			<key>hash2</key>
 			<data>
 			nCimp0BPAF27mGVtIqGvIyIcHgLQZroXr34c1vLdaTQ=
@@ -872,10 +772,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYButtonAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vm/pteUZeKwecGtkNe/OEFeP/xs=
-			</data>
 			<key>hash2</key>
 			<data>
 			32jhV9b9SQyEgW8/UcKoJ2X8EKtmy8LkDDCK3mxiNmA=
@@ -883,10 +779,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYChallengeDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4Q4kSRD3fjXvHFOsu80h9ok/0s0=
-			</data>
 			<key>hash2</key>
 			<data>
 			bDTgCQA8OBtwA/sftzXtqkJiVUD2Ki3ET+HU1cGZ+f8=
@@ -894,10 +786,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYChallengeParameters.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wp0myebQKMBlLBJbmTfHZLcnD8k=
-			</data>
 			<key>hash2</key>
 			<data>
 			1E17/KGArkVZdtf9+iJhrt7u+lIb2pJAWyfjpRxyRN4=
@@ -905,10 +793,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYChallengeResult.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q7ZvdGXO8xCQhKJIoJbStLtpcMU=
-			</data>
 			<key>hash2</key>
 			<data>
 			3Qk026dAEEqjRYg+Z61zEIXHvFyftJiULbK7zW5eaPM=
@@ -916,10 +800,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYInfoAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OoP1jOEsjLn+bqjtZSrB8QE3zRU=
-			</data>
 			<key>hash2</key>
 			<data>
 			KibY6oP4J41KQMCS3KbmGrt8Mo0aX2AuV+KSZIV+gPI=
@@ -927,10 +807,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYLabelAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RFArIXB2rokAA1cVIu/DrOup/NI=
-			</data>
 			<key>hash2</key>
 			<data>
 			8XBng87xkrqtoyCxFyrCJQM0esJLEwms7TLNWgYkHuA=
@@ -938,21 +814,13 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYNavigationBarAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MNsKVAwzid+re2lYTnEQNOHuYKw=
-			</data>
 			<key>hash2</key>
 			<data>
-			XPh2YoksCFoqZe6iSmHEOWWZTdWbHRdnvChmGx45LOQ=
+			FCDBlfzkyWzcmUZnIGBVzTtMtgW6NKbisV/Qb+xdxFg=
 			</data>
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYProgressView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bhILrMEGl2yGmlgqxy8l66Yzbo8=
-			</data>
 			<key>hash2</key>
 			<data>
 			6HQZv+V7/MaqvVFW/6YAmb9sv4QIdWZPF0NRsK3WUQw=
@@ -960,10 +828,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYProtocolError.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BHhUhDApRQkLuoKd9//GCpyejI0=
-			</data>
 			<key>hash2</key>
 			<data>
 			dd5tbRbJG7kAECSweg6Td8CFky0Nd/k2zFUN35/CSKg=
@@ -971,10 +835,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYRuntimeError.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3jr7U3km7dNaq004gE0MXypyjwg=
-			</data>
 			<key>hash2</key>
 			<data>
 			moiDUecxRWJWLg6HIIBRsR+inne8/cbAAAPwx78mGeQ=
@@ -982,10 +842,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYSecurityWarningsDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0JxTDJ7dT6wBhWMRIyXs/+mfh9k=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZAhJ8skFe8/SUw1L+KOhqaMyrIDK0/f8+Z/yFbo+2yk=
@@ -993,10 +849,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYSelectAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			APZ994uK4o3xzr+JKiKCxSp5NqQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			STJpuKnB0sTdiAAj9+5a2m+/zf1oVUhgYQoEzxMtvE0=
@@ -1004,10 +856,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYService.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tqlj74haLcB05ZRxpLHjRDfONqs=
-			</data>
 			<key>hash2</key>
 			<data>
 			c5cbw7QIQSCFiANmnuY6i2xHkD1FI2XwlZgI5bwimTU=
@@ -1015,10 +863,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYServiceParameters.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kd8QJ/7WxA5NnGVOoN4AFwgAMuM=
-			</data>
 			<key>hash2</key>
 			<data>
 			eAHqPN3RUbn6eVJBf3n4kGFOxPqVm4xJW/CTAPKpCK8=
@@ -1026,10 +870,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYSwitchAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			N9//5Eb634+xbLMaNzY4L39QJaE=
-			</data>
 			<key>hash2</key>
 			<data>
 			zmRQ67XCJC42ggkXe7QCDJW3eJRMkH9EIPv6opahHqU=
@@ -1037,10 +877,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYTextFieldAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XVFsalnCPiu9YyYH5PRCAz562kk=
-			</data>
 			<key>hash2</key>
 			<data>
 			nneK0JtMLYj60c0ApBBOp7o8rB3jPuT4dFu1BBvWSdU=
@@ -1048,10 +884,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYTransaction.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IjoRvgDRAslFgh5m+64XZ1HZhOg=
-			</data>
 			<key>hash2</key>
 			<data>
 			6AjMyq3HQyM1WDf15UsXTscDHIffML+tv0c9lZt+WMw=
@@ -1059,10 +891,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/ADYWarning.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9XGdDJAuG/7JVFeMLQT/SbNHVaU=
-			</data>
 			<key>hash2</key>
 			<data>
 			OMQyvBM4wuKIZdEmhRWm26D/je2elD1SnjaMrQVKzcI=
@@ -1070,10 +898,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/Adyen3DS2.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sGok99f6EN25s8y1ab9LD/XOyMs=
-			</data>
 			<key>hash2</key>
 			<data>
 			jbxeX/VfQfPS207uqzAb012aeBfZ/huSaiXD2RjNwpw=
@@ -1081,10 +905,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Headers/NSError+Public.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iQfT0nW2HNAxUvogFxBuxYNBM+Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			KMzlJscJsC2zTy5HAFakuueiJZ1sACSISGviNlBEdCI=
@@ -1092,21 +912,13 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WNbMFzEtiJ2LXOG4zLTwuQZhqrU=
-			</data>
 			<key>hash2</key>
 			<data>
-			HkbGMNi8Ew4N4bGtJRFGW6sDN087vLuhmxOdz8E8cmo=
+			fTpwW2LkCc6YdBbeE7RNcEOxMZKBFjqDkQyPQEmldTQ=
 			</data>
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FjAxa1szb9MbQu0vjEMeHG5QAjE=
-			</data>
 			<key>hash2</key>
 			<data>
 			sU5xPAVmj6D0HQSj1LswZ+B5mkaYPh9qsKXIyJhwZ40=
@@ -1114,10 +926,6 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rP+s4o3svz2aEPBAVk2EzZl4IMs=
-			</data>
 			<key>hash2</key>
 			<data>
 			qPaHzf61OOta3dsNAozH83MsGmruQxPfOJgZMKtY5HE=
@@ -1125,13 +933,9 @@
 		</dict>
 		<key>ios-arm64/Adyen3DS2.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vjcbnokG/inA8Yay4Jbz/igR3DU=
-			</data>
 			<key>hash2</key>
 			<data>
-			+cc1hvsdAVXSJv6RYM3+hemhq84iBnELyooIxSABkc0=
+			tVPZLct3JLeI9/2QUIRaE0tZwCw/TO8mOAjnx7TuEdA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Adyen3DS2</key>
@@ -1156,21 +960,13 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Adyen3DS2</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fm8YQu+k5xP+oHUJ0v6uCxk5e5o=
-			</data>
 			<key>hash2</key>
 			<data>
-			uEN9A9sOcy2Os8yNtcmGTd184c+l8NhTjObc6dibUxU=
+			cTjdlq8vCq9gH9IIKsvNzXX25oRhzvQ8iQWtN6yCMB0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QjBCs4h7W4Qyq4fHWw05N8GxXj0=
-			</data>
 			<key>hash2</key>
 			<data>
 			yvYoxAEiEIDyydffrVCe/uBAjwGg+eqhrCEK7unLuGs=
@@ -1178,10 +974,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYAppearanceConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2ELkhlgJYPUieGMPJDNAaSoN3uo=
-			</data>
 			<key>hash2</key>
 			<data>
 			Zl5gKTP3b0/ei7lGZzh3l+GWVfXicp12XzQk5I0q5Zw=
@@ -1189,10 +981,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYAuthenticationRequestParameters.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mkYwtltb3cZBUPEEXNKE08bmMz4=
-			</data>
 			<key>hash2</key>
 			<data>
 			nCimp0BPAF27mGVtIqGvIyIcHgLQZroXr34c1vLdaTQ=
@@ -1200,10 +988,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYButtonAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vm/pteUZeKwecGtkNe/OEFeP/xs=
-			</data>
 			<key>hash2</key>
 			<data>
 			32jhV9b9SQyEgW8/UcKoJ2X8EKtmy8LkDDCK3mxiNmA=
@@ -1211,10 +995,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYChallengeDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4Q4kSRD3fjXvHFOsu80h9ok/0s0=
-			</data>
 			<key>hash2</key>
 			<data>
 			bDTgCQA8OBtwA/sftzXtqkJiVUD2Ki3ET+HU1cGZ+f8=
@@ -1222,10 +1002,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYChallengeParameters.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wp0myebQKMBlLBJbmTfHZLcnD8k=
-			</data>
 			<key>hash2</key>
 			<data>
 			1E17/KGArkVZdtf9+iJhrt7u+lIb2pJAWyfjpRxyRN4=
@@ -1233,10 +1009,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYChallengeResult.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q7ZvdGXO8xCQhKJIoJbStLtpcMU=
-			</data>
 			<key>hash2</key>
 			<data>
 			3Qk026dAEEqjRYg+Z61zEIXHvFyftJiULbK7zW5eaPM=
@@ -1244,10 +1016,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYInfoAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OoP1jOEsjLn+bqjtZSrB8QE3zRU=
-			</data>
 			<key>hash2</key>
 			<data>
 			KibY6oP4J41KQMCS3KbmGrt8Mo0aX2AuV+KSZIV+gPI=
@@ -1255,10 +1023,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYLabelAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RFArIXB2rokAA1cVIu/DrOup/NI=
-			</data>
 			<key>hash2</key>
 			<data>
 			8XBng87xkrqtoyCxFyrCJQM0esJLEwms7TLNWgYkHuA=
@@ -1266,21 +1030,13 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYNavigationBarAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MNsKVAwzid+re2lYTnEQNOHuYKw=
-			</data>
 			<key>hash2</key>
 			<data>
-			XPh2YoksCFoqZe6iSmHEOWWZTdWbHRdnvChmGx45LOQ=
+			FCDBlfzkyWzcmUZnIGBVzTtMtgW6NKbisV/Qb+xdxFg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYProgressView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bhILrMEGl2yGmlgqxy8l66Yzbo8=
-			</data>
 			<key>hash2</key>
 			<data>
 			6HQZv+V7/MaqvVFW/6YAmb9sv4QIdWZPF0NRsK3WUQw=
@@ -1288,10 +1044,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYProtocolError.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BHhUhDApRQkLuoKd9//GCpyejI0=
-			</data>
 			<key>hash2</key>
 			<data>
 			dd5tbRbJG7kAECSweg6Td8CFky0Nd/k2zFUN35/CSKg=
@@ -1299,10 +1051,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYRuntimeError.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3jr7U3km7dNaq004gE0MXypyjwg=
-			</data>
 			<key>hash2</key>
 			<data>
 			moiDUecxRWJWLg6HIIBRsR+inne8/cbAAAPwx78mGeQ=
@@ -1310,10 +1058,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYSecurityWarningsDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0JxTDJ7dT6wBhWMRIyXs/+mfh9k=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZAhJ8skFe8/SUw1L+KOhqaMyrIDK0/f8+Z/yFbo+2yk=
@@ -1321,10 +1065,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYSelectAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			APZ994uK4o3xzr+JKiKCxSp5NqQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			STJpuKnB0sTdiAAj9+5a2m+/zf1oVUhgYQoEzxMtvE0=
@@ -1332,10 +1072,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYService.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tqlj74haLcB05ZRxpLHjRDfONqs=
-			</data>
 			<key>hash2</key>
 			<data>
 			c5cbw7QIQSCFiANmnuY6i2xHkD1FI2XwlZgI5bwimTU=
@@ -1343,10 +1079,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYServiceParameters.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kd8QJ/7WxA5NnGVOoN4AFwgAMuM=
-			</data>
 			<key>hash2</key>
 			<data>
 			eAHqPN3RUbn6eVJBf3n4kGFOxPqVm4xJW/CTAPKpCK8=
@@ -1354,10 +1086,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYSwitchAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			N9//5Eb634+xbLMaNzY4L39QJaE=
-			</data>
 			<key>hash2</key>
 			<data>
 			zmRQ67XCJC42ggkXe7QCDJW3eJRMkH9EIPv6opahHqU=
@@ -1365,10 +1093,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYTextFieldAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XVFsalnCPiu9YyYH5PRCAz562kk=
-			</data>
 			<key>hash2</key>
 			<data>
 			nneK0JtMLYj60c0ApBBOp7o8rB3jPuT4dFu1BBvWSdU=
@@ -1376,10 +1100,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYTransaction.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IjoRvgDRAslFgh5m+64XZ1HZhOg=
-			</data>
 			<key>hash2</key>
 			<data>
 			6AjMyq3HQyM1WDf15UsXTscDHIffML+tv0c9lZt+WMw=
@@ -1387,10 +1107,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/ADYWarning.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9XGdDJAuG/7JVFeMLQT/SbNHVaU=
-			</data>
 			<key>hash2</key>
 			<data>
 			OMQyvBM4wuKIZdEmhRWm26D/je2elD1SnjaMrQVKzcI=
@@ -1398,10 +1114,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/Adyen3DS2.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sGok99f6EN25s8y1ab9LD/XOyMs=
-			</data>
 			<key>hash2</key>
 			<data>
 			jbxeX/VfQfPS207uqzAb012aeBfZ/huSaiXD2RjNwpw=
@@ -1409,10 +1121,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Headers/NSError+Public.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iQfT0nW2HNAxUvogFxBuxYNBM+Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			KMzlJscJsC2zTy5HAFakuueiJZ1sACSISGviNlBEdCI=
@@ -1420,10 +1128,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FjAxa1szb9MbQu0vjEMeHG5QAjE=
-			</data>
 			<key>hash2</key>
 			<data>
 			sU5xPAVmj6D0HQSj1LswZ+B5mkaYPh9qsKXIyJhwZ40=
@@ -1431,21 +1135,13 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ts5nsgCNQTxlmWOARkmmZYGSQwE=
-			</data>
 			<key>hash2</key>
 			<data>
-			FOFZ9ElxGsaaPWG+6gnn2HO3bumZco6Qr6VHEM+lXg0=
+			bsID1HLLFU52wvLtpHoYeB77jpsnRWejCQpmnQR3CcQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/AccordionItemIcon.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			f964d+Dk/ghkdXq4fgTCIg8h0Co=
-			</data>
 			<key>hash2</key>
 			<data>
 			X+GwVyro/INPa6W6Q5HN49qyW3KmvZwrx0ogxcFjp+I=
@@ -1453,10 +1149,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/AccordionItemIcon@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gFDW2jMXGvp0qiPcmS6F4WHHvgo=
-			</data>
 			<key>hash2</key>
 			<data>
 			f+Sx9EQLTo+R2+sSwe9f3g9ThZCBRPb8YXCrcTGiuEo=
@@ -1464,10 +1156,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/AccordionItemIcon@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XA7RRKRW5ah4uMjAAKUvz7IEyEw=
-			</data>
 			<key>hash2</key>
 			<data>
 			MuvO/A8Jh1XXTbkTO9ifntgHFLgTSxGVSk/4izcUSkk=
@@ -1475,10 +1163,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/AccordionItemIconExpanded.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HQwZMYRWyDyE2FqVKIhH1UYMuIk=
-			</data>
 			<key>hash2</key>
 			<data>
 			o4Umd2mlbneF2tTj7uebFWxwVTJNhKMFxRPcwotPj18=
@@ -1486,10 +1170,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/AccordionItemIconExpanded@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fVLWDp3w8+IbEm6fNN/F7MgK2j4=
-			</data>
 			<key>hash2</key>
 			<data>
 			yyco20J634QwZI6rk+iB4hjTIHfm62RVJ4xDsLLMXKg=
@@ -1497,10 +1177,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/AccordionItemIconExpanded@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iC0p7JFGzUSJUaWYHtug/d9+m3U=
-			</data>
 			<key>hash2</key>
 			<data>
 			HXBBpU5aRt/mSLcAGBC83dJfEmqxi2rkbIu6R2zopMY=
@@ -1508,10 +1184,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/ErrorIndicator.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XjVrSQEGsQ/Af7W1y1wlSp/Na70=
-			</data>
 			<key>hash2</key>
 			<data>
 			gTEHm2wx99WJd0cuEAV9ONiReihMt0SFC1MSc6CL7nI=
@@ -1519,10 +1191,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/ErrorIndicator@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E+YU4/KQGATdPLUn318ENi2Ko6M=
-			</data>
 			<key>hash2</key>
 			<data>
 			UhsRglQmOpI1kOJ+gTxznzPc8UkK5qhoyfSpPHY7JiA=
@@ -1530,10 +1198,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/ErrorIndicator@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9OzpTDQI5Xnp3nSOvrLfQ2CmKV4=
-			</data>
 			<key>hash2</key>
 			<data>
 			5tb6ZXN76w+E/ZcGiM5zG20EZotuZS56tPLPRyXwoYM=
@@ -1541,10 +1205,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/MultiSelectionIndicator.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HMfojZLn+iYbB6u4sID7LRJMq7M=
-			</data>
 			<key>hash2</key>
 			<data>
 			+77GCv+RmazffHNhCKgR6eJDJMDIsVW9JfqeGHkFl/o=
@@ -1552,10 +1212,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/MultiSelectionIndicator@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+WbDYeCNbIT8VpFL0mh7mXhyqpM=
-			</data>
 			<key>hash2</key>
 			<data>
 			zz7PTghwWeQGB1oPHeVecwnaC4OCa5DsksNtVI2fH5U=
@@ -1563,10 +1219,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/MultiSelectionIndicator@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dnPNbox/5WMFFgYQGi1ix5LbCUQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			LBYQjS8Tybce8ZsZcGG3heVVe5/C0ogrTY7U1VB73nM=
@@ -1574,10 +1226,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/MultiSelectionIndicatorSelected.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rcmgjzWaCIEBcKqSj1dnCSotuow=
-			</data>
 			<key>hash2</key>
 			<data>
 			9zYDEWvSGnG872E7ynnG7GhqaDcGK5jRMs8krBvlRss=
@@ -1585,10 +1233,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/MultiSelectionIndicatorSelected@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RuGbHJnpmmvXfy5SEvmBMWHqN70=
-			</data>
 			<key>hash2</key>
 			<data>
 			fhFL7y5qVl68jDHW7GDjRyn4TRhs5C3RFj5pHpY5zj0=
@@ -1596,10 +1240,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/MultiSelectionIndicatorSelected@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Y03ETHh6v2GxPptqbKqeia5G97E=
-			</data>
 			<key>hash2</key>
 			<data>
 			yjA054rKK6rMgKi1UJMQRx2BVrHPY+SmIC318MmL39I=
@@ -1607,10 +1247,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/SingleSelectionIndicatorSelected.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IQAcy8iR0k4VIv5czl6qmUFnCyI=
-			</data>
 			<key>hash2</key>
 			<data>
 			RfLlEsYlNiOqixsJQF7PWcjrOCaEK0lJaT+J7TVdc8U=
@@ -1618,10 +1254,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/SingleSelectionIndicatorSelected@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4j7g8VtXxfdhd3cNq/Ihav9zrlk=
-			</data>
 			<key>hash2</key>
 			<data>
 			mNE5uAP+r9NbF2BIwrBsejdnCpsAoKIDOzUuL7HsMR0=
@@ -1629,10 +1261,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/SingleSelectionIndicatorSelected@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			L5yURs3xLNNqCnDTXzGytRBCAcY=
-			</data>
 			<key>hash2</key>
 			<data>
 			xPHTUmM5ryx/7DcnZXPH2OMtHMZ9x0Ixvb4SlYuIWkE=
@@ -1640,43 +1268,27 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rpAnPZjYBGl3wd4SyviZQxoyWyc=
-			</data>
 			<key>hash2</key>
 			<data>
-			yAQhsIQrB1mXAoj4ththfRypMXdLT8qoli50pPVSbrQ=
+			o8qtwc1OOtmKqIGhUbPlVcwYllS5evO+qJASUHk3UU8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Adyen3DS2.bundle/Contents/Resources/macho.hash.sha256</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tLdk2YJiWncTAjCALIecXPTXO7U=
-			</data>
 			<key>hash2</key>
 			<data>
-			Rz06XWe7uzu3MC6ZC4vdWeT/xarBMQRpptb0OJos1Ec=
+			r1jq62SzMmBEQn8lewqSYNCD3LLVCPI1qyQnLBNWxDo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			URjuvplCGYNmPtS20FPT4ZDAnrI=
-			</data>
 			<key>hash2</key>
 			<data>
-			algVOD/S9+o/O9itksvBBDSO+uOg0Y0xbLG9oCF+VRE=
+			+TX9W5hBHJ60qdQ2bnW2/MhUjLKqpxnLVZayntSnb70=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rP+s4o3svz2aEPBAVk2EzZl4IMs=
-			</data>
 			<key>hash2</key>
 			<data>
 			qPaHzf61OOta3dsNAozH83MsGmruQxPfOJgZMKtY5HE=
@@ -1684,13 +1296,9 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NnbbEXCp9ZNdD9OlY6vdWgFIDQc=
-			</data>
 			<key>hash2</key>
 			<data>
-			SV1IYxO/qVAjCTfaHvM8N9WUOC0JAe3dE/n+/CAz+CM=
+			NXalqRQkBebc9o08adTAKAMyGQJ38MWhTS5BBqtbjCA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Adyen3DS2.framework/Versions/Current</key>
@@ -1700,21 +1308,13 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rwzjvkI2Tt03s/B11SgY20qfM3g=
-			</data>
 			<key>hash2</key>
 			<data>
-			Jet8lPesspGMzveDmNow0ZroNpHI3IxyGjeUUG47+PE=
+			dePQb24Qqq2jRkGrCn7TNtmLBtahod4WTr2ecB/Ihds=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIcon.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zncaeazV3jiRFdllIpWIg7V7CPk=
-			</data>
 			<key>hash2</key>
 			<data>
 			dx3CcG97zY03ZuoFUPrh7ki6rUR6Gr2BAgkYTt4//c0=
@@ -1722,10 +1322,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIcon@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Jdt2qurmhTc5/vxYu5oG3n7qGOk=
-			</data>
 			<key>hash2</key>
 			<data>
 			VbhtDHBaK5VeBaI0ScDB0PFJXyNrdxEbHO6qWhOpvPQ=
@@ -1733,10 +1329,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIcon@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			51WaE/IKRMfiy9tbq5DfWSEa5fg=
-			</data>
 			<key>hash2</key>
 			<data>
 			ewEHLmHeCdLi84dAFcuqHMShkMrBMS4jBRe5LWxmfdo=
@@ -1744,10 +1336,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIconExpanded.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Gp8k9WBgyBVyVzKwkb9h+yeERew=
-			</data>
 			<key>hash2</key>
 			<data>
 			RrRw9jc5pAK1ADcII4KZV5F+ioxqf3oUk8AeY3CjOIM=
@@ -1755,10 +1343,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIconExpanded@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UqZoYpRwTNxGKAOxJOuNRybIA2Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			9izaoyAxsbGfveLWIFGomwsqCfwFYufadp1vuBwMzK8=
@@ -1766,10 +1350,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/AccordionItemIconExpanded@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Wsq2dgTYDA41wlxYtUA3h67iqUE=
-			</data>
 			<key>hash2</key>
 			<data>
 			qgK0tgSXO1lGbsrWIO4EolZjTaPgd9t2RTDmqE2I1OA=
@@ -1777,10 +1357,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/ErrorIndicator.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			939QYSrggYYQFlIuyJBEhtCdd40=
-			</data>
 			<key>hash2</key>
 			<data>
 			UKlt/chNelSv0UFiJeJcBiFvWke8ANuHUyrSciEMV14=
@@ -1788,10 +1364,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/ErrorIndicator@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I748doP0zxdYXR+48wz8cBOXG1s=
-			</data>
 			<key>hash2</key>
 			<data>
 			EjuCjQOKHebdt4uIIcPlPSGFrnLFMlAzwQLRO1UHYHg=
@@ -1799,10 +1371,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/ErrorIndicator@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VwA0d0pb75LYYGYeJHNOtsIo4us=
-			</data>
 			<key>hash2</key>
 			<data>
 			T5HgsZPrUN7KtwyXQHG8pZ09mitC+mZ7D6iuwb1j2HU=
@@ -1810,21 +1378,13 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IowxVM9K8hfVw2p3kmDlDmwUMwM=
-			</data>
 			<key>hash2</key>
 			<data>
-			Q3hSia2k0M04+5wRoeGNwBo89rV6miqkc4DvXEPD9GM=
+			Ln+pG6VRkkACuZv1bKMLbzUcfXYEScu0PErWDEDi2+A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MSkc0JBAHKceD5tFSaV+R2lp6tY=
-			</data>
 			<key>hash2</key>
 			<data>
 			y3HIgEOowqS2AftFRN1iPVSFqsetx9PHquSj/LUjszw=
@@ -1832,10 +1392,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicator@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			D6YN3/odvVM+b6D1jr7JZew6ne0=
-			</data>
 			<key>hash2</key>
 			<data>
 			3L6UQ4Sr2pfTc7rLzDZBRQ+okgzlWVFMd0W40DLrpyE=
@@ -1843,10 +1399,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicator@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8okG8cr6wsaiFTtmFJDEg1M1Ao0=
-			</data>
 			<key>hash2</key>
 			<data>
 			lTjSyMgquA4bo8aF5BDoV54ciLJ3IgZoVEFxE8+D7qI=
@@ -1854,10 +1406,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicatorSelected.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I/+ShJbYFPdhJOdsgaRPI0eALPs=
-			</data>
 			<key>hash2</key>
 			<data>
 			r4sweNDAwNDcebQAqOYPkfPkGoQlrZ3H6YZ+tmTtIg8=
@@ -1865,10 +1413,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicatorSelected@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			txkpK/bPl+WrQsFAv1xhbc3oc0k=
-			</data>
 			<key>hash2</key>
 			<data>
 			FAYCna/osudi10xgNJmevKRgFkITEGYRkh/vliXGTQQ=
@@ -1876,10 +1420,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/MultiSelectionIndicatorSelected@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KWJsKN4gcVyoVzZ/Zv39r9Su+0w=
-			</data>
 			<key>hash2</key>
 			<data>
 			AeMwm53X5qz7RKOLKJfCMVXBX68n32voHmw7al+prHI=
@@ -1887,10 +1427,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/SingleSelectionIndicatorSelected.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zaU95+KpdvP+qCgydmxJ0JUS/gU=
-			</data>
 			<key>hash2</key>
 			<data>
 			Q9zQrt7gU/WrfpSQer+YGQnuUq0FzTI6rMMxv1Do7t4=
@@ -1898,10 +1434,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/SingleSelectionIndicatorSelected@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			T6MarU5j1QRXYnO2gotnvBhl36s=
-			</data>
 			<key>hash2</key>
 			<data>
 			CGO9UA7uUTydT/+mmCKxxikvpqnuiMFgzzypI+5XPU0=
@@ -1909,10 +1441,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/SingleSelectionIndicatorSelected@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DWhITd/cNoUzJB7SOYysBo8CqD0=
-			</data>
 			<key>hash2</key>
 			<data>
 			u/AYnX/N89U2tkmsxlfVqxXzpGwfCVi2NCo7CBI7fz0=
@@ -1920,32 +1448,20 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rpAnPZjYBGl3wd4SyviZQxoyWyc=
-			</data>
 			<key>hash2</key>
 			<data>
-			yAQhsIQrB1mXAoj4ththfRypMXdLT8qoli50pPVSbrQ=
+			o8qtwc1OOtmKqIGhUbPlVcwYllS5evO+qJASUHk3UU8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Adyen3DS2.bundle/macho.hash.sha256</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tLdk2YJiWncTAjCALIecXPTXO7U=
-			</data>
 			<key>hash2</key>
 			<data>
-			Rz06XWe7uzu3MC6ZC4vdWeT/xarBMQRpptb0OJos1Ec=
+			r1jq62SzMmBEQn8lewqSYNCD3LLVCPI1qyQnLBNWxDo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QjBCs4h7W4Qyq4fHWw05N8GxXj0=
-			</data>
 			<key>hash2</key>
 			<data>
 			yvYoxAEiEIDyydffrVCe/uBAjwGg+eqhrCEK7unLuGs=
@@ -1953,10 +1469,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYAppearanceConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2ELkhlgJYPUieGMPJDNAaSoN3uo=
-			</data>
 			<key>hash2</key>
 			<data>
 			Zl5gKTP3b0/ei7lGZzh3l+GWVfXicp12XzQk5I0q5Zw=
@@ -1964,10 +1476,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYAuthenticationRequestParameters.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mkYwtltb3cZBUPEEXNKE08bmMz4=
-			</data>
 			<key>hash2</key>
 			<data>
 			nCimp0BPAF27mGVtIqGvIyIcHgLQZroXr34c1vLdaTQ=
@@ -1975,10 +1483,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYButtonAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vm/pteUZeKwecGtkNe/OEFeP/xs=
-			</data>
 			<key>hash2</key>
 			<data>
 			32jhV9b9SQyEgW8/UcKoJ2X8EKtmy8LkDDCK3mxiNmA=
@@ -1986,10 +1490,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYChallengeDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4Q4kSRD3fjXvHFOsu80h9ok/0s0=
-			</data>
 			<key>hash2</key>
 			<data>
 			bDTgCQA8OBtwA/sftzXtqkJiVUD2Ki3ET+HU1cGZ+f8=
@@ -1997,10 +1497,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYChallengeParameters.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wp0myebQKMBlLBJbmTfHZLcnD8k=
-			</data>
 			<key>hash2</key>
 			<data>
 			1E17/KGArkVZdtf9+iJhrt7u+lIb2pJAWyfjpRxyRN4=
@@ -2008,10 +1504,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYChallengeResult.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q7ZvdGXO8xCQhKJIoJbStLtpcMU=
-			</data>
 			<key>hash2</key>
 			<data>
 			3Qk026dAEEqjRYg+Z61zEIXHvFyftJiULbK7zW5eaPM=
@@ -2019,10 +1511,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYInfoAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OoP1jOEsjLn+bqjtZSrB8QE3zRU=
-			</data>
 			<key>hash2</key>
 			<data>
 			KibY6oP4J41KQMCS3KbmGrt8Mo0aX2AuV+KSZIV+gPI=
@@ -2030,10 +1518,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYLabelAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RFArIXB2rokAA1cVIu/DrOup/NI=
-			</data>
 			<key>hash2</key>
 			<data>
 			8XBng87xkrqtoyCxFyrCJQM0esJLEwms7TLNWgYkHuA=
@@ -2041,21 +1525,13 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYNavigationBarAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MNsKVAwzid+re2lYTnEQNOHuYKw=
-			</data>
 			<key>hash2</key>
 			<data>
-			XPh2YoksCFoqZe6iSmHEOWWZTdWbHRdnvChmGx45LOQ=
+			FCDBlfzkyWzcmUZnIGBVzTtMtgW6NKbisV/Qb+xdxFg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYProgressView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bhILrMEGl2yGmlgqxy8l66Yzbo8=
-			</data>
 			<key>hash2</key>
 			<data>
 			6HQZv+V7/MaqvVFW/6YAmb9sv4QIdWZPF0NRsK3WUQw=
@@ -2063,10 +1539,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYProtocolError.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BHhUhDApRQkLuoKd9//GCpyejI0=
-			</data>
 			<key>hash2</key>
 			<data>
 			dd5tbRbJG7kAECSweg6Td8CFky0Nd/k2zFUN35/CSKg=
@@ -2074,10 +1546,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYRuntimeError.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3jr7U3km7dNaq004gE0MXypyjwg=
-			</data>
 			<key>hash2</key>
 			<data>
 			moiDUecxRWJWLg6HIIBRsR+inne8/cbAAAPwx78mGeQ=
@@ -2085,10 +1553,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYSecurityWarningsDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0JxTDJ7dT6wBhWMRIyXs/+mfh9k=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZAhJ8skFe8/SUw1L+KOhqaMyrIDK0/f8+Z/yFbo+2yk=
@@ -2096,10 +1560,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYSelectAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			APZ994uK4o3xzr+JKiKCxSp5NqQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			STJpuKnB0sTdiAAj9+5a2m+/zf1oVUhgYQoEzxMtvE0=
@@ -2107,10 +1567,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYService.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tqlj74haLcB05ZRxpLHjRDfONqs=
-			</data>
 			<key>hash2</key>
 			<data>
 			c5cbw7QIQSCFiANmnuY6i2xHkD1FI2XwlZgI5bwimTU=
@@ -2118,10 +1574,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYServiceParameters.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kd8QJ/7WxA5NnGVOoN4AFwgAMuM=
-			</data>
 			<key>hash2</key>
 			<data>
 			eAHqPN3RUbn6eVJBf3n4kGFOxPqVm4xJW/CTAPKpCK8=
@@ -2129,10 +1581,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYSwitchAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			N9//5Eb634+xbLMaNzY4L39QJaE=
-			</data>
 			<key>hash2</key>
 			<data>
 			zmRQ67XCJC42ggkXe7QCDJW3eJRMkH9EIPv6opahHqU=
@@ -2140,10 +1588,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYTextFieldAppearance.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XVFsalnCPiu9YyYH5PRCAz562kk=
-			</data>
 			<key>hash2</key>
 			<data>
 			nneK0JtMLYj60c0ApBBOp7o8rB3jPuT4dFu1BBvWSdU=
@@ -2151,10 +1595,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYTransaction.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IjoRvgDRAslFgh5m+64XZ1HZhOg=
-			</data>
 			<key>hash2</key>
 			<data>
 			6AjMyq3HQyM1WDf15UsXTscDHIffML+tv0c9lZt+WMw=
@@ -2162,10 +1602,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/ADYWarning.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9XGdDJAuG/7JVFeMLQT/SbNHVaU=
-			</data>
 			<key>hash2</key>
 			<data>
 			OMQyvBM4wuKIZdEmhRWm26D/je2elD1SnjaMrQVKzcI=
@@ -2173,10 +1609,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/Adyen3DS2.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sGok99f6EN25s8y1ab9LD/XOyMs=
-			</data>
 			<key>hash2</key>
 			<data>
 			jbxeX/VfQfPS207uqzAb012aeBfZ/huSaiXD2RjNwpw=
@@ -2184,10 +1616,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Headers/NSError+Public.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iQfT0nW2HNAxUvogFxBuxYNBM+Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			KMzlJscJsC2zTy5HAFakuueiJZ1sACSISGviNlBEdCI=
@@ -2195,21 +1623,13 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t9Gc4aWIq+vmkFlS0Zd8HQpsEYE=
-			</data>
 			<key>hash2</key>
 			<data>
-			Mre7JC0ZfWloKQXKkfKScaYBQ3XoSyf82YH3ngA2Ix0=
+			hpcC/a/LOUcHQLnmohmoMyoedt44oH07Ln0Tao+6iG4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FjAxa1szb9MbQu0vjEMeHG5QAjE=
-			</data>
 			<key>hash2</key>
 			<data>
 			sU5xPAVmj6D0HQSj1LswZ+B5mkaYPh9qsKXIyJhwZ40=
@@ -2217,10 +1637,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rP+s4o3svz2aEPBAVk2EzZl4IMs=
-			</data>
 			<key>hash2</key>
 			<data>
 			qPaHzf61OOta3dsNAozH83MsGmruQxPfOJgZMKtY5HE=
@@ -2228,13 +1644,9 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Adyen3DS2.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			H0UQMcObEyQ1uK5Q/7PIE3sI2H8=
-			</data>
 			<key>hash2</key>
 			<data>
-			gFjVG/UWUsDP3wvNVeahneCLh49mDEZlzF2o/HlYzB8=
+			lDGzybK+spxYwtj8tIHwQPH/QxcpHPFtWjGqx7QItto=
 			</data>
 		</dict>
 	</dict>
