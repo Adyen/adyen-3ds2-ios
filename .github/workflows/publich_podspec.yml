@@ -6,9 +6,9 @@ on: [workflow_dispatch]
 jobs:
 
   publish:
-    runs-on: macos-14
+    runs-on: macos-15
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
 
     - name: Select latest Xcode
       uses: maxim-lobanov/setup-xcode@v1
